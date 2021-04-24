@@ -41,10 +41,10 @@ A collection of resources on Transformer in CV.
   * <span id="head-Video-Understanding"> **Video Understanding**  </span>
       * (arXiv preprint 2021) **Is Space-Time Attention All You Need for Video Understanding?**, Gedas Bertasius et al. [[Paper](https://arxiv.org/pdf/2102.05095.pdf)] [[Code](https://github.com/facebookresearch/TimeSformer)] 🌱Convolution-free  
  * <span id="head-Monocular-Depth-Estimation"> **Monocular Depth Estimation**  </span>
-      * (arXiv preprint 2021) **Vision Transformers for Dense Prediction**, René Ranftl et al. [[Paper](https://arxiv.org/pdf/2103.13413.pdf)] [[Code](https://github.com/intel-isl/DPT)]⭐SOTA on [NYU-Depth V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
+      * (arXiv preprint 2021) **Vision Transformers for Dense Prediction**, René Ranftl et al. [[Paper](https://arxiv.org/pdf/2103.13413.pdf)] [[Code](https://github.com/intel-isl/DPT)] ⭐SOTA on [NYU-Depth V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
  * <span id="head-GAN"> **GAN**  </span>
       * (arXiv preprint 2021) **TransGAN: Two Transformers Can Make One Strong GAN**, Yifan Jiang et al. [[Paper](https://arxiv.org/pdf/2102.07074.pdf)] [[Code](https://github.com/VITA-Group/TransGAN)] 🌱Convolution-free
-  * <span id="head-Deepfake-Detection"> **DeepfakeDetection**  </span>
+  * <span id="head-Deepfake-Detection"> **Deepfake Detection**  </span>
       * (arXiv preprint 2021) **M2TR: Multi-modal Multi-scale Transformers for Deepfake Detection**, Junke Wang et al. [[Paper](https://arxiv.org/pdf/2104.09770v2.pdf)] 📌The first Multi-modal Multi-scale Transformer 👑face **S**wapping and facial **R**eenactment **D**eep**F**ake(SR-DF) Dataset
 
 ## <span id="head3"> *Contact Me* </span>
