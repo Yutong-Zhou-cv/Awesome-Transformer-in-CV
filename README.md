@@ -16,6 +16,7 @@ A collection of resources on Transformer in CV.
   * - [ ] [Monocular Depth Estimation](#head-Monocular-Depth-Estimation)
   * - [ ] [GAN](#head-GAN)
   * - [ ] [Deepfake Detection](#head-Deepfake-Detection) 
+  * - [ ] [Perceptual Representation](#head-Perceptual-Representation)
 * [*Contact Me*](#head3)
 
 ## <span id="head1"> *1. Description* </span>
@@ -47,6 +48,8 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) **TransGAN: Two Transformers Can Make One Strong GAN**, Yifan Jiang et al. [[Paper](https://arxiv.org/pdf/2102.07074.pdf)] [[Code](https://github.com/VITA-Group/TransGAN)] 🌱Convolution-free
   * <span id="head-Deepfake-Detection"> **Deepfake Detection**  </span>
       * (arXiv preprint 2021) **M2TR: Multi-modal Multi-scale Transformers for Deepfake Detection**, Junke Wang et al. [[Paper](https://arxiv.org/pdf/2104.09770v2.pdf)] 📌The first Multi-modal Multi-scale Transformer 👑face **S**wapping and facial **R**eenactment **D**eep**F**ake(SR-DF) Dataset
+  * <span id="head-Perceptual-Representation"> **Perceptual Representation** </span>
+      * (CVPR 2021-[NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire21/)) **Perceptual Image Quality Assessment with Transformers**, Manri Cheon et al. [[Paper](https://arxiv.org/pdf/2104.14730.pdf)] [[Code](https://github.com/manricheon/IQT)] ⭐1st Place in [NTIRE 2021 perceptual IQA challenge](https://competitions.codalab.org/competitions/28050#learn_the_details). 
 
 ## <span id="head3"> *Contact Me* </span>
 
