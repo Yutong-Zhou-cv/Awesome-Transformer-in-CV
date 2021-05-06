@@ -18,8 +18,9 @@ A collection of resources on Transformer in CV.
   * - [ ] [GAN](#head-GAN)
   * - [ ] [Deepfake Detection](#head-Deepfake-Detection) 
   * - [ ] [Perceptual Representation](#head-Perceptual-Representation)
+  * - [ ] [Low Level Vision](#head-Low-Level-Vision)
   * - [ ] [Other Applications](#head-Other-Applications)
-* [*Contact Me*](#head3)
+* [*Contact Me*](#head4)
 
 ## <span id="head1"> *1. Description* </span>
 * ⭐: State-of-the-Art
@@ -54,9 +55,12 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) **M2TR: Multi-modal Multi-scale Transformers for Deepfake Detection**, Junke Wang et al. [[Paper](https://arxiv.org/pdf/2104.09770v2.pdf)] 📌The first Multi-modal Multi-scale Transformer 👑face **S**wapping and facial **R**eenactment **D**eep**F**ake(SR-DF) Dataset
   * <span id="head-Perceptual-Representation"> **Perceptual Representation** </span>
       * (CVPR 2021-[NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire21/)) **Perceptual Image Quality Assessment with Transformers**, Manri Cheon et al. [[Paper](https://arxiv.org/pdf/2104.14730.pdf)] [[Code](https://github.com/manricheon/IQT)] ⭐1st Place in [NTIRE 2021 perceptual IQA challenge](https://competitions.codalab.org/competitions/28050#learn_the_details). 
+  * <span id="head-Low-Level-Vision"> **Low Level Vision**  </span>
+      * (arXiv preprint 2021) **Pre-Trained Image Processing Transformer**, Hanting Chen et al. [[Paper](https://arxiv.org/pdf/2012.00364v2.pdf)] [[Code](https://github.com/huawei-noah/Pretrained-IPT)] [[3rd code](https://github.com/perseveranceLX/ImageProcessingTransformer)] 🌱Various image processing tasks based Transformer.
   * <span id="head-Other-Applications"> **Other Applications**  </span>
       * (arXiv preprint 2021) **Novelty Detection and Analysis of Traffic Scenario Infrastructures in  the Latent Space of a Vision Transformer-Based Triplet Autoencoder**, Jonas Wurst et al. [[Paper](https://arxiv.org/pdf/2105.01924.pdf)] [[Code](https://github.com/JWTHI/ViTAL-SCENE)] 🌱 Triplet Training
-## <span id="head3"> *Contact Me* </span>
+
+## <span id="head4"> *Contact Me* </span>
 
 * [Yutong ZHOU](https://github.com/Yutong-Zhou-cv) in [Interaction Laboratory, Ritsumeikan University.](https://github.com/Rits-Interaction-Laboratory) (づ￣0￣)づ
 
