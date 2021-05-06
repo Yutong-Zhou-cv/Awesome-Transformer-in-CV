@@ -7,17 +7,20 @@ A collection of resources on Transformer in CV.
 ## <span id="head-content"> *Content* </span>
 * - [ ] [1. Description](#head1)
 * - [ ] [2. Survey](#head2)
-* - [ ] [3. Paper With Code](#head2)
+* - [ ] [3. Paper With Code](#head3)
   * - [ ] [Image Classification](#head-Image-Classification)
   * - [ ] [Object Detection](#head-Object-Detection)
   * - [ ] [Instance Segmentation](#head-Instance-Segmentation)
   * - [ ] [Semantic Segmentation](#head-Semantic-Segmentation)
+  * - [ ] [Image Retrieval](#head-Image-Retrieval)
   * - [ ] [Video Understanding](#head-Video-Understanding)
   * - [ ] [Monocular Depth Estimation](#head-Monocular-Depth-Estimation)
   * - [ ] [GAN](#head-GAN)
   * - [ ] [Deepfake Detection](#head-Deepfake-Detection) 
   * - [ ] [Perceptual Representation](#head-Perceptual-Representation)
-* [*Contact Me*](#head3)
+  * - [ ] [Low Level Vision](#head-Low-Level-Vision)
+  * - [ ] [Other Applications](#head-Other-Applications)
+* [*Contact Me*](#head4)
 
 ## <span id="head1"> *1. Description* </span>
 * ⭐: State-of-the-Art
@@ -40,8 +43,8 @@ A collection of resources on Transformer in CV.
   * <span id="head-Semantic-Segmentation"> **Semantic Segmentation**  </span>
       * (arXiv preprint 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/SwinTransformer/Swin-Transformer-Semantic-Segmentation)] ⭐SOTA on [ADE20K dataset, ADE20K val](https://groups.csail.mit.edu/vision/datasets/ADE20K/)
       * (arXiv preprint 2021) **Vision Transformers for Dense Prediction**, René Ranftl et al. [[Paper](https://arxiv.org/pdf/2103.13413.pdf)] [[Code](https://github.com/intel-isl/DPT)]
- * <span id="head-Image-Retrieval"> **Image Retrieval**  </span>
-      * (arXiv preprint 2021) **TransHash: Transformer-based Hamming Hashing for Efficient Image Retrieval**, Yongbiao Chen et al. [[Paper](https://arxiv.org/pdf/2105.01823.pdf)] [[Code](Todo)] 🌱the first work to tackle deep hashing learning problems without convolutional neural networks.
+  * <span id="head-Image-Retrieval"> **Image Retrieval**  </span>
+      * (arXiv preprint 2021) **TransHash: Transformer-based Hamming Hashing for Efficient Image Retrieval**, Yongbiao Chen et al. [[Paper](https://arxiv.org/pdf/2105.01823.pdf)] [[Code](Todo)] 📌The first work to tackle deep hashing learning problems without convolutional neural networks. 🌱Convolution-free 
  * <span id="head-Video-Understanding"> **Video Understanding**  </span>
       * (arXiv preprint 2021) **Is Space-Time Attention All You Need for Video Understanding?**, Gedas Bertasius et al. [[Paper](https://arxiv.org/pdf/2102.05095.pdf)] [[Code](https://github.com/facebookresearch/TimeSformer)] 🌱Convolution-free  
  * <span id="head-Monocular-Depth-Estimation"> **Monocular Depth Estimation**  </span>
@@ -54,10 +57,10 @@ A collection of resources on Transformer in CV.
       * (CVPR 2021-[NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire21/)) **Perceptual Image Quality Assessment with Transformers**, Manri Cheon et al. [[Paper](https://arxiv.org/pdf/2104.14730.pdf)] [[Code](https://github.com/manricheon/IQT)] ⭐1st Place in [NTIRE 2021 perceptual IQA challenge](https://competitions.codalab.org/competitions/28050#learn_the_details). 
   * <span id="head-Low-Level-Vision"> **Low Level Vision**  </span>
       * (arXiv preprint 2021) **Pre-Trained Image Processing Transformer**, Hanting Chen et al. [[Paper](https://arxiv.org/pdf/2012.00364v2.pdf)] [[Code](https://github.com/huawei-noah/Pretrained-IPT)] [[3rd code](https://github.com/perseveranceLX/ImageProcessingTransformer)] 🌱Various image processing tasks based Transformer.
-## <span id="head3"> *Contact Me* </span>
-  * <span id="head-Other-Applications"> **Image Retrieval**  </span>
+  * <span id="head-Other-Applications"> **Other Applications**  </span>
       * (arXiv preprint 2021) **Novelty Detection and Analysis of Traffic Scenario Infrastructures in  the Latent Space of a Vision Transformer-Based Triplet Autoencoder**, Jonas Wurst et al. [[Paper](https://arxiv.org/pdf/2105.01924.pdf)] [[Code](https://github.com/JWTHI/ViTAL-SCENE)] 🌱 Triplet Training
-## <span id="head3"> *Contact Me* </span>
+
+## <span id="head4"> *Contact Me* </span>
 
 * [Yutong ZHOU](https://github.com/Yutong-Zhou-cv) in [Interaction Laboratory, Ritsumeikan University.](https://github.com/Rits-Interaction-Laboratory) (づ￣0￣)づ
 
