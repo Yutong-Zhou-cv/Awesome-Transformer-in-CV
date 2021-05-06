@@ -40,7 +40,9 @@ A collection of resources on Transformer in CV.
   * <span id="head-Semantic-Segmentation"> **Semantic Segmentation**  </span>
       * (arXiv preprint 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/SwinTransformer/Swin-Transformer-Semantic-Segmentation)] ⭐SOTA on [ADE20K dataset, ADE20K val](https://groups.csail.mit.edu/vision/datasets/ADE20K/)
       * (arXiv preprint 2021) **Vision Transformers for Dense Prediction**, René Ranftl et al. [[Paper](https://arxiv.org/pdf/2103.13413.pdf)] [[Code](https://github.com/intel-isl/DPT)]
-  * <span id="head-Video-Understanding"> **Video Understanding**  </span>
+ * <span id="head-Image-Retrieval"> **Image Retrieval**  </span>
+      * (arXiv preprint 2021) **TransHash: Transformer-based Hamming Hashing for Efficient Image Retrieval**, Yongbiao Chen et al. [[Paper](https://arxiv.org/pdf/2105.01823.pdf)] [[Code](Todo)] 🌱the first work to tackle deep hashing learning problems without convolutional neural networks.
+ * <span id="head-Video-Understanding"> **Video Understanding**  </span>
       * (arXiv preprint 2021) **Is Space-Time Attention All You Need for Video Understanding?**, Gedas Bertasius et al. [[Paper](https://arxiv.org/pdf/2102.05095.pdf)] [[Code](https://github.com/facebookresearch/TimeSformer)] 🌱Convolution-free  
  * <span id="head-Monocular-Depth-Estimation"> **Monocular Depth Estimation**  </span>
       * (arXiv preprint 2021) **Vision Transformers for Dense Prediction**, René Ranftl et al. [[Paper](https://arxiv.org/pdf/2103.13413.pdf)] [[Code](https://github.com/intel-isl/DPT)] ⭐SOTA on [NYU-Depth V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
@@ -50,7 +52,8 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) **M2TR: Multi-modal Multi-scale Transformers for Deepfake Detection**, Junke Wang et al. [[Paper](https://arxiv.org/pdf/2104.09770v2.pdf)] 📌The first Multi-modal Multi-scale Transformer 👑face **S**wapping and facial **R**eenactment **D**eep**F**ake(SR-DF) Dataset
   * <span id="head-Perceptual-Representation"> **Perceptual Representation** </span>
       * (CVPR 2021-[NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire21/)) **Perceptual Image Quality Assessment with Transformers**, Manri Cheon et al. [[Paper](https://arxiv.org/pdf/2104.14730.pdf)] [[Code](https://github.com/manricheon/IQT)] ⭐1st Place in [NTIRE 2021 perceptual IQA challenge](https://competitions.codalab.org/competitions/28050#learn_the_details). 
-
+  * <span id="head-Other-Applications"> **Image Retrieval**  </span>
+      * (arXiv preprint 2021) **Novelty Detection and Analysis of Traffic Scenario Infrastructures in  the Latent Space of a Vision Transformer-Based Triplet Autoencoder**, Jonas Wurst et al. [[Paper](https://arxiv.org/pdf/2105.01924.pdf)] [[Code](https://github.com/JWTHI/ViTAL-SCENE)] 🌱 Triplet Training
 ## <span id="head3"> *Contact Me* </span>
 
 * [Yutong ZHOU](https://github.com/Yutong-Zhou-cv) in [Interaction Laboratory, Ritsumeikan University.](https://github.com/Rits-Interaction-Laboratory) (づ￣0￣)づ
