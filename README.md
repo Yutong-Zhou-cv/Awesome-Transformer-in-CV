@@ -11,6 +11,7 @@ A collection of resources on Transformer in CV.
   * - [ ] [Vision and Language](#head-Vision-and-Language)
   * - [ ] [Image Classification](#head-Image-Classification)
   * - [ ] [Object Detection](#head-Object-Detection)
+  * - [ ] [Object Tracking](#head-Object-Tracking)
   * - [ ] [Instance Segmentation](#head-Instance-Segmentation)
   * - [ ] [Semantic Segmentation](#head-Semantic-Segmentation)
   * - [ ] [Image Retrieval](#head-Image-Retrieval)
@@ -43,6 +44,8 @@ A collection of resources on Transformer in CV.
   * <span id="head-Object-Detection"> **Object Detection**  </span>
       * (arXiv preprint 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection)] ⭐SOTA on [COCO test-dev, COCO minival](https://cocodataset.org/#home)
       * (arXiv preprint 2021) **Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions**, Wenhai Wang et al. [[Paper](https://arxiv.org/pdf/2102.12122v1.pdf)] [[Code](https://github.com/whai362/PVT)] 
+  * <span id="head-Object-Tracking"> **Object Tracking**  </span>
+      * (arXiv preprint 2021) **MOTR: End-to-End Multiple-Object Tracking with TRansformer**, Fangao Zeng et al. [[Paper](https://arxiv.org/pdf/2105.03247.pdf)] [[Code](https://github.com/megvii-model/MOTR)] 📌The first fully end-toend multiple-object tracking framework. 🌱Model the long-range temporal variation of the objects. 🌱Introduce the concept of “track query” to models the entire track of an object.
   * <span id="head-Instance-Segmentation"> **Instance Segmentation**  </span>
       * (arXiv preprint 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection)] ⭐SOTA on [COCO test-dev, COCO minival](https://cocodataset.org/#home)  
   * <span id="head-Semantic-Segmentation"> **Semantic Segmentation**  </span>
