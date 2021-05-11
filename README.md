@@ -8,8 +8,10 @@ A collection of resources on Transformer in CV.
 * - [ ] [1. Description](#head1)
 * - [ ] [2. Survey](#head2)
 * - [ ] [3. Paper With Code](#head3)
+  * - [ ] [Vision and Language](#head-Vision-and-Language)
   * - [ ] [Image Classification](#head-Image-Classification)
   * - [ ] [Object Detection](#head-Object-Detection)
+  * - [ ] [Object Tracking](#head-Object-Tracking)
   * - [ ] [Instance Segmentation](#head-Instance-Segmentation)
   * - [ ] [Semantic Segmentation](#head-Semantic-Segmentation)
   * - [ ] [Image Retrieval](#head-Image-Retrieval)
@@ -34,12 +36,23 @@ A collection of resources on Transformer in CV.
 * (arXiv preprint 2021) **Transformers in Vision: A Survey** [[v1](https://arxiv.org/pdf/2101.01169v1.pdf)](2021.01.04) [[v2](https://arxiv.org/pdf/2101.01169.pdf)](2021.02.22)
 * (arXiv preprint 2020+2021) **A Survey on Visual Transformer** [[v1](https://arxiv.org/pdf/2012.12556v1.pdf)](2020.12.23) [[v2](https://arxiv.org/pdf/2012.12556v2.pdf)](2021.01.15) [[v3](https://arxiv.org/pdf/2012.12556v3.pdf)](2021.01.30)
 ## <span id="head3"> *3. Paper With Code* </span>
+  * <span id="head-Vision-and-Language"> **Vision and Language**  </span>
+      * (ICML 2021) **ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision**, Wonjae Kim et al. [[Paper](https://arxiv.org/pdf/2102.03334.pdf)] [[Code](https://github.com/dandelin/vilt)] 🌱Without region features or deep convolutional visual encoders. 🌱Drive performance on whole word masking and image augmentations in Vision-and-Language Pretraining (VLP) training schemes. 
+      * (arXiv preprint 2021) **VisualGPT: Data-efficient Adaptation of Pretrained Language Models for Image Captioning**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/Vision-CAIR/VisualGPT)] 📌The first large pretrained language models for image captioning.
+      * (CVPR 2021) **Kaleido-BERT: Vision-Language Pre-training on Fashion Domain**, Mingchen Zhuge et al. [[Paper](https://arxiv.org/pdf/2103.16110.pdf)] [[Code](https://github.com/mczhuge/Kaleido-BERT/)] [[Video](http://dpfan.net/wp-content/uploads/Kaleido-BERT.mp4)] 📌The first method extracts a series of multi-grained image patches for the image modality. 🌱Kaleido strategy
+      * (arXiv preprint 2020) **ImageBERT: Cross-modal Pre-training with Large-scale Weak-supervised Image-Text Data**, Di Qi et al. [[Paper](https://arxiv.org/pdf/2001.07966.pdf)] 🌱Pre-training with a large-scale Image-Text dataset.
+      * (CVPR 2020) **12-in-1: Multi-Task Vision and Language Representation Learning**, Jiasen Lu et al. [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lu_12-in-1_Multi-Task_Vision_and_Language_Representation_Learning_CVPR_2020_paper.pdf)] [[Code](https://github.com/facebookresearch/vilbert-multi-task)] 🌱Multi-task training
+      * (NeurlIPS 2019) **ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks**, Jiasen Lu et al. [[Paper](https://arxiv.org/pdf/1908.02265.pdf)] [[Code](https://github.com/facebookresearch/vilbert-multi-task)] 🌱Cross-modality co-attention layers.
+      * (ICCV 2019) **VideoBERT: A Joint Model for Video and Language Representation Learning**, Chen Sun et al. [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Sun_VideoBERT_A_Joint_Model_for_Video_and_Language_Representation_Learning_ICCV_2019_paper.pdf)] [[Code](https://github.com/ammesatyajit/VideoBERT)] 📌The first Video-Text Pre-Training Model.
+      * (arXiv preprint 2019) **VisualBERT: A Simple and Performant Baseline for Vision and Language**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/uclanlp/visualbert)] 📌The first Image-Text Pre-Training Model.
   * <span id="head-Image-Classification"> **Image Classification**  </span>
       * (arXiv preprint 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/microsoft/Swin-Transformer)] 
       * (arXiv preprint 2021) **Do You Even Need Attention? A Stack of Feed-Forward Layers Does Surprisingly Well on ImageNet**, Luke Melas-Kyriazi [[Paper](https://arxiv.org/pdf/2105.02723.pdf)] [[Code](https://github.com/lukemelas/do-you-even-need-attention)] 🌱Attention Layer-free 
   * <span id="head-Object-Detection"> **Object Detection**  </span>
       * (arXiv preprint 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection)] ⭐SOTA on [COCO test-dev, COCO minival](https://cocodataset.org/#home)
       * (arXiv preprint 2021) **Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions**, Wenhai Wang et al. [[Paper](https://arxiv.org/pdf/2102.12122v1.pdf)] [[Code](https://github.com/whai362/PVT)] 
+  * <span id="head-Object-Tracking"> **Object Tracking**  </span>
+      * (arXiv preprint 2021) **MOTR: End-to-End Multiple-Object Tracking with TRansformer**, Fangao Zeng et al. [[Paper](https://arxiv.org/pdf/2105.03247.pdf)] [[Code](https://github.com/megvii-model/MOTR)] 📌The first fully end-toend multiple-object tracking framework. 🌱Model the long-range temporal variation of the objects. 🌱Introduce the concept of “track query” to models the entire track of an object.
   * <span id="head-Instance-Segmentation"> **Instance Segmentation**  </span>
       * (arXiv preprint 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection)] ⭐SOTA on [COCO test-dev, COCO minival](https://cocodataset.org/#home)  
   * <span id="head-Semantic-Segmentation"> **Semantic Segmentation**  </span>
