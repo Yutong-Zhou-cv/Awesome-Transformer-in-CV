@@ -102,6 +102,7 @@ A collection of resources on Transformer in CV.
   * <span id="head-Other-Applications"> **Other Applications**  </span>
       * (arXiv preprint 2021) **Novelty Detection and Analysis of Traffic Scenario Infrastructures in  the Latent Space of a Vision Transformer-Based Triplet Autoencoder**, Jonas Wurst et al. [[Paper](https://arxiv.org/pdf/2105.01924.pdf)] [[Code](https://github.com/JWTHI/ViTAL-SCENE)] 🌱 Triplet Training
       * (arXiv preprint 2021) **Handwritten Mathematical Expression Recognition with Bidirectionally Trained Transformer**, Wenqi Zhao et al. [[Paper](https://arxiv.org/pdf/2105.02412.pdf)] [[Code](https://github.com/Green-Wood/BTTR)] 🌱 Handwritten Mathematical Expression Recognition
+      * (arXiv preprint 2021) **SCTN: Sparse Convolution-Transformer Network for Scene Flow Estimation**, Bing Li et al. [[Paper](https://arxiv.org/pdf/2105.04447.pdf)] 📌 The first Sparse Convolution-Transformer Network (SCTN) for scene flow estimation.
 
   * <span id="head-Byond-Transformer"> **Byond Transformer**  </span>
       * (arXiv preprint 2021) **MLP-Mixer: An all-MLP Architecture for Vision**, Ilya Tolstikhin et al. [[Paper](https://arxiv.org/pdf/2105.01601v1.pdf)] [[Code](https://github.com/google-research/vision_transformer)] 🌱 An architecture based exclusively on multi-layer perceptrons (MLPs). 
