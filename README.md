@@ -101,7 +101,7 @@ a feed-forward layer.
       * (arXiv preprint 2021) **ResMLP: Feedforward networks for image  classification with data-efficient training**, Hugo Touvron et al. [[Paper](https://arxiv.org/pdf/2105.03404.pdf)] [[wait Code]()] 🌱 Residual MLP structure
 
 
-[//]: #comments * (arXiv preprint 2021) **Title**, firstauthor et al. [[Paper]()] [[Code]()] 🌱 tips
+<!--#comments * (arXiv preprint 2021) **Title**, firstauthor et al. [[Paper]()] [[Code]()] 🌱 tips-->
 
 
 
