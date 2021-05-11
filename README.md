@@ -92,6 +92,20 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) **Handwritten Mathematical Expression Recognition with Bidirectionally Trained Transformer**, Wenqi Zhao et al. [[Paper](https://arxiv.org/pdf/2105.02412.pdf)] [[Code](https://github.com/Green-Wood/BTTR)] 🌱 Handwritten Mathematical Expression Recognition
 
 
+  * <span id="head-Byond-Transformer"> **Byond Transformer**  </span>
+      * (arXiv preprint 2021) **MLP-Mixer: An all-MLP Architecture for Vision**, first author et al. [[Paper]()] [[Code]()] 🌱 tips
+      * (arXiv preprint 2021) **Beyond Self-attention: External Attention using Two Linear Layers for Visual Tasks**, Meng-Hao Guo et al. [[Paper](https://arxiv.org/pdf/2105.02358.pdf)] [[wait Code]()] 🌱 tips
+      * (arXiv preprint 2021) **Do You Even Need Attention? A Stack of Feed-Forward Layers Does Surprisingly Well on ImageNet**, Luke Melas-Kyriazi. [[Paper](https://arxiv.org/abs/2105.02723)] [[Code](https://github.com/lukemelas/do-you-even-need-attention)] 🌱 Replace the attention layer in a vision transformer with
+a feed-forward layer.
+      * (arXiv preprint 2021) **RepMLP: Re-parameterizing Convolutions into Fully-connected Layers for Image Recognition**, Xiaohan Ding et al. [[Paper](https://arxiv.org/pdf/2105.01883.pdf)] [[Code](https://github.com/DingXiaoH/RepMLP)] 🌱 Re-parameterizing Convolutions and MLP
+      * (arXiv preprint 2021) **ResMLP: Feedforward networks for image  classification with data-efficient training**, Hugo Touvron et al. [[Paper](https://arxiv.org/pdf/2105.03404.pdf)] [[wait Code]()] 🌱 Residual MLP structure
+
+
+[^_^]: #comments * (arXiv preprint 2021) **Title**, firstauthor et al. [[Paper]()] [[Code]()] 🌱 tips
+
+
+
+
 
 ## <span id="head4"> *Contact Me* </span>
 
