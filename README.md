@@ -110,6 +110,9 @@ A collection of resources on Transformer in CV.
         * ```📌 The first work to tackle deep hashing learning problems without convolutional neural networks. ```
         * ```🌱 Convolution-free ```
  * <span id="head-Video-Understanding"> **Video Understanding**  </span>
+      * (arXiv preprint 2021) **ViViT: A Video Vision Transformer**, Anurag Arnab et al. [[Paper](https://arxiv.org/pdf/2103.15691v1.pdf)] [[Code](https://github.com/rishikksh20/ViViT-pytorch)] 
+        * ```🌱 Convolution-free ``` 
+        * ⭐ SOTA on [Kinetics-400/600](https://deepmind.com/research/open-source/kinetics)
       * (arXiv preprint 2021) **Is Space-Time Attention All You Need for Video Understanding?**, Gedas Bertasius et al. [[Paper](https://arxiv.org/pdf/2102.05095.pdf)] [[Code](https://github.com/facebookresearch/TimeSformer)] 
         * ```🌱 Convolution-free ``` 
      
@@ -156,6 +159,10 @@ A collection of resources on Transformer in CV.
         * ```🌱 Propose stochastic frame dropping (SFD) and stochastic gradient stopping (SGS) to reduce video memory footprint, improve model robustness and alleviate the overfitting problem during model training.```
     
   * <span id="head-Other-Applications"> **Other Applications**  </span>
+      * (CVPR 2021) [Human Pose and Mesh Reconstruction ] **End-to-End Human Pose and Mesh Reconstruction with Transformers**, Kevin Lin et al. [[Paper](https://arxiv.org/pdf/2012.09760.pdf)]
+        * ```📌 The first approach leverages a transformer encoder architecture to learn 3D human pose and mesh reconstruction from a single input image. ```
+        * ```🌱 Able to predict a different type of 3D mesh, such as 3D hand. ```
+        * ⭐ SOTA on [Human3.6M](http://vision.imar.ro/human3.6m/description.php) and [3DPW](http://virtualhumans.mpi-inf.mpg.de/3DPW/)
       * (arXiv preprint 2021) [Traffic Scenario Infrastructures] **Novelty Detection and Analysis of Traffic Scenario Infrastructures in  the Latent Space of a Vision Transformer-Based Triplet Autoencoder**, Jonas Wurst et al. [[Paper](https://arxiv.org/pdf/2105.01924.pdf)] [[Code](https://github.com/JWTHI/ViTAL-SCENE)] 
         * ```🌱 Triplet Training```
       * (arXiv preprint 2021) [Handwritten Recognition] **Handwritten Mathematical Expression Recognition with Bidirectionally Trained Transformer**, Wenqi Zhao et al. [[Paper](https://arxiv.org/pdf/2105.02412.pdf)] [[Code](https://github.com/Green-Wood/BTTR)] 
@@ -167,6 +174,13 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) [Image Registration] **Attention for Image Registration (AiR): an unsupervised Transformer approach**, Zihao Wang et al. [[Paper](https://arxiv.org/pdf/2105.02282.pdf)]
         * ```📌 The first Transformer based image unsupervised registration method.```
         * ```🌱 A multi-scale attention parallel Transformer framework.```
+      * (arXiv preprint 2021) [Action Recognition] **VATT: Transformers for Multimodal Self-Supervised Learning from Raw Video, Audio and Text**, Hassan Akbari et al. [[Paper](https://arxiv.org/pdf/2104.11178.pdf)]
+        * ```🌱 Convolution-free```
+        * ```🌱 Multimodal representation```
+        * ⭐ SOTA on [Moments in Time](http://moments.csail.mit.edu/)
+      * (arXiv preprint 2021) [Action Recognition] **An Image is Worth 16x16 Words, What is a Video Worth?**, Gilad Sharir et al. [[Paper](https://arxiv.org/pdf/2103.13915.pdf)]  [[Code](https://github.com/Alibaba-MIIL/STAM)] 
+        * ```🌱 Achieves 78.8 top1-accuracy with ×40 faster inference time on Kinetics-400 benchmark.```
+        * ```🌱 End-to-end trainable ```
       * (arXiv preprint 2021) [Video Prediction] **Local Frequency Domain Transformer Networks for Video Prediction**, Hafez Farazi et al. [[Paper](https://arxiv.org/ftp/arxiv/papers/2105/2105.04637.pdf)]  [[Code](https://github.com/AIS-Bonn/Local_Freq_Transformer_Net)] 
         * ```📌 The first pure Transformer-based U-shaped architecture .```
         * ```🌱 Lightweight and flexible, enabling use as a building block at the core of sophisticated video prediction systems. ```
