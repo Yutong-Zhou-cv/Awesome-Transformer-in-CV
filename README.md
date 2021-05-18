@@ -1,4 +1,4 @@
-# <p align=center>`awesome Transformer in CV papers`</p>
+# <p align=center>`Awesome Transformer in CV papers`</p>
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
@@ -23,7 +23,7 @@ A collection of resources on Transformer in CV.
   * - [ ] [Low Level Vision](#head-Low-Level-Vision)
   * - [ ] [Sign Language](#head-Sign-Language)
   * - [ ] [Other Applications](#head-Other-Applications)
-  * - [ ] [Byond Transformer](#head-Byond-Transformer)
+  * - [ ] [Beyond Transformer](#head-Beyond-Transformer)
 * [*Contact Me*](#head4)
 
 ## <span id="head1"> *1. Description* </span>
@@ -65,7 +65,7 @@ A collection of resources on Transformer in CV.
         * ```📌 The first Image-Text Pre-Training Model. ```
       * (arXiv preprint 2019) **Visual Grounding with Transformers**, Ye Du et al. [[Paper](https://arxiv.org/pdf/2105.04281.pdf)] [[Code](https://github.com/uclanlp/visualbert)] 
         * ```🌱 Visual grounding task. ```
- 
+    
   * <span id="head-Image-Classification"> **Image Classification**  </span>
       * (arXiv preprint 2021) **LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference**, Benjamin Graham et al. [[Paper](https://arxiv.org/pdf/2104.01136.pdf)] [[Code](https://github.com/facebookresearch/LeViT)] 
         * ```🌱 Introduce a new way to integrate positional information in vision transformers--attention bias. ```
@@ -192,7 +192,11 @@ A collection of resources on Transformer in CV.
         * ```📌 The first pure Transformer-based U-shaped architecture .```
         * ```🌱 Lightweight and flexible, enabling use as a building block at the core of sophisticated video prediction systems. ```
  
-  * <span id="head-Byond-Transformer"> **Byond Transformer**  </span>
+  * <span id="head-Beyond-Transformer"> **Beyond Transformer**  </span>
+      * (arXiv preprint 2021) **Pay Attention to MLPs**, Hanxiao Liu et al. [[Paper](https://arxiv.org/pdf/2105.08050.pdf)]
+        * ```🌱 Attention-free ```
+        * ```🌱 A simple variant of MLPs with gating. ```
+        * ```🌱 Can be competitive with Transformers in terms of BERT’s pretraining perplexity, ViT’s accuracy, the scalability over increased data and compute. ```
       * (arXiv preprint 2021) **MLP-Mixer: An all-MLP Architecture for Vision**, Ilya Tolstikhin et al. [[Paper](https://arxiv.org/pdf/2105.01601v1.pdf)] [[Code](https://github.com/google-research/vision_transformer)] 
         * ```🌱 An architecture based exclusively on multi-layer perceptrons (MLPs). ```
       * (arXiv preprint 2021) **Beyond Self-attention: External Attention using Two Linear Layers for Visual Tasks**, Meng-Hao Guo et al. [[Paper](https://arxiv.org/pdf/2105.02358.pdf)] [[Code](https://github.com/MenghaoGuo/-EANet)] 
@@ -205,6 +209,8 @@ A collection of resources on Transformer in CV.
         * ```🌱 Residual MLP structure ```
 
 <!--#comments * (arXiv preprint 2021) **Title**, first author et al. [[Paper]()] [[Code]()] 🌱 tips-->
+
+<!--#comments For fold:<details><summary> <b>Name</b> </summary> ... </details> -->
 
 ## <span id="head4"> *Contact Me* </span>
 
