@@ -67,6 +67,13 @@ A collection of resources on Transformer in CV.
         * ```🌱 Visual grounding task. ```
  
   * <span id="head-Image-Classification"> **Image Classification**  </span>
+      * (arXiv preprint 2021) **LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference**, Benjamin Graham et al. [[Paper](https://arxiv.org/pdf/2104.01136.pdf)] [[Code](https://github.com/facebookresearch/LeViT)] 
+        * ```🌱 Introduce a new way to integrate positional information in vision transformers--attention bias. ```
+        * ```🌱 LeViT: a hybrid neural network for fast inference image classification. ```
+        * ```🌱 5 times faster than EfficientNet on CPU. ```
+      * (arXiv preprint 2021) **Rethinking Spatial Dimensions of Vision Transformers**, Byeongho Heo et al. [[Paper](https://arxiv.org/pdf/2103.16302v1.pdf)] [[Code](https://github.com/naver-ai/pit)] 
+        * ```🌱 Spatial dimension reduction is beneficial to a transformer architecture. ```
+        * ```🌱 Pooling-based Vision Transformer (PiT) upon the original ViT model. ```
       * (arXiv preprint 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/microsoft/Swin-Transformer)] 
       * (arXiv preprint 2021) **Do You Even Need Attention? A Stack of Feed-Forward Layers Does Surprisingly Well on ImageNet**, Luke Melas-Kyriazi [[Paper](https://arxiv.org/pdf/2105.02723.pdf)] [[Code](https://github.com/lukemelas/do-you-even-need-attention)] 
         * ```🌱 Attention Layer-free ```
