@@ -81,6 +81,8 @@ A collection of resources on Transformer in CV.
         * ```🌱 A hybrid network structure with Convs and attention mechanisms.```
       * (arXiv preprint 2021) **Self-Supervised Learning with Swin Transformers**, Zhenda Xie et al [[Paper](https://arxiv.org/pdf/2105.04553.pdf)] [[Code](https://github.com/SwinTransformer/Transformer-SSL)] 
         * ```🌱 A self-supervised learning approach based on vision transformers as backbone.```
+      * (arXiv preprint 2021) **CvT: Introducing Convolutions to Vision Transformers**, Haiping Wu et al [[Paper](https://arxiv.org/pdf/2103.15808v1.pdf)] [[Unofficial Code](https://github.com/rishikksh20/convolution-vision-transformers)] 
+        * ```🌱 Improve Vision Transformer (ViT) in performance and efficiency by introducing desirable properties of convolutional neural networks (CNNs) into ViT architecture (shift, scale, and distortion invariance), while maintaining the merits of Transformers (dynamic attention, global context, and better generalization). ```
       * (arXiv preprint 2021) **Twins: Revisiting the Design of Spatial Attention in Vision Transformers**, Xiangxiang Chu et al [[Paper](https://arxiv.org/pdf/2104.13840.pdf)] [[Code](https://github.com/Meituan-AutoML/Twins)] 
         * ```🌱 Two vision transformer architectures(Twins- PCPVT and Twins-SVT). ```
         * ```🌱 May serve as stronger backbones for many vision tasks.```
@@ -166,6 +168,10 @@ A collection of resources on Transformer in CV.
         * ```🌱 Propose stochastic frame dropping (SFD) and stochastic gradient stopping (SGS) to reduce video memory footprint, improve model robustness and alleviate the overfitting problem during model training.```
     
   * <span id="head-Other-Applications"> **Other Applications**  </span>
+      * (arXiv preprint 2021) [Computer-Aided Design] **Computer-Aided Design as Language**, Yaroslav Ganin et al. [[Paper](https://arxiv.org/pdf/2105.02769.pdf)] [[Code](https://github.com/sayakpaul/robustness-vit)]
+        ![Figure from paper](pic/CAD_heart_sketch.png)
+        * ```🌱 A machine learning model capable of automatically generating such sketches.```
+        * ```🌱 A combination of a general-purpose language modeling technique alongside an off-the-shelf data serialization protocol. ```
       * (arXiv preprint 2021) [Robust Classification] **Vision Transformers are Robust Learners**, Sayak Paul et al. [[Paper](https://arxiv.org/pdf/2105.07581.pdf)] [[Code](https://github.com/sayakpaul/robustness-vit)]
         * ```🌱 Provide novel insights for robustness attribution of ViT.```
         * ```🌱 According to robustness to masking, energy and loss landscape analysis, and sensitivity to high-frequency artifacts to reason about the improved robustness of ViTs. ```
@@ -216,7 +222,7 @@ A collection of resources on Transformer in CV.
 
 <!--#comments * (arXiv preprint 2021) **Title**, first author et al. [[Paper]()] [[Code]()] 🌱 tips-->
 
-<!--#comments For fold:<details><summary> <b>Name</b> </summary> ... </details> -->
+<!--#comments For fold: <details><summary> <b>Name</b> </summary> ... </details> -->
 
 ## <span id="head4"> *Contact Me* </span>
 
