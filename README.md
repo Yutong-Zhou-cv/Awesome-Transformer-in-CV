@@ -24,6 +24,7 @@ A collection of resources on Transformer in CV.
   * - [ ] [Sign Language](#head-Sign-Language)
   * - [ ] [Other Applications](#head-Other-Applications)
   * - [ ] [Beyond Transformer](#head-Beyond-Transformer)
+  * - [ ] [Theoritical Thinking](#head-Theoritical-Thinking)
 * [*Contact Me*](#head4)
 
 ## <span id="head1"> *1. Description* </span>
@@ -167,8 +168,6 @@ A collection of resources on Transformer in CV.
       * (ECCV 2020) **Stochastic Fine-grained Labeling of Multi-state Sign Glosses for Continuous Sign Language Recognition**, Zhe Niu et al. [[Paper](https://link.springer.com/content/pdf/10.1007%2F978-3-030-58517-4_11.pdf)] [[Code](https://github.com/zheniu/stochastic-cslr)] 
         * ```🌱 Propose stochastic frame dropping (SFD) and stochastic gradient stopping (SGS) to reduce video memory footprint, improve model robustness and alleviate the overfitting problem during model training.```
 
-
-
   * <span id="head-Other-Applications"> **Other Applications**  </span>
       * (arXiv preprint 2021) [Computer-Aided Design] **Computer-Aided Design as Language**, Yaroslav Ganin et al. [[Paper](https://arxiv.org/pdf/2105.02769.pdf)] [[Code](https://github.com/sayakpaul/robustness-vit)]
       
@@ -187,6 +186,7 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) [Scene Text Recognition] **I2C2W: Image-to-Character-to-Word Transformers for Accurate Scene Text Recognition**, Chuhui Xue et al. [[Paper](https://arxiv.org/pdf/2105.08383.pdf)]
         * ```🌱 A novel scene text recognizer that is tolerant to complex background clutters and severe geometric distortions. ```
         * ```🌱 End-to-end trainable```
+        * ```🌱 Transformer based scene text recognition, I2C2W contains image-to-character module (I2C) and a character-to-word module (C2W) which are complementary.```
       * (arXiv preprint 2021) [Handwritten Recognition] **Handwritten Mathematical Expression Recognition with Bidirectionally Trained Transformer**, Wenqi Zhao et al. [[Paper](https://arxiv.org/pdf/2105.02412.pdf)] [[Code](https://github.com/Green-Wood/BTTR)] 
         * ```🌱 Handwritten Mathematical Expression Recognition```
       * (arXiv preprint 2021) [Scene Flow Estimation] **SCTN: Sparse Convolution-Transformer Network for Scene Flow Estimation**, Bing Li et al. [[Paper](https://arxiv.org/pdf/2105.04447.pdf)] 
@@ -208,11 +208,6 @@ A collection of resources on Transformer in CV.
         * ```🌱 Lightweight and flexible, enabling use as a building block at the core of sophisticated video prediction systems. ```
       * (arXiv preprint 2021) [Text Recognition] **Vision Transformer for Fast and Efficient Scene Text Recognition**, Rowel Atienza et al. [[Paper](https://arxiv.org/pdf/2105.08582.pdf)]  [[Code](https://github.com/roatienza/deep-text-recognition-benchmark)] 
         * ```🌱 Transformer based scene text recognition, maximize accuracy, speed and computational efficiency all at the same time. ```
-      * (arXiv preprint 2021) [Text Recognition] **I2C2W: Image-to-Character-to-Word Transformers for Accurate Scene Text Recognition**, Chuhui Xue et al. [[Paper](https://arxiv.org/pdf/2105.08383.pdf)]  [[Code wait]()] 
-        * ```🌱 Transformer based scene text recognition, I2C2W contains imageto-character module (I2C) and a character-to-word module(C2W) which are complementary and can be trained endto-end. ```
-
-
-
  
   * <span id="head-Beyond-Transformer"> **Beyond Transformer**  </span>
       * (arXiv preprint 2021) **Pay Attention to MLPs**, Hanxiao Liu et al. [[Paper](https://arxiv.org/pdf/2105.08050.pdf)]
@@ -230,11 +225,9 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) **ResMLP: Feedforward networks for image classification with data-efficient training**, Hugo Touvron et al. [[Paper](https://arxiv.org/pdf/2105.03404.pdf)] [[Code](https://github.com/lucidrains/res-mlp-pytorch)] 
         * ```🌱 Residual MLP structure ```
 
-
   * <span id="head-Theoritical-Thinking"> **Theoritical Thinking**  </span>
       * (arXiv preprint 2021) **Are Convolutional Neural Networks or Transformers more like human vision?**, Shikhar Tuli et al. [[Paper](https://arxiv.org/pdf/2105.07197.pdf)] [[Code](https://github.com/shikhartuli/cnn_txf_bias)] 
         * ```🌱 Understand Transformer ```
-
 
 
 <!--#comments * (arXiv preprint 2021) **Title**, first author et al. [[Paper]()] [[Code]()] 🌱 tips-->
