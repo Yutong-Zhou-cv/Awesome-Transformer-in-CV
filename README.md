@@ -169,6 +169,7 @@ A collection of resources on Transformer in CV.
     
   * <span id="head-Other-Applications"> **Other Applications**  </span>
       * (arXiv preprint 2021) [Computer-Aided Design] **Computer-Aided Design as Language**, Yaroslav Ganin et al. [[Paper](https://arxiv.org/pdf/2105.02769.pdf)] [[Code](https://github.com/sayakpaul/robustness-vit)]
+      
         ![Figure from paper](pic/CAD_heart_sketch.png)
         * ```🌱 A machine learning model capable of automatically generating such sketches.```
         * ```🌱 A combination of a general-purpose language modeling technique alongside an off-the-shelf data serialization protocol. ```
