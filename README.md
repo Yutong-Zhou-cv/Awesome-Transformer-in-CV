@@ -203,6 +203,9 @@ A collection of resources on Transformer in CV.
         * ```🌱 Handwritten Mathematical Expression Recognition```
       * (arXiv preprint 2021) [Scene Flow Estimation] **SCTN: Sparse Convolution-Transformer Network for Scene Flow Estimation**, Bing Li et al. [[Paper](https://arxiv.org/pdf/2105.04447.pdf)] 
         * ```📌 The first Sparse Convolution-Transformer Network (SCTN) for scene flow estimation.```
+      * (IJCAI 2021) [Medical Image Segmentation] **Medical Image Segmentation using Squeeze-and-Expansion Transformers**, Shaohua Li et al. [[Paper](https://arxiv.org/pdf/2105.09511.pdf)] [[Code](https://github.com/askerlee/segtran)] 
+        * ```🌱 A novel squeezed attention block regularizes the self-attention of transformers, and an expansion block learns diversified representations. ```
+        * ```🌱 A new positional encoding scheme for transformers, imposing a continuity inductive bias for images. ```
       * (arXiv preprint 2021) [Medical Image Segmentation] **Swin-Unet: Unet-like Pure Transformer for Medical Image Segmentation**, Hu Cao et al. [[Paper](https://arxiv.org/pdf/2105.05537.pdf)]  [[Code](https://github.com/HuCaoFighting/Swin-Unet)] 
         * ```📌 The first pure Transformer-based U-shaped architecture .```
       * (arXiv preprint 2021) [Image Registration] **Attention for Image Registration (AiR): an unsupervised Transformer approach**, Zihao Wang et al. [[Paper](https://arxiv.org/pdf/2105.02282.pdf)]
