@@ -42,9 +42,15 @@ A collection of resources on Transformer in CV.
 
   * <span id="head-Basic"> **Basic**  </span>
       * (ICLR 2021) **DeLighT: Deep and Light-weight Transformer**, Sachin Mehta et al. [[Paper](https://arxiv.org/pdf/2008.00623.pdf)] [[Code](https://github.com/sacmehta/delight)] 
-        * ```🌱 A deep and light-weight transformer. ```
-        * ```🌱 (1) Within each Transformer block using a deep and lightweight transformation. (2) Across blocks using block-wise scaling.  ```
+        * ```🌱 A deep and light-weight transformer.```
+        * ```🌱 (1) Within each Transformer block using a deep and lightweight transformation. (2) Across blocks using block-wise scaling.```
+  
   * <span id="head-Vision-and-Language"> **Vision and Language**  </span>
+      * (arXiv preprint 2021) **CogView: Mastering Text-to-Image Generation via Transformers**, Ming Ding et al. [[Paper](https://arxiv.org/pdf/2105.13290.pdf)] [[Code](https://github.com/THUDM/CogView)] [[Demo Website(Chinese)](https://lab.aminer.cn/cogview/index.html)] 
+        * ```📌 The first open-source large text-to-image transformer. ```
+        * ```🌱 A 4-billion-parameter Transformer with VQ-VAE tokenizer . ```
+        * ```🌱 Adapting for diverse downstream tasks: style learning (domain-specific text-to-image), super-resolution (image-to-image), image captioning (image-to-text), and even text-image reranking.  ```
+        * 👑 A large-scale 30 million text-image pairs dataset.
       * (arXiv preprint 2021) **Episodic Transformer for Vision-and-Language Navigation**, Alexander Pashevich et al. [[Paper](https://arxiv.org/pdf/2105.06453.pdf)] [[Code](https://github.com/alexpashevich/E.T.)] 
         * ```🌱 An attention-based architecture for vision-and-language navigation. ```
         * ```🌱 Use synthetic instructions as the intermediate interface between the human and the agent. ```
