@@ -98,6 +98,19 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) **Twins: Revisiting the Design of Spatial Attention in Vision Transformers**, Xiangxiang Chu et al [[Paper](https://arxiv.org/pdf/2104.13840.pdf)] [[Code](https://github.com/Meituan-AutoML/Twins)] 
         * ```🌱 Two vision transformer architectures(Twins- PCPVT and Twins-SVT). ```
         * ```🌱 May serve as stronger backbones for many vision tasks.```
+      * (arXiv preprint 2021) **Not All Images are Worth 16x16 Words: Dynamic  Vision Transformers with Adaptive Sequence Length**, Yulin Wang et al. [[Paper](https://arxiv.org/pdf/2105.15075.pdf)] [[Code](https://github.com/blackfeather-wang/Dynamic-Vision-Transformer)] 
+        * ```🌱 Dynamic token numbers for different images. ```
+        * ```🌱 efficient feature reuse and relationship reuse mechanisms across different components. ```
+      * (arXiv preprint 2021) **MSG-Transformer: Exchanging Local Spatial Information by Manipulating Messenger Tokens**, Jiemin Fang et al. [[Paper](https://arxiv.org/pdf/2105.15168.pdf)] [[Code](https://github.com/hustvl/MSG-Transformer)]
+        * ```🌱  propose addtional messenger token to exchange information from different regions ```
+        
+      * (arXiv preprint 2021) **Less is More: Pay Less Attention in Vision Transformers **, Zizheng Pan et al. [[Paper](https://arxiv.org/pdf/2105.14217.pdf)] [[waiting Code]()] 
+        * ```🌱 Less attention vIsion Transformer, Hierarchical Transformer.```
+        * ```🌱 Pure multi-layer perceptrons (MLPs) to encode rich local patterns in the early stages```
+        * ```🌱 Self-attention modules to capture longer dependencies in deeper layers. ```
+
+
+
 
   * <span id="head-Object-Detection"> **Object Detection**  </span>
       * (CVPR 2021) **UP-DETR: Unsupervised Pre-training for Object Detection with Transformers**, Zhigang Dai et al [[Paper](https://arxiv.org/pdf/2011.09094.pdf)] [[Code](https://github.com/dddzg/up-detr)] 
@@ -128,6 +141,12 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) **Segmenter: Transformer for Semantic Segmentation**, Robin Strudel et al. [[Paper](https://arxiv.org/pdf/2105.05633.pdf)] [[Code](https://github.com/rstrudel/segmenter)] 
          * ```🌱 Convolution-free ```
          * ```🌱 Capture contextual information by design and outperform Fully Convolutional Networks(FCN) based approaches.```
+      * (arXiv preprint 2021) **SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers**, Enze Xie et al. [[Paper](https://arxiv.org/pdf/2105.15203.pdf)] [[Code](https://github.com/NVlabs/SegFormer)] 
+         * ```🌱 comprises a novel hierarchically structured Transformer encoder which outputs multiscale features. ```
+         * ```🌱  proposed MLP decoder aggregates information from different layers, combined both local and global attention. ```
+
+
+
 
   * <span id="head-Image-Retrieval"> **Image Retrieval**  </span>
       * (arXiv preprint 2021) **TransHash: Transformer-based Hamming Hashing for Efficient Image Retrieval**, Yongbiao Chen et al. [[Paper](https://arxiv.org/pdf/2105.01823.pdf)] [[Code](Todo)] 
@@ -161,6 +180,8 @@ A collection of resources on Transformer in CV.
       * (CVPR 2021) **Pre-Trained Image Processing Transformer**, Hanting Chen et al. [[Paper](https://arxiv.org/pdf/2012.00364v2.pdf)] [[Code](https://github.com/huawei-noah/Pretrained-IPT)] [[2nd code](https://github.com/perseveranceLX/ImageProcessingTransformer)] 
         * ```🌱 Various image processing tasks based Transformer.```
      
+     
+     
   * <span id="head-Sign-Language"> **Sign Language**  </span>
       * (arXiv preprint 2021) **Aligning Subtitles in Sign Language Videos**, Hannah Bull et al.  [[Paper](https://arxiv.org/pdf/2105.02877.pdf)] [[Project](https://www.robots.ox.ac.uk/~vgg/research/bslalign/)] 
         * ```📌 The first subtitle alignment task based on Transformers.```
@@ -181,6 +202,11 @@ A collection of resources on Transformer in CV.
       * (ECCV 2020) **Progressive Transformers for End-to-End Sign Language Production**, Ben Saunders et al. [[Paper](https://link.springer.com/content/pdf/10.1007%2F978-3-030-58621-8_40.pdf)] [[Code](https://github.com/BenSaunders27/ProgressiveTransformersSLP)]
       * (ECCV 2020) **Stochastic Fine-grained Labeling of Multi-state Sign Glosses for Continuous Sign Language Recognition**, Zhe Niu et al. [[Paper](https://link.springer.com/content/pdf/10.1007%2F978-3-030-58517-4_11.pdf)] [[Code](https://github.com/zheniu/stochastic-cslr)] 
         * ```🌱 Propose stochastic frame dropping (SFD) and stochastic gradient stopping (SGS) to reduce video memory footprint, improve model robustness and alleviate the overfitting problem during model training.```
+
+
+
+
+
 
   * <span id="head-Other-Applications"> **Other Applications**  </span>
       * (arXiv preprint 2021) [Computer-Aided Design] **Computer-Aided Design as Language**, Yaroslav Ganin et al. [[Paper](https://arxiv.org/pdf/2105.02769.pdf)] [[Code](https://github.com/sayakpaul/robustness-vit)]
@@ -229,6 +255,15 @@ A collection of resources on Transformer in CV.
         * ```🌱 Lightweight and flexible, enabling use as a building block at the core of sophisticated video prediction systems. ```
       * (arXiv preprint 2021) [Text Recognition] **Vision Transformer for Fast and Efficient Scene Text Recognition**, Rowel Atienza et al. [[Paper](https://arxiv.org/pdf/2105.08582.pdf)]  [[Code](https://github.com/roatienza/deep-text-recognition-benchmark)] 
         * ```🌱 Transformer based scene text recognition, maximize accuracy, speed and computational efficiency all at the same time. ```
+      * (arXiv preprint 2021) **Gaze Estimation using Transformer**, Yihua Cheng et al. [[Paper](https://arxiv.org/pdf/2105.14424.pdf)] [[Code](https://github.com/yihuacheng/GazeTR)] 
+        * ```🌱  Pure and hybrid transformer for gazing direction estimation ```
+      * (arXiv preprint 2021) **MixerGAN: An MLP-Based Architecture for  Unpaired Image-to-Image Translation**, George Cazenavette et al. [[Paper](https://arxiv.org/pdf/2105.14110.pdf)] [[waiting Code]()] 
+        * ```🌱 MLP self-attention based d image-to-image translation GAN ```
+
+      * (arXiv preprint 2021) **Sdnet: Multi-Branch For Single Image Deraining Using Swin**, Fuxiang Tan et al. [[Paper](https://arxiv.org/pdf/2105.15077.pdf)] [[Code](https://github.com/H-tfx/SDNet)] 
+        * ```🌱 Swin-transformer based deraining ```
+ 
+ 
  
   * <span id="head-Beyond-Transformer"> **Beyond Transformer**  </span>
       * (arXiv preprint 2021) **Pay Attention to MLPs**, Hanxiao Liu et al. [[Paper](https://arxiv.org/pdf/2105.08050.pdf)]
@@ -245,13 +280,20 @@ A collection of resources on Transformer in CV.
         * ```🌱 Re-parameterizing Convolutions and MLP```
       * (arXiv preprint 2021) **ResMLP: Feedforward networks for image classification with data-efficient training**, Hugo Touvron et al. [[Paper](https://arxiv.org/pdf/2105.03404.pdf)] [[Code](https://github.com/lucidrains/res-mlp-pytorch)] 
         * ```🌱 Residual MLP structure ```
+      * (arXiv preprint 2021) **FNet: Mixing Tokens with Fourier Transforms**, James Lee-Thorp et al. [[Paper](https://arxiv.org/pdf/2105.03824.pdf)] [[Code](https://github.com/google/flax)] 
+        * ```🌱 unparameterized Fourier Transform replaced the self-attention sublayer in Transformer encoder```
+      * (arXiv preprint 2021) **Can Attention Enable MLPs To Catch Up With CNNs?**, Meng-Hao Guo et al. [[Paper](https://arxiv.org/pdf/2105.15078.pdf)] [[No Code]()] 
+        * ```🌱 examine what the four newly proposed MLP self-attention architectures```
+
 
   * <span id="head-Theoritical-Thinking"> **Theoritical Thinking**  </span>
       * (arXiv preprint 2021) **Are Convolutional Neural Networks or Transformers more like human vision?**, Shikhar Tuli et al. [[Paper](https://arxiv.org/pdf/2105.07197.pdf)] [[Code](https://github.com/shikhartuli/cnn_txf_bias)] 
         * ```🌱 Understand Transformer ```
+  
 
 
-<!--#comments * (arXiv preprint 2021) **Title**, first author et al. [[Paper]()] [[Code]()] 🌱 tips-->
+<!--#comments * (arXiv preprint 2021) **Title**, firstauthor et al. [[Paper]()] [[Code]()] * ```🌱 tips ```-->
+
 
 <!--#comments For fold: <details><summary> <b>Name</b> </summary> ... </details> -->
 
