@@ -33,6 +33,7 @@ A collection of resources on Transformer in CV.
 * ```📌: The first...```
 * ⭐: State-of-the-Art
 * 👑: Novel dataset
+* 📚：Multiple Tasks 
 
 ## <span id="head2"> *2. Survey* </span>
 * 『[**Visual Transformer Blog**](https://blog.csdn.net/u014636245/article/details/116333223) in Chinese』Proudly produced by [@JieJi](https://blog.csdn.net/u014636245)
@@ -109,10 +110,6 @@ A collection of resources on Transformer in CV.
         * ```🌱 Efficient feature reuse and relationship reuse mechanisms across different components. ```
       * (arXiv preprint 2021) **MSG-Transformer: Exchanging Local Spatial Information by Manipulating Messenger Tokens**, Jiemin Fang et al. [[Paper](https://arxiv.org/pdf/2105.15168.pdf)] [[Code](https://github.com/hustvl/MSG-Transformer)]
         * ```🌱  Propose addtional messenger token to exchange information from different regions. ```
-      * (arXiv preprint 2021) **Less is More: Pay Less Attention in Vision Transformers**, Zizheng Pan et al. [[Paper](https://arxiv.org/pdf/2105.14217.pdf)] [[Waiting Code]()] 
-        * ```🌱 Less attention vIsion Transformer, Hierarchical Transformer.```
-        * ```🌱 Pure multi-layer perceptrons (MLPs) to encode rich local patterns in the early stages```
-        * ```🌱 Self-attention modules to capture longer dependencies in deeper layers. ```
 
 
 
@@ -277,6 +274,18 @@ A collection of resources on Transformer in CV.
  
  
   * <span id="head-Beyond-Transformer"> **Beyond Transformer**  </span>
+      * (arXiv preprint 2021) **Less is More: Pay Less Attention in Vision Transformers**, Zizheng Pan et al. [[Paper](https://arxiv.org/pdf/2105.08050.pdf)]
+        * ```🌱  Less attention vIsion Transformer (LIT): Pure multi-layer perceptrons (MLPs) encode rich local patterns in the early stages; Self-attention modules capture longer dependencies in deeper layers. ```
+        * ```🌱  Propose a learned deformable token merging module to adaptively fuse informative patches in a non-uniform manner. ```
+        * 📚  Image Classification, Object Detection, Instance Segmentation
+      * (arXiv preprint 2021) **Beyond Self-attention: External Attention using Two Linear Layers for Visual Tasks**, Meng-Hao Guo et al. [[Paper](https://arxiv.org/pdf/2105.02358.pdf)] [[Code](https://github.com/MenghaoGuo/-EANet)] 
+        * ```🌱  External Attention(EA): A novel attention mechanism based on two external, small, learnable, shared memories, which simply using two cascaded linear layers and two normalization layers.```
+        * ```🌱  External Attention MLP (EAMLP): Incorporate the multi-head mechanism into external attention(EA) to provide an all-MLP architecture.```
+        * 📚  Image Classification, Object Detection, Semantic Segmentation, Instance Segmentation, Image Generation, Point Cloud Analysis
+      * (arXiv preprint 2021) **An Attention Free Transformer**, Shuangfei Zhai et al. [[Paper](https://arxiv.org/pdf/2105.14103v1.pdf)] [[Code](https://github.com/labmlai/annotated_deep_learning_paper_implementations/tree/master/labml_nn/transformers/aft)] 
+        * ```🌱 Attention Free Transformer (AFT): the key and value are first combined with a set of learned position biases, the result multiplied with the query in an element-wise fashion. ```
+        * ```🌱 AFT-local & AFT-conv: take advantage of the idea of locality and spatial weight sharing while maintaining global connectivity.  ```
+        * 📚  Autoregressive Modeling (CIFAR10 and Enwik8), Image Recognition (ImageNet-1K classification)
       * (arXiv preprint 2021) **Pay Attention to MLPs**, Hanxiao Liu et al. [[Paper](https://arxiv.org/pdf/2105.08050.pdf)]
         * ```🌱 Attention-free ```
         * ```🌱 A simple variant of MLPs with gating. ```
