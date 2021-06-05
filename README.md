@@ -36,12 +36,13 @@ A collection of resources on Transformer in CV.
 * 📚：Multiple Tasks 
 
 ## <span id="head2"> *2. Survey* </span>
+**[`       «🎯Back To Top»       `](#)**
 * 『[**Visual Transformer Blog**](https://blog.csdn.net/u014636245/article/details/116333223) in Chinese』Proudly produced by [@JieJi](https://blog.csdn.net/u014636245)
 * (arXiv preprint 2021) **Transformers in Vision: A Survey** [[v1](https://arxiv.org/pdf/2101.01169v1.pdf)](2021.01.04) [[v2](https://arxiv.org/pdf/2101.01169.pdf)](2021.02.22)
 * (arXiv preprint 2020+2021) **A Survey on Visual Transformer** [[v1](https://arxiv.org/pdf/2012.12556v1.pdf)](2020.12.23) [[v2](https://arxiv.org/pdf/2012.12556v2.pdf)](2021.01.15) [[v3](https://arxiv.org/pdf/2012.12556v3.pdf)](2021.01.30)
 ## <span id="head3"> *3. Paper With Code* </span>
 
-  * <span id="head-Basic"> **Basic**  </span>
+  * <span id="head-Basic"> **Basic**  </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) **KVT: k-NN Attention for Boosting Vision Transformers**, Sachin Mehta et al. [[Paper](https://arxiv.org/abs/2106.00515)] 
         * ```🌱 Select the top-k similar tokens from the keys for each query to compute the attention map, instead of involving all the tokens for attention matrix calculation.```
         * ```🌱 K-NN attention is powerful in distilling noise from input tokens and in speeding up training.```
@@ -49,7 +50,7 @@ A collection of resources on Transformer in CV.
         * ```🌱 A deep and light-weight transformer.```
         * ```🌱 (1) Within each Transformer block using a deep and lightweight transformation. (2) Across blocks using block-wise scaling.```
   
-  * <span id="head-Vision-and-Language"> **Vision and Language**  </span>
+  * <span id="head-Vision-and-Language"> **Vision and Language**  </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) **CogView: Mastering Text-to-Image Generation via Transformers**, Ming Ding et al. [[Paper](https://arxiv.org/pdf/2105.13290.pdf)] [[Code](https://github.com/THUDM/CogView)] [[Demo Website(Chinese)](https://lab.aminer.cn/cogview/index.html)] 
         * ```📌 The first open-source large text-to-image transformer. ```
         * ```🌱 A 4-billion-parameter Transformer with VQ-VAE tokenizer . ```
@@ -82,7 +83,7 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2019) **Visual Grounding with Transformers**, Ye Du et al. [[Paper](https://arxiv.org/pdf/2105.04281.pdf)] [[Code](https://github.com/uclanlp/visualbert)] 
         * ```🌱 Visual grounding task. ```
     
-  * <span id="head-Image-Classification"> **Image Classification**  </span>
+  * <span id="head-Image-Classification"> **Image Classification**  </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) **ConViT: Improving Vision Transformers with Soft Convolutional Inductive Biases**, Stéphane d'Ascoli et al. [[Paper](https://arxiv.org/pdf/2103.10697.pdf)] [[Code](https://github.com/facebookresearch/convit)] 
         * ```🌱 The ConViT is simply a ViT where the first 10 blocks replace the Self-Attention (SA)  layers with a Gated Positional Self-Attention(GPSA) layer with a convolutional initialization. ```
         * ```🌱 The Gated Positional Self-Attention(GPSA) is a form of positional self-attention which can be equipped with a "soft" convolutional inductive bias. ```
@@ -113,7 +114,7 @@ A collection of resources on Transformer in CV.
 
 
 
-  * <span id="head-Object-Detection"> **Object Detection**  </span>
+  * <span id="head-Object-Detection"> **Object Detection**  </span> **[`       «🎯Back To Top»       `](#)**
       * (CVPR 2021) **You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection**, Zhigang Dai et al [[Paper](https://arxiv.org/pdf/2011.09094.pdf)] [[Code](https://github.com/hustvl/YOLOS)] 
         * ```🌱 2D object detection can be accomplished in a pure sequence-to-sequence manner by taking a sequence of fixed-sized non-overlapping image patches as input.  ```
         * ```🌱 Discuss the impacts of prevalent pre-train schemes and model scaling strategies for Transformer in vision.```
@@ -125,7 +126,7 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) **Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions**, Wenhai Wang et al. [[Paper](https://arxiv.org/pdf/2102.12122v1.pdf)] [[Code](https://github.com/whai362/PVT)] 
       * (arXiv preprint 2021) **Twins: Revisiting the Design of Spatial Attention in Vision Transformers**, Xiangxiang Chu et al [[Paper](https://arxiv.org/pdf/2104.13840.pdf)] 
 
-  * <span id="head-Object-Tracking"> **Object Tracking**  </span>
+  * <span id="head-Object-Tracking"> **Object Tracking**  </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) **MOTR: End-to-End Multiple-Object Tracking with TRansformer**, Fangao Zeng et al. [[Paper](https://arxiv.org/pdf/2105.03247.pdf)] [[Code](https://github.com/megvii-model/MOTR)] 
         * ```📌 The first fully end-toend multiple-object tracking framework. ```
         * ```🌱 Model the long-range temporal variation of the objects. ```
@@ -133,11 +134,11 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) **TrTr: Visual Tracking with Transformer**, Moju Zhao et al. [[Paper](https://arxiv.org/pdf/2105.03817.pdf)] [[Code](https://github.com/tongtybj/TrTr)] 
         * ```🌱 Transformer models template and search in targe image.```
     
-  * <span id="head-Instance-Segmentation"> **Instance Segmentation**  </span>
+  * <span id="head-Instance-Segmentation"> **Instance Segmentation**  </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection)] 
         * ⭐ SOTA on [COCO test-dev, COCO minival](https://cocodataset.org/#home) 
      
-  * <span id="head-Semantic-Segmentation"> **Semantic Segmentation**  </span>
+  * <span id="head-Semantic-Segmentation"> **Semantic Segmentation**  </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) [Video] **TransVOS: Video Object Segmentation with Transformers**, Jianbiao Mei et al. [[Paper](https://arxiv.org/pdf/2106.00588v1.pdf)]
          * ```🌱 Fully exploit and model both the temporal and spatial relationships. ```
          * ⭐ SOTA on [DAVIS](https://davischallenge.org/) and [YouTube-VOS](https://youtube-vos.org/)
@@ -155,41 +156,41 @@ A collection of resources on Transformer in CV.
 
 
 
-  * <span id="head-Image-Retrieval"> **Image Retrieval**  </span>
+  * <span id="head-Image-Retrieval"> **Image Retrieval**  </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) **TransHash: Transformer-based Hamming Hashing for Efficient Image Retrieval**, Yongbiao Chen et al. [[Paper](https://arxiv.org/pdf/2105.01823.pdf)] [[Code](Todo)] 
         * ```📌 The first work to tackle deep hashing learning problems without convolutional neural networks. ```
         * ```🌱 Convolution-free ```
- * <span id="head-Video-Understanding"> **Video Understanding**  </span>
+ * <span id="head-Video-Understanding"> **Video Understanding**  </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) **ViViT: A Video Vision Transformer**, Anurag Arnab et al. [[Paper](https://arxiv.org/pdf/2103.15691v1.pdf)] [[Code](https://github.com/rishikksh20/ViViT-pytorch)] 
         * ```🌱 Convolution-free ``` 
         * ⭐ SOTA on [Kinetics-400/600](https://deepmind.com/research/open-source/kinetics)
       * (arXiv preprint 2021) **Is Space-Time Attention All You Need for Video Understanding?**, Gedas Bertasius et al. [[Paper](https://arxiv.org/pdf/2102.05095.pdf)] [[Code](https://github.com/facebookresearch/TimeSformer)] 
         * ```🌱 Convolution-free ``` 
      
- * <span id="head-Monocular-Depth-Estimation"> **Monocular Depth Estimation**  </span>
+ * <span id="head-Monocular-Depth-Estimation"> **Monocular Depth Estimation**  </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) **Vision Transformers for Dense Prediction**, René Ranftl et al. [[Paper](https://arxiv.org/pdf/2103.13413.pdf)] [[Code](https://github.com/intel-isl/DPT)] 
         * ⭐ SOTA on [NYU-Depth V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
      
- * <span id="head-GAN"> **GAN**  </span>
+ * <span id="head-GAN"> **GAN**  </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) **TransGAN: Two Transformers Can Make One Strong GAN**, Yifan Jiang et al. [[Paper](https://arxiv.org/pdf/2102.07074.pdf)] [[Code](https://github.com/VITA-Group/TransGAN)] 
         * ```🌱 Convolution-free```
      
-  * <span id="head-Deepfake-Detection"> **Deepfake Detection**  </span>
+  * <span id="head-Deepfake-Detection"> **Deepfake Detection**  </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) **M2TR: Multi-modal Multi-scale Transformers for Deepfake Detection**, Junke Wang et al. [[Paper](https://arxiv.org/pdf/2104.09770v2.pdf)] 
         * ```📌 The first Multi-modal Multi-scale Transformer ```
         * 👑 face **S**wapping and facial **R**eenactment **D**eep**F**ake(SR-DF) Dataset
      
-  * <span id="head-Perceptual-Representation"> **Perceptual Representation** </span>
+  * <span id="head-Perceptual-Representation"> **Perceptual Representation** </span> **[`       «🎯Back To Top»       `](#)**
       * (CVPR 2021-[NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire21/)) **Perceptual Image Quality Assessment with Transformers**, Manri Cheon et al. [[Paper](https://arxiv.org/pdf/2104.14730.pdf)] [[Code](https://github.com/manricheon/IQT)] 
         * ⭐ 1st Place in [NTIRE 2021 perceptual IQA challenge](https://competitions.codalab.org/competitions/28050#learn_the_details).
      
-  * <span id="head-Low-Level-Vision"> **Low Level Vision**  </span>
+  * <span id="head-Low-Level-Vision"> **Low Level Vision**  </span> **[`       «🎯Back To Top»       `](#)**
       * (CVPR 2021) **Pre-Trained Image Processing Transformer**, Hanting Chen et al. [[Paper](https://arxiv.org/pdf/2012.00364v2.pdf)] [[Code](https://github.com/huawei-noah/Pretrained-IPT)] [[2nd code](https://github.com/perseveranceLX/ImageProcessingTransformer)] 
         * ```🌱 Various image processing tasks based Transformer.```
      
      
      
-  * <span id="head-Sign-Language"> **Sign Language**  </span>
+  * <span id="head-Sign-Language"> **Sign Language**  </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) **Aligning Subtitles in Sign Language Videos**, Hannah Bull et al.  [[Paper](https://arxiv.org/pdf/2105.02877.pdf)] [[Project](https://www.robots.ox.ac.uk/~vgg/research/bslalign/)] 
         * ```📌 The first subtitle alignment task based on Transformers.```
       * (arXiv preprint 2021) **Continuous 3D Multi-Channel Sign Language Production via Progressive Transformers and Mixture Density Networks**, Ben Saunders et al.  [[Paper](https://arxiv.org/pdf/2103.06982.pdf)]  
@@ -215,7 +216,7 @@ A collection of resources on Transformer in CV.
 
 
 
-  * <span id="head-Other-Applications"> **Other Applications**  </span>
+  * <span id="head-Other-Applications"> **Other Applications**  </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) [Computer-Aided Design] **Computer-Aided Design as Language**, Yaroslav Ganin et al. [[Paper](https://arxiv.org/pdf/2105.02769.pdf)] [[Code](https://github.com/sayakpaul/robustness-vit)]
       
         ![Figure from paper](pic/CAD_heart_sketch.png)
@@ -273,7 +274,7 @@ A collection of resources on Transformer in CV.
  
  
  
-  * <span id="head-Beyond-Transformer"> **Beyond Transformer**  </span>
+  * <span id="head-Beyond-Transformer"> **Beyond Transformer**  </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) **Less is More: Pay Less Attention in Vision Transformers**, Zizheng Pan et al. [[Paper](https://arxiv.org/pdf/2105.08050.pdf)]
         * ```🌱  Less attention vIsion Transformer (LIT): Pure multi-layer perceptrons (MLPs) encode rich local patterns in the early stages; Self-attention modules capture longer dependencies in deeper layers. ```
         * ```🌱  Propose a learned deformable token merging module to adaptively fuse informative patches in a non-uniform manner. ```
@@ -306,7 +307,7 @@ A collection of resources on Transformer in CV.
         * ```🌱 Examine what the four newly proposed MLP self-attention architectures```
 
 
-  * <span id="head-Theoritical-Thinking"> **Theoritical Thinking**  </span>
+  * <span id="head-Theoritical-Thinking"> **Theoritical Thinking**  </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) **Are Convolutional Neural Networks or Transformers more like human vision?**, Shikhar Tuli et al. [[Paper](https://arxiv.org/pdf/2105.07197.pdf)] [[Code](https://github.com/shikhartuli/cnn_txf_bias)] 
         * ```🌱 Understand Transformer ```
   
