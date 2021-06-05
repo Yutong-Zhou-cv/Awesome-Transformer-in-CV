@@ -8,7 +8,7 @@ A collection of resources on Transformer in CV.
 * - [ ] [1. Description](#head1)
 * - [ ] [2. Survey](#head2)
 * - [ ] [3. Paper With Code](#head3)
-  * - [ ] [Basic](#head-Basic)
+  * - [ ] [Theoretical Thinking](#head-Theoretical-Thinking)
   * - [ ] [Vision and Language](#head-Vision-and-Language)
   * - [ ] [Image Classification](#head-Image-Classification)
   * - [ ] [Object Detection](#head-Object-Detection)
@@ -25,7 +25,7 @@ A collection of resources on Transformer in CV.
   * - [ ] [Sign Language](#head-Sign-Language)
   * - [ ] [Other Applications](#head-Other-Applications)
   * - [ ] [Beyond Transformer](#head-Beyond-Transformer)
-  * - [ ] [Theoritical Thinking](#head-Theoritical-Thinking)
+
 * [*Contact Me*](#head4)
 
 ## <span id="head1"> *1. Description* </span>
@@ -42,7 +42,9 @@ A collection of resources on Transformer in CV.
 * (arXiv preprint 2020+2021) **A Survey on Visual Transformer** [[v1](https://arxiv.org/pdf/2012.12556v1.pdf)](2020.12.23) [[v2](https://arxiv.org/pdf/2012.12556v2.pdf)](2021.01.15) [[v3](https://arxiv.org/pdf/2012.12556v3.pdf)](2021.01.30)
 ## <span id="head3"> *3. Paper With Code* </span>
 
-  * <span id="head-Basic"> **Basic**  </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Theoretical-Thinking"> **Theoretical Thinking**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (arXiv preprint 2021) **Are Convolutional Neural Networks or Transformers more like human vision?**, Shikhar Tuli et al. [[Paper](https://arxiv.org/pdf/2105.07197.pdf)] [[Code](https://github.com/shikhartuli/cnn_txf_bias)] 
+        * ```🌱 Understand Transformer ```
       * (arXiv preprint 2021) **KVT: k-NN Attention for Boosting Vision Transformers**, Sachin Mehta et al. [[Paper](https://arxiv.org/abs/2106.00515)] 
         * ```🌱 Select the top-k similar tokens from the keys for each query to compute the attention map, instead of involving all the tokens for attention matrix calculation.```
         * ```🌱 K-NN attention is powerful in distilling noise from input tokens and in speeding up training.```
@@ -275,8 +277,12 @@ A collection of resources on Transformer in CV.
  
  
   * <span id="head-Beyond-Transformer"> **Beyond Transformer**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (arXiv preprint 2021) **Container: Context Aggregation Network**, Peng Gao et al. [[Paper](https://arxiv.org/pdf/2106.01401.pdf)]
+        * ```🌱  A unified view of popular architectures for visual inputs – CNN, Transformer and MLP-mixer. ```
+        * ```🌱  A novel network block – CONTAINER, which uses a mix of static and dynamic affinity matrices via learnable parameters. ```
+        * 📚  Image Classification, Object Detection, Instance Segmentation,  Self-Supervised Representation Learning
       * (arXiv preprint 2021) **Less is More: Pay Less Attention in Vision Transformers**, Zizheng Pan et al. [[Paper](https://arxiv.org/pdf/2105.08050.pdf)]
-        * ```🌱  Less attention vIsion Transformer (LIT): Pure multi-layer perceptrons (MLPs) encode rich local patterns in the early stages; Self-attention modules capture longer dependencies in deeper layers. ```
+        * ```🌱  Less attention vision Transformer (LIT): Pure multi-layer perceptrons (MLPs) encode rich local patterns in the early stages; Self-attention modules capture longer dependencies in deeper layers. ```
         * ```🌱  Propose a learned deformable token merging module to adaptively fuse informative patches in a non-uniform manner. ```
         * 📚  Image Classification, Object Detection, Instance Segmentation
       * (arXiv preprint 2021) **Beyond Self-attention: External Attention using Two Linear Layers for Visual Tasks**, Meng-Hao Guo et al. [[Paper](https://arxiv.org/pdf/2105.02358.pdf)] [[Code](https://github.com/MenghaoGuo/-EANet)] 
@@ -306,10 +312,6 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) **Can Attention Enable MLPs To Catch Up With CNNs?**, Meng-Hao Guo et al. [[Paper](https://arxiv.org/pdf/2105.15078.pdf)] 
         * ```🌱 Examine what the four newly proposed MLP self-attention architectures```
 
-
-  * <span id="head-Theoritical-Thinking"> **Theoritical Thinking**  </span> **[`       «🎯Back To Top»       `](#)**
-      * (arXiv preprint 2021) **Are Convolutional Neural Networks or Transformers more like human vision?**, Shikhar Tuli et al. [[Paper](https://arxiv.org/pdf/2105.07197.pdf)] [[Code](https://github.com/shikhartuli/cnn_txf_bias)] 
-        * ```🌱 Understand Transformer ```
   
 
 
