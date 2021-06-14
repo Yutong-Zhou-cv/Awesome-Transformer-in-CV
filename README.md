@@ -230,6 +230,8 @@ A collection of resources on Transformer in CV.
         ![Figure from paper](pic/CAD_heart_sketch.png)
         * ```🌱 A machine learning model capable of automatically generating such sketches.```
         * ```🌱 A combination of a general-purpose language modeling technique alongside an off-the-shelf data serialization protocol. ```
+      *  (arXiv preprint 2021) [Image Colourising] **ViT-Inception-GAN for Image Colourising**, Tejas Bana et al. [[Paper](https://arxiv.org/pdf/2106.06321.pdf)] 
+         * ```🌱 Adopt an Inception-v3 fusion embedding in the generator and Vision Transformer (ViT) as the discriminator. ```
       *  (arXiv preprint 2021) [Multiple instance learning (MIL)] **TransMIL: Transformer based Correlated Multiple Instance Learning for Whole Slide Image Classication**, Zhuchen Shao et al. [[Paper](https://arxiv.org/pdf/2106.00908.pdf)] 
          * ```🌱 Transformer based MIL (TransMIL): effectively deal with unbalanced/balanced and binary/multiple classification with great visualization and interpretability. ```
       * (CVPR 2021) [Human-Object Interaction Detection] **HOTR: End-to-End Human-Object Interaction Detection with Transformers**, Bumsoo Kim et al. [[Paper](https://arxiv.org/pdf/2104.13682.pdf)] 
