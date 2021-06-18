@@ -44,6 +44,9 @@ A collection of resources on Transformer in CV.
 ## <span id="head3"> *3. Paper With Code* </span>
 
   * <span id="head-Theoretical-Thinking"> **Theoretical Thinking**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (arXiv preprint 2021) **XCiT: Cross-Covariance Image Transformers**, Alaaeldin El-Nouby et al. [[Paper](https://arxiv.org/pdf/2106.09681.pdf)] [[Code](https://github.com/facebookresearch/xcit)] 
+        * ```🌱  A "transposed" version of self-attention : operates across feature channels rather than tokens, where the interactions are based on the cross-covariance matrix between keys and queries.  ```
+        * 📚  Image Classification, Self-supervised Feature Learning, Object Detection, Instance Segmentation, Semantic Segmentation 
       * (arXiv preprint 2021) **Transformer in Convolutional Neural Networks**, Yun Liu et al. [[Paper](https://arxiv.org/pdf/2106.03180.pdf)] 
         * ```📌 First learns feature relationships within small grids by viewing image patches as tokens. ```
         * ```🌱 Hierarchical MHSA (H-MHSA): computed in a hierarchical manner. ```
@@ -230,6 +233,8 @@ A collection of resources on Transformer in CV.
         ![Figure from paper](pic/CAD_heart_sketch.png)
         * ```🌱 A machine learning model capable of automatically generating such sketches.```
         * ```🌱 A combination of a general-purpose language modeling technique alongside an off-the-shelf data serialization protocol. ```
+      * (arXiv preprint 2021) [Image Captioning] **Semi-Autoregressive Transformer for Image Captioning**,Yuanen Zhou et al. [[Paper](https://arxiv.org/pdf/2106.09436.pdf)] [[Code](https://github.com/YuanEZhou/satic)]
+        * ```🌱 A semi-autoregressive model for image captioning, which keeps the autoregressive property in global but generates words parallelly in local.  ```
       *  (arXiv preprint 2021) [Image Colourising] **ViT-Inception-GAN for Image Colourising**, Tejas Bana et al. [[Paper](https://arxiv.org/pdf/2106.06321.pdf)] 
          * ```🌱 Adopt an Inception-v3 fusion embedding in the generator and Vision Transformer (ViT) as the discriminator. ```
       *  (arXiv preprint 2021) [Multiple instance learning (MIL)] **TransMIL: Transformer based Correlated Multiple Instance Learning for Whole Slide Image Classication**, Zhuchen Shao et al. [[Paper](https://arxiv.org/pdf/2106.00908.pdf)] 
