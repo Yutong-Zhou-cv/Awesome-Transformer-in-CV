@@ -233,11 +233,14 @@ A collection of resources on Transformer in CV.
         ![Figure from paper](pic/CAD_heart_sketch.png)
         * ```🌱 A machine learning model capable of automatically generating such sketches.```
         * ```🌱 A combination of a general-purpose language modeling technique alongside an off-the-shelf data serialization protocol. ```
-      * (arXiv preprint 2021) [Graph Representation] **Do Transformers Really Perform Bad for Graph Representation?**,Chengxuan Ying et al. [[Paper](https://arxiv.org/pdf/2106.05234.pdf)] [[Technical report](https://arxiv.org/pdf/2106.08279.pdf)] [[Code](https://github.com/Microsoft/Graphormer)]
+      * (arXiv preprint 2021) [Document Understanding] **DocFormer: End-to-End Transformer for Document Understanding**, Srikar Appalaraju et al. [[Paper](https://arxiv.org/pdf/2106.11539.pdf)] 
+        *  ```🌱 DocFormer uses text, vision and spatial features and combines them using a novel multi-modal self-attention layer.  ```
+        *  ```🌱 DocFormer also shares learned spatial embeddings across modalities which makes it easy for the model to correlate text to visual tokens and vice versa.   ```
+      * (arXiv preprint 2021) [Graph Representation] **Do Transformers Really Perform Bad for Graph Representation?**, Chengxuan Ying et al. [[Paper](https://arxiv.org/pdf/2106.05234.pdf)] [[Technical report](https://arxiv.org/pdf/2106.08279.pdf)] [[Code](https://github.com/Microsoft/Graphormer)]
         * ⭐ 1st place of [PCQM4M-LSC](https://ogb.stanford.edu/kddcup2021/pcqm4m/) Track [@ KDD Cup 2021 OGB Large-Scale Challenge](https://ogb.stanford.edu/kddcup2021/)
         *  ```🌱  Utilizing Transformer in the graph is the necessity of effectively encoding the structural information of a graph into the model.  ```
         *  ```🌱  Proposed several simple yet effective structural encoding methods to help Graphormer better model graph-structured data.   ```
-      * (arXiv preprint 2021) [Image Captioning] **Semi-Autoregressive Transformer for Image Captioning**,Yuanen Zhou et al. [[Paper](https://arxiv.org/pdf/2106.09436.pdf)] [[Code](https://github.com/YuanEZhou/satic)]
+      * (arXiv preprint 2021) [Image Captioning] **Semi-Autoregressive Transformer for Image Captioning**, Yuanen Zhou et al. [[Paper](https://arxiv.org/pdf/2106.09436.pdf)] [[Code](https://github.com/YuanEZhou/satic)]
         * ```🌱 A semi-autoregressive model for image captioning, which keeps the autoregressive property in global but generates words parallelly in local.  ```
       *  (arXiv preprint 2021) [Image Colourising] **ViT-Inception-GAN for Image Colourising**, Tejas Bana et al. [[Paper](https://arxiv.org/pdf/2106.06321.pdf)] 
          * ```🌱 Adopt an Inception-v3 fusion embedding in the generator and Vision Transformer (ViT) as the discriminator. ```
