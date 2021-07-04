@@ -51,9 +51,14 @@ A collection of resources on Transformer in CV.
         * ```📌 First learns feature relationships within small grids by viewing image patches as tokens. ```
         * ```🌱 Hierarchical MHSA (H-MHSA): computed in a hierarchical manner. ```
         * ```🌱 Pluggable into any CNN architectures ```
-        *  📚  Image Classification, Object Detection, Instance Segmentation 
+        *  📚  Image Classification, Object Detection, Instance Segmentation
       * (arXiv preprint 2021) **Are Convolutional Neural Networks or Transformers more like human vision?**, Shikhar Tuli et al. [[Paper](https://arxiv.org/pdf/2105.07197.pdf)] [[Code](https://github.com/shikhartuli/cnn_txf_bias)] 
         * ```🌱 Understand Transformer ```
+      * (arXiv preprint 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/SwinTransformer/Swin-Transformer-Semantic-Segmentation)] 
+        * ```🌱 A hierarchical Transformer which representation is computed with shifted windows. ```
+        * ```🌱 The shifted windowing scheme brings greater efficiency by limiting self-attention computation to non-overlapping local windows while also allowing for cross-window connection. ```
+        * ⭐ SOTA on [COCO test-dev](https://cocodataset.org/#home) for Object Detection
+        * 📚  Image Classification, Object Detection, Instance Segmentation, Semantic Segmentation
       * (arXiv preprint 2021) **KVT: k-NN Attention for Boosting Vision Transformers**, Sachin Mehta et al. [[Paper](https://arxiv.org/abs/2106.00515)] 
         * ```🌱 Select the top-k similar tokens from the keys for each query to compute the attention map, instead of involving all the tokens for attention matrix calculation.```
         * ```🌱 K-NN attention is powerful in distilling noise from input tokens and in speeding up training.```
@@ -105,7 +110,6 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) **Rethinking Spatial Dimensions of Vision Transformers**, Byeongho Heo et al. [[Paper](https://arxiv.org/pdf/2103.16302v1.pdf)] [[Code](https://github.com/naver-ai/pit)] 
         * ```🌱 Spatial dimension reduction is beneficial to a transformer architecture. ```
         * ```🌱 Pooling-based Vision Transformer (PiT) upon the original ViT model. ```
-      * (arXiv preprint 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/microsoft/Swin-Transformer)] 
       * (arXiv preprint 2021) **Do You Even Need Attention? A Stack of Feed-Forward Layers Does Surprisingly Well on ImageNet**, Luke Melas-Kyriazi [[Paper](https://arxiv.org/pdf/2105.02723.pdf)] [[Code](https://github.com/lukemelas/do-you-even-need-attention)] 
         * ```🌱 Attention Layer-free ```
       * (arXiv preprint 2021) **Conformer: Local Features Coupling Global Representations for Visual Recognition**, Zhiliang Peng et al[[Paper](https://arxiv.org/pdf/2105.03889.pdf)] [[Code](https://github.com/pengzhiliang/Conformer)] 
@@ -146,15 +150,11 @@ A collection of resources on Transformer in CV.
         * ```🌱 Transformer models template and search in targe image.```
     
   * <span id="head-Instance-Segmentation"> **Instance Segmentation**  </span> **[`       «🎯Back To Top»       `](#)**
-      * (arXiv preprint 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection)] 
-        * ⭐ SOTA on [COCO test-dev, COCO minival](https://cocodataset.org/#home) 
      
   * <span id="head-Semantic-Segmentation"> **Semantic Segmentation**  </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) [Video] **TransVOS: Video Object Segmentation with Transformers**, Jianbiao Mei et al. [[Paper](https://arxiv.org/pdf/2106.00588v1.pdf)]
          * ```🌱 Fully exploit and model both the temporal and spatial relationships. ```
          * ⭐ SOTA on [DAVIS](https://davischallenge.org/) and [YouTube-VOS](https://youtube-vos.org/)
-      * (arXiv preprint 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/SwinTransformer/Swin-Transformer-Semantic-Segmentation)] 
-        * ⭐ SOTA on [ADE20K dataset, ADE20K val](https://groups.csail.mit.edu/vision/datasets/ADE20K/)
       * (arXiv preprint 2021) **Vision Transformers for Dense Prediction**, René Ranftl et al. [[Paper](https://arxiv.org/pdf/2103.13413.pdf)] [[Code](https://github.com/intel-isl/DPT)]
       * (arXiv preprint 2021) **Twins: Revisiting the Design of Spatial Attention in Vision Transformers**, Xiangxiang Chu et al [[Paper](https://arxiv.org/pdf/2104.13840.pdf)] 
       * (arXiv preprint 2021) **Segmenter: Transformer for Semantic Segmentation**, Robin Strudel et al. [[Paper](https://arxiv.org/pdf/2105.05633.pdf)] [[Code](https://github.com/rstrudel/segmenter)] 
