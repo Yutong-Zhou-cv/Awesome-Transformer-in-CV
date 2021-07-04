@@ -9,6 +9,7 @@ A collection of resources on Transformer in CV.
 * - [ ] [2. Survey](#head2)
 * - [ ] [3. Paper With Code](#head3)
   * - [ ] [Theoretical Thinking](#head-Theoretical-Thinking)
+  * - [ ] [Backbone](#head-Backbone)
   * - [ ] [Vision and Language](#head-Vision-and-Language)
   * - [ ] [Image Classification](#head-Image-Classification)
   * - [ ] [Object Detection](#head-Object-Detection)
@@ -54,18 +55,29 @@ A collection of resources on Transformer in CV.
         *  📚  Image Classification, Object Detection, Instance Segmentation
       * (arXiv preprint 2021) **Are Convolutional Neural Networks or Transformers more like human vision?**, Shikhar Tuli et al. [[Paper](https://arxiv.org/pdf/2105.07197.pdf)] [[Code](https://github.com/shikhartuli/cnn_txf_bias)] 
         * ```🌱 Understand Transformer ```
-      * (arXiv preprint 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/SwinTransformer/Swin-Transformer-Semantic-Segmentation)] 
-        * ```🌱 A hierarchical Transformer which representation is computed with shifted windows. ```
-        * ```🌱 The shifted windowing scheme brings greater efficiency by limiting self-attention computation to non-overlapping local windows while also allowing for cross-window connection. ```
-        * ⭐ SOTA on [COCO test-dev](https://cocodataset.org/#home) for Object Detection
-        * 📚  Image Classification, Object Detection, Instance Segmentation, Semantic Segmentation
       * (arXiv preprint 2021) **KVT: k-NN Attention for Boosting Vision Transformers**, Sachin Mehta et al. [[Paper](https://arxiv.org/abs/2106.00515)] 
         * ```🌱 Select the top-k similar tokens from the keys for each query to compute the attention map, instead of involving all the tokens for attention matrix calculation.```
         * ```🌱 K-NN attention is powerful in distilling noise from input tokens and in speeding up training.```
       * (ICLR 2021) **DeLighT: Deep and Light-weight Transformer**, Sachin Mehta et al. [[Paper](https://arxiv.org/pdf/2008.00623.pdf)] [[Code](https://github.com/sacmehta/delight)] 
         * ```🌱 A deep and light-weight transformer.```
         * ```🌱 (1) Within each Transformer block using a deep and lightweight transformation. (2) Across blocks using block-wise scaling.```
-  
+  * <span id="head-Backbone"> **Backbone**  </span> **[`       «🎯Back To Top»       `](#)**
+     *  (arXiv preprint 2021) **Focal Self-attention for Local-Global Interactions in Vision Transformers**, Jianwei Yang et al. [[Paper](https://arxiv.org/pdf/2107.00641v1.pdf)] 
+        * ```🌱 Focal self-attention: a new mechanism that incorporates both fine-grained local and coarse-grained global interactions. Each token attends the closest surrounding tokens at fine granularity, but the tokens far away at a coarse granularity, and thus can capture both short- and long-range visual dependencies efficiently and effectively.  ```
+        * ⭐ SOTA on [ADE20K dataset, ADE20K val](https://groups.csail.mit.edu/vision/datasets/ADE20K/) for Semantic Segmentation
+        * ⭐ SOTA on [COCO test-dev, COCO minival](https://cocodataset.org/#home) for Instance Segmentation
+        * 📚  Image Classification, Object Detection, Instance Segmentation, Semantic Segmentation
+     * (arXiv preprint 2021) **CSWin Transformer: A General Vision Transformer Backbone with Cross-Shaped Windows**, Xiaoyi Dong et al. [[Paper](https://arxiv.org/pdf/2107.00652v1.pdf)] [[Code](https://github.com/microsoft/CSWin-Transformer)] 
+        * ```🌱 Cross-Shaped Window self-attention: compute self-attention in the horizontal and vertical stripes in parallel forms a cross-shaped window. Each stripe is obtained by splitting the input feature into stripes of equal width.  ```
+        * 📚  Object Detection, Semantic Segmentation
+     * (arXiv preprint 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection)] 
+        * ```🌱 A hierarchical Transformer which representation is computed with shifted windows. ```
+        * ```🌱 The shifted windowing scheme brings greater efficiency by limiting self-attention computation to non-overlapping local windows while also allowing for cross-window connection. ```
+        * ⭐ SOTA on [COCO test-dev](https://cocodataset.org/#home) for Object Detection
+        * 📚  Image Classification, Object Detection, Instance Segmentation, Semantic Segmentation, Real-Time Object Detection
+
+
+
   * <span id="head-Vision-and-Language"> **Vision and Language**  </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) **CogView: Mastering Text-to-Image Generation via Transformers**, Ming Ding et al. [[Paper](https://arxiv.org/pdf/2105.13290.pdf)] [[Code](https://github.com/THUDM/CogView)] [[Demo Website(Chinese)](https://lab.aminer.cn/cogview/index.html)] 
         * ```📌 The first open-source large text-to-image transformer. ```
