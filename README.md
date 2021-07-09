@@ -24,6 +24,7 @@ A collection of resources on Transformer in CV.
   * - [ ] [Perceptual Representation](#head-Perceptual-Representation)
   * - [ ] [Low Level Vision](#head-Low-Level-Vision)
   * - [ ] [Sign Language](#head-Sign-Language)
+  * - [ ] [Medical Image Segmentation](#head-Medical-Image-Segmentation)
   * - [ ] [Other Applications](#head-Other-Applications)
   * - [ ] [Beyond Transformer](#head-Beyond-Transformer)
 
@@ -236,6 +237,39 @@ A collection of resources on Transformer in CV.
 
 
 
+  * <span id="head-Medical-Image-Segmentation"> **Medical Image Segmentation**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (MICCAI 2021) **A Multi-Branch Hybrid Transformer Network for Corneal Endothelial Cell Segmentation**, Yinglin Zhang et al. [[Paper](https://arxiv.org/pdf/2106.07557.pdf)]
+        * ```🌱 Multi-Branch hybrid Transformer Network (MBT-Net): based on the transformer and body-edge branch. ```
+        * ```🌱 The convolutional block focuses on local texture feature extraction. The transformer and residual connection establish long-range dependencies over space, channel, and layer.```
+      * (MICCAI 2021) **Progressively Normalized Self-Attention Network for Video Polyp Segmentation**, GePeng Ji et al. [[Paper](https://arxiv.org/pdf/2105.08468.pdf)] [[Code](https://github.com/GewelsJI/PNS-Net)] 
+        * ```🌱 Progressively Normalized Self-attention Network(PNS-Net): efficiently learn representations from polyp videos with real-time speed ( ∼140fps) on a single RTX 2080 GPU and no postprocessing.  ```
+      * (MICCAI 2021) **UTNet: A Hybrid Transformer Architecture for Medical Image Segmentation**, Yunhe Gao et al. [[Paper](https://arxiv.org/pdf/2107.00781.pdf)]
+        * ```🌱 This approach addresses the dilemma that Transformer requires huge amounts of data to learn vision inductive bias.  ```
+      * (MICCAI 2021) **Multi-Compound Transformer for Accurate Biomedical Image Segmentation**, Yuanfeng Ji et al. [[Paper](https://arxiv.org/pdf/2106.14385.pdf)] [[Code](https://github.com/JiYuanFeng/MCTrans)] 
+        * ```🌱 Multi-Compound Transformer (MCTrans): incorporate rich feature learning and semantic structure mining into a unified framework.  ```
+        * ```🌱 A learnable proxy embedding: model semantic relationship. ```
+      * (MICCAI 2021) **Medical Transformer: Gated Axial-Attention for Medical Image Segmentation**, Jeya Maria Jose Valanarasu et al. [[Paper](https://arxiv.org/pdf/2102.10662.pdf)] [[Code](https://github.com/jeya-maria-jose/Medical-Transformer)] 
+        * ```🌱 Gated Axial-Attention model: introduce an additional control mechanism in the self-attention module. ```
+        * ```🌱 Local-Global training strategy (LoGo): operate on the whole image and patches to learn global and local features. ```
+      * (arXiv preprint 2021) **DS-TransUNet:Dual Swin Transformer U-Net for Medical Image Segmentation**, Ailiang Lin et al. [[Paper](https://arxiv.org/pdf/2106.06716.pdf)] 
+        * ```📌 The first attempt to concurrently incorporate the advantages of hierarchical Swin Transformer into both encoder and decoder of the standard U-shaped architecture to enhance the semantic segmentation quality of varying medical images.  ```
+        * ```🌱 Introduce the Swin Transformer block into decoder to further explore the long-range contextual information during the up-sampling process.  ```
+      * (arXiv preprint 2021) **TransBTS: Multimodal Brain Tumor Segmentation Using Transformer**, Wenxuan Wang et al. [[Paper](https://arxiv.org/pdf/2103.04430.pdf)] [[Code](https://github.com/Wenxuan-1119/TransBTS)] 
+        * ```📌 The first time to exploits Transformer in 3D CNN for MRI Brain Tumor Segmentation. ```
+      * (arXiv preprint 2021) **U-Net Transformer: Self and Cross Attention for Medical Image Segmentation**, Olivier Petit et al. [[Paper](https://arxiv.org/pdf/2103.06104.pdf)]
+        * ```🌱 U-Net Transformer: combines a U-shaped architecture for image segmentation with self- and cross-attention from Transformers. ```
+        * ```🌱 Overcome the inability of U-Nets to model long-range contextual interactions and spatial dependencies ```
+      * (arXiv preprint 2021) **SpecTr: Spectral Transformer for Hyperspectral Pathology Image Segmentation**, Boxiang Yun et al. [[Paper](https://arxiv.org/pdf/2103.03604.pdf)] [[Code](https://github.com/hfut-xc-yun/SpecTr)] 
+        * ```📌 The first time to formulate the contextual feature learning across spectral bands for hyperspectral pathology image segmentation as a sequence-to-sequence prediction procedure by transformers.  ```
+        * ```🌱 SpecTr outperforms other competing methods in a hyperspectral pathology image segmentation benchmark without the need for pre-training. ```
+      * (arXiv preprint 2021) **TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation**, Jieneng Chen et al. [[Paper](https://arxiv.org/pdf/2105.09511.pdf)] [[Code](https://github.com/Beckschen/TransUNet)] 
+        * ```🌱 TransUNet: merits both Transformers and U-Net, as a strong alternative for medical image segmentation.  ```
+        * ```🌱 Transformers can serve as strong encoders for medical image segmentation tasks, with the combination of U-Net to enhance finer details by recovering localized spatial information. ```
+      * (IJCAI 2021) **Medical Image Segmentation using Squeeze-and-Expansion Transformers**, Shaohua Li et al. [[Paper](https://arxiv.org/pdf/2105.09511.pdf)] [[Code](https://github.com/askerlee/segtran)] 
+        * ```🌱 A novel squeezed attention block regularizes the self-attention of transformers, and an expansion block learns diversified representations. ```
+        * ```🌱 A new positional encoding scheme for transformers, imposing a continuity inductive bias for images. ```
+      * (arXiv preprint 2021) **Swin-Unet: Unet-like Pure Transformer for Medical Image Segmentation**, Hu Cao et al. [[Paper](https://arxiv.org/pdf/2105.05537.pdf)]  [[Code](https://github.com/HuCaoFighting/Swin-Unet)] 
+        * ```📌 The first pure Transformer-based U-shaped architecture .```
 
 
 
@@ -279,11 +313,6 @@ A collection of resources on Transformer in CV.
         * ```🌱 Handwritten Mathematical Expression Recognition```
       * (arXiv preprint 2021) [Scene Flow Estimation] **SCTN: Sparse Convolution-Transformer Network for Scene Flow Estimation**, Bing Li et al. [[Paper](https://arxiv.org/pdf/2105.04447.pdf)] 
         * ```📌 The first Sparse Convolution-Transformer Network (SCTN) for scene flow estimation.```
-      * (IJCAI 2021) [Medical Image Segmentation] **Medical Image Segmentation using Squeeze-and-Expansion Transformers**, Shaohua Li et al. [[Paper](https://arxiv.org/pdf/2105.09511.pdf)] [[Code](https://github.com/askerlee/segtran)] 
-        * ```🌱 A novel squeezed attention block regularizes the self-attention of transformers, and an expansion block learns diversified representations. ```
-        * ```🌱 A new positional encoding scheme for transformers, imposing a continuity inductive bias for images. ```
-      * (arXiv preprint 2021) [Medical Image Segmentation] **Swin-Unet: Unet-like Pure Transformer for Medical Image Segmentation**, Hu Cao et al. [[Paper](https://arxiv.org/pdf/2105.05537.pdf)]  [[Code](https://github.com/HuCaoFighting/Swin-Unet)] 
-        * ```📌 The first pure Transformer-based U-shaped architecture .```
       * (arXiv preprint 2021) [Image Registration] **Attention for Image Registration (AiR): an unsupervised Transformer approach**, Zihao Wang et al. [[Paper](https://arxiv.org/pdf/2105.02282.pdf)]
         * ```📌 The first Transformer based image unsupervised registration method.```
         * ```🌱 A multi-scale attention parallel Transformer framework.```
