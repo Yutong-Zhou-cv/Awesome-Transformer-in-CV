@@ -279,6 +279,9 @@ A collection of resources on Transformer in CV.
         ![Figure from paper](pic/CAD_heart_sketch.png)
         * ```🌱 A machine learning model capable of automatically generating such sketches.```
         * ```🌱 A combination of a general-purpose language modeling technique alongside an off-the-shelf data serialization protocol. ```
+      * (arXiv preprint 2021) [Quadrupedal Locomotion] **Learning Vision-Guided Quadrupedal Locomotion End-to-End with Cross-Modal Transformers**, Ruihan Yang et al. [[Paper](https://arxiv.org/pdf/2107.03996.pdf)] [[Project](https://rchalyang.github.io/LocoTransformer/)]
+        *  ```🌱 Proprioceptive states only offer contact measurements for immediate reaction, whereas an agent equipped with visual sensory observations can learn to proactively maneuver environments with obstacles and uneven terrain by anticipating changes in the environment many steps ahead.  ```
+        *  ```🌱 LocoTransformer: an end-to-end Reinforcement Learning (RL) method for quadrupedal locomotion that leverages a Transformer-based model for fusing proprioceptive states and visual observations.  ```
       * (arXiv preprint 2021) [Document Understanding] **DocFormer: End-to-End Transformer for Document Understanding**, Srikar Appalaraju et al. [[Paper](https://arxiv.org/pdf/2106.11539.pdf)] 
         *  ```🌱 DocFormer uses text, vision and spatial features and combines them using a novel multi-modal self-attention layer.  ```
         *  ```🌱 DocFormer also shares learned spatial embeddings across modalities which makes it easy for the model to correlate text to visual tokens and vice versa.   ```
