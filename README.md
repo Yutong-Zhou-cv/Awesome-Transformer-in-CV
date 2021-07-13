@@ -196,7 +196,14 @@ A collection of resources on Transformer in CV.
         * ⭐ SOTA on [NYU-Depth V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
      
  * <span id="head-GAN"> **GAN**  </span> **[`       «🎯Back To Top»       `](#)**
-      * (arXiv preprint 2021) **TransGAN: Two Transformers Can Make One Strong GAN**, Yifan Jiang et al. [[Paper](https://arxiv.org/pdf/2102.07074.pdf)] [[Code](https://github.com/VITA-Group/TransGAN)] 
+      * (arXiv preprint 2021) **ViTGAN: Training GANs with Vision Transformers**, Kwonjoon Lee et al. [[Paper](https://arxiv.org/pdf/2107.04589.pdf)] 
+        * ```🌱 Integrate the Vision Transformers (ViTs) architecture into generative adversarial networks (GANs). ```
+        * ```🌱 Introduce novel regularization techniques for training GANs with ViTs to solve the serious instability during training.```
+      * (arXiv preprint 2021) **TransGAN: Two Pure Transformers Can Make One Strong GAN, and That Can Scale Up**, Yifan Jiang et al. [[Paper(V3)](https://arxiv.org/pdf/2102.07074v3.pdf)] [[Code](https://github.com/VITA-Group/TransGAN)] 
+        * ```📌 The first pilot study in building a GAN completely free of convolutions, using only pure transformer-based architectures. ```
+        * ```🌱 Introduce a new module of grid self-attention for alleviating the memory bottleneck to scale up TransGAN to high-resolution generation. ```
+        * ```🌱 Develop a unique training recipe: data augmentation, modified normalization and relative position encoding.  ```
+      * (arXiv preprint 2021) **TransGAN: Two Transformers Can Make One Strong GAN**, Yifan Jiang et al. [[Paper(V1)](https://arxiv.org/pdf/2102.07074v1.pdf)] [[Paper(V2)](https://arxiv.org/pdf/2102.07074v2.pdf)] [[Code](https://github.com/VITA-Group/TransGAN)] 
         * ```🌱 Convolution-free```
      
   * <span id="head-Deepfake-Detection"> **Deepfake Detection**  </span> **[`       «🎯Back To Top»       `](#)**
