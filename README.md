@@ -1,6 +1,11 @@
 # <p align=center>`Awesome Transformer in CV`</p>
+<p align="center">
+  <img width="300" src="https://camo.githubusercontent.com/1131548cf666e1150ebd2a52f44776d539f06324/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f6d61737465722f6d656469612f6c6f676f2e737667" "Awesome!">
+</p>
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+<!--[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) -->
+
+![visitors](https://visitor-badge.glitch.me/badge?page_id=Yutong-Zhou-cv/awesome-Transformer-in-CV)
 
 A collection of resources on Transformer in CV.
 
@@ -286,6 +291,8 @@ A collection of resources on Transformer in CV.
         ![Figure from paper](pic/CAD_heart_sketch.png)
         * ```🌱 A machine learning model capable of automatically generating such sketches.```
         * ```🌱 A combination of a general-purpose language modeling technique alongside an off-the-shelf data serialization protocol. ```
+      * (MICCAI 2021) [Automatic Surgical Instruction Generation] **Surgical Instruction Generation with Transformers**, Jinglu Zhang et al. [[Paper](https://arxiv.org/pdf/2107.06964.pdf)] 
+        *  ```🌱 A transformer-backboned encoder-decoder network with self-critical reinforcement learning to generate instructions from surgical images.  ```
       * (arXiv preprint 2021) [Quadrupedal Locomotion] **Learning Vision-Guided Quadrupedal Locomotion End-to-End with Cross-Modal Transformers**, Ruihan Yang et al. [[Paper](https://arxiv.org/pdf/2107.03996.pdf)] [[Project](https://rchalyang.github.io/LocoTransformer/)]
         *  ```🌱 Proprioceptive states only offer contact measurements for immediate reaction, whereas an agent equipped with visual sensory observations can learn to proactively maneuver environments with obstacles and uneven terrain by anticipating changes in the environment many steps ahead.  ```
         *  ```🌱 LocoTransformer: an end-to-end Reinforcement Learning (RL) method for quadrupedal locomotion that leverages a Transformer-based model for fusing proprioceptive states and visual observations.  ```
@@ -302,6 +309,9 @@ A collection of resources on Transformer in CV.
          * ```🌱 Adopt an Inception-v3 fusion embedding in the generator and Vision Transformer (ViT) as the discriminator. ```
       *  (arXiv preprint 2021) [Multiple instance learning (MIL)] **TransMIL: Transformer based Correlated Multiple Instance Learning for Whole Slide Image Classication**, Zhuchen Shao et al. [[Paper](https://arxiv.org/pdf/2106.00908.pdf)] 
          * ```🌱 Transformer based MIL (TransMIL): effectively deal with unbalanced/balanced and binary/multiple classification with great visualization and interpretability. ```
+      * (arXiv preprint 2021) [Human Action Recognition] **STAR: Sparse Transformer-based Action Recognition**, Feng Shi et al. [[Paper](https://arxiv.org/pdf/2107.07089.pdf)] 
+        * ```🌱 Sparse Transformer-based Action Recognition (STAR): a novel skeleton-based human action recognition model with sparse attention on the spatial dimension and segmented linear attention on the temporal dimension of data.```
+        * ```🌱 5∼7× smaller than the baseline models while providing 4∼18× execution speedup.```
       * (CVPR 2021) [Human-Object Interaction Detection] **HOTR: End-to-End Human-Object Interaction Detection with Transformers**, Bumsoo Kim et al. [[Paper](https://arxiv.org/pdf/2104.13682.pdf)] 
         * ```🌱 A novel framework that directly predicts a set of human, object, interaction triplets from an image based on a transformer encoder-decoder architecture.```
       * (CVPR 2021) [Human-Object Interaction Detection] **End-to-End Human Object Interaction Detection with HOI Transformer**, Cheng Zou et al. [[Paper](https://arxiv.org/pdf/2103.04503.pdf)] [[Code](https://github.com/bbepoch/HoiTransformer)]
