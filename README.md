@@ -252,6 +252,8 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Medical-Image-Segmentation"> **Medical Image Segmentation**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (arXiv preprint 2021) **LeViT-UNet: Make Faster Encoders with Transformer for Medical Image Segmentation**, Guoping Xu et al. [[Paper](https://arxiv.org/pdf/2107.08623.pdf)] [[Code(Unavailable)](https://github.com/apple1986/LeViT_UNet)] 
+        * ```🌱 LeViT-UNet: integrate a LeViT Transformer module into the U-Net architecture, for fast and accurate medical image segmentation.  ```
       * (MICCAI 2021) **A Multi-Branch Hybrid Transformer Network for Corneal Endothelial Cell Segmentation**, Yinglin Zhang et al. [[Paper](https://arxiv.org/pdf/2106.07557.pdf)]
         * ```🌱 Multi-Branch hybrid Transformer Network (MBT-Net): based on the transformer and body-edge branch. ```
         * ```🌱 The convolutional block focuses on local texture feature extraction. The transformer and residual connection establish long-range dependencies over space, channel, and layer.```
