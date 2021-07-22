@@ -53,6 +53,9 @@ A collection of resources on Transformer in CV.
 ## <span id="head3"> *3. Paper With Code* </span>
 
   * <span id="head-Theoretical-Thinking"> **Theoretical Thinking**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (arXiv preprint 2021) **Early Convolutions Help Transformers See Better**, Tete Xiao et al. [[Paper](https://arxiv.org/pdf/2106.14881.pdf)] 
+        * ```🌱  Replace the ViT stem with a small number of stacked stride-two 3x3 convolutions.  ```
+        * ```🌱 Dramatically increases optimization stability and also improves peak performance (by ~1-2% top-1 accuracy on ImageNet-1k), while maintaining flops and runtime. ```
       * (arXiv preprint 2021) **XCiT: Cross-Covariance Image Transformers**, Alaaeldin El-Nouby et al. [[Paper](https://arxiv.org/pdf/2106.09681.pdf)] [[Code](https://github.com/facebookresearch/xcit)] 
         * ```🌱  A "transposed" version of self-attention : operates across feature channels rather than tokens, where the interactions are based on the cross-covariance matrix between keys and queries.  ```
         * 📚  Image Classification, Self-supervised Feature Learning, Object Detection, Instance Segmentation, Semantic Segmentation 
@@ -69,6 +72,8 @@ A collection of resources on Transformer in CV.
       * (ICLR 2021) **DeLighT: Deep and Light-weight Transformer**, Sachin Mehta et al. [[Paper](https://arxiv.org/pdf/2008.00623.pdf)] [[Code](https://github.com/sacmehta/delight)] 
         * ```🌱 A deep and light-weight transformer.```
         * ```🌱 (1) Within each Transformer block using a deep and lightweight transformation. (2) Across blocks using block-wise scaling.```
+
+
   * <span id="head-Backbone"> **Backbone**  </span> **[`       «🎯Back To Top»       `](#)**
      *  (arXiv preprint 2021) **Focal Self-attention for Local-Global Interactions in Vision Transformers**, Jianwei Yang et al. [[Paper](https://arxiv.org/pdf/2107.00641v1.pdf)] 
         * ```🌱 Focal self-attention: a new mechanism that incorporates both fine-grained local and coarse-grained global interactions. Each token attends the closest surrounding tokens at fine granularity, but the tokens far away at a coarse granularity, and thus can capture both short- and long-range visual dependencies efficiently and effectively.  ```
