@@ -7,8 +7,6 @@
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=Yutong-Zhou-cv/awesome-Transformer-in-CV) ![GitHub stars](https://img.shields.io/github/stars/Yutong-Zhou-cv/awesome-Transformer-in-CV.svg?color=red) 
 
-
-
 A collection of resources on Transformer in CV.
 
 ## <span id="head-content"> *Content* </span>
@@ -38,6 +36,11 @@ A collection of resources on Transformer in CV.
 * [*Contact Me*](#head4)
 
 ## <span id="head1"> *1. Description* </span>
+>🐌 Markdown Format:
+> * (Conference/Journal Year) **Title**, First Author et al. [[Paper](URL)] [[Code](URL)] [[Project](URL)]
+>     * (Optional) ```🌱``` or ```📌 ```
+>     * (Optional) ⭐ or 👑 or 📚
+
 * ```🌱: Novel idea```
 * ```📌: The first...```
 * ⭐: State-of-the-Art
