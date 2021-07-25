@@ -53,6 +53,16 @@ A collection of resources on Transformer in CV.
 ## <span id="head3"> *3. Paper With Code* </span>
 
   * <span id="head-Theoretical-Thinking"> **Theoretical Thinking**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (ICCV 2021) **AutoFormer: Searching Transformers for Visual Recognition**, Minghao Chen et al. [[Paper](https://arxiv.org/pdf/2107.00651.pdf)] [[Code](https://github.com/microsoft/AutoML/tree/main/AutoFormer)] 
+
+        ![Figure from paper](pic/overview.gif)
+        > *(From: https://github.com/microsoft/AutoML/tree/main/AutoFormer)*
+        
+        * ```📌 First effort to design an automatic search algorithm for finding vision transformer models.```
+        * ```🌱 Without extra finetuning or retraining, the trained supernet is able to produce thousands of high-quality transformers by inheriting weights from it directly. ```
+      * (ICCV 2021) **Rethinking and Improving Relative Position Encoding for Vision Transformer**, Kan Wu et al. [[Paper](https://houwenpeng.com/publications/iRPE.pdf)] [[Code](https://github.com/microsoft/AutoML/tree/main/iRPE)] 
+        * ```🌱 image RPE (iRPE): New relative position encoding methods dedicated to 2D images which consider directional relative distance modeling as well as the interactions between queries and relative position embeddings in a self-attention mechanism.  ```
+        * ```🌱 Simple, lightweight and can be easily plugged into transformer blocks.  ```
       * (arXiv preprint 2021) **Early Convolutions Help Transformers See Better**, Tete Xiao et al. [[Paper](https://arxiv.org/pdf/2106.14881.pdf)] 
         * ```🌱  Replace the ViT stem with a small number of stacked stride-two 3x3 convolutions.  ```
         * ```🌱 Dramatically increases optimization stability and also improves peak performance (by ~1-2% top-1 accuracy on ImageNet-1k), while maintaining flops and runtime. ```
