@@ -249,6 +249,9 @@ A collection of resources on Transformer in CV.
      
      
   * <span id="head-Sign-Language"> **Sign Language**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (ICCV 2021) **Mixed SIGNals: Sign Language Production via a Mixture of Motion Primitives**, Ben Saunders et al. [[Paper](https://arxiv.org/pdf/2107.11317.pdf)] 
+        * ```🌱 Splitting the Sign Language Production (SLP) task into two distinct jointly-trained sub-tasks. (1) Translation sub-task: translate from spoken language to a latent sign language representation with gloss supervision. (2) Animation sub-task: produce expressive sign language sequences that closely resemble the learned spatio-temporal representation. ``` 
+        * ```🌱 Mixture of Motion Primitives (MoMP): temporally combine at inference to animate continuous sign language sequences.```
       * (arXiv preprint 2021) **Aligning Subtitles in Sign Language Videos**, Hannah Bull et al.  [[Paper](https://arxiv.org/pdf/2105.02877.pdf)] [[Project](https://www.robots.ox.ac.uk/~vgg/research/bslalign/)] 
         * ```📌 The first subtitle alignment task based on Transformers.```
       * (arXiv preprint 2021) **Continuous 3D Multi-Channel Sign Language Production via Progressive Transformers and Mixture Density Networks**, Ben Saunders et al.  [[Paper](https://arxiv.org/pdf/2103.06982.pdf)]  
