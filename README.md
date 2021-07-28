@@ -37,6 +37,7 @@ A collection of resources on Transformer in CV.
 
 ## <span id="head1"> *1. Description* </span>
 >🐌 Markdown Format:
+>
 > * (Conference/Journal Year) **Title**, First Author et al. [[Paper](URL)] [[Code](URL)] [[Project](URL)]
 >     * (Optional) ```🌱``` or ```📌 ```
 >     * (Optional) ⭐ or 👑 or 📚
@@ -88,6 +89,8 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Backbone"> **Backbone**  </span> **[`       «🎯Back To Top»       `](#)**
+     *  (arXiv preprint 2021) **Go Wider Instead of Deeper**, Fuzhao Xue et al. [[Paper](https://arxiv.org/pdf/2107.11817.pdf)] 
+        * ```🌱  ```     
      *  (ICCV 2021) **Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions**, Wenhai Wang et al. [[Paper](https://arxiv.org/pdf/2102.12122v1.pdf)] [[Code](https://github.com/whai362/PVT)] 
         * ```🌱 Pyramid Vision Transformer(PVT): can be not only trained on dense partitions of the image to achieve high output resolution but also using a progressive shrinking pyramid to reduce computations of large feature maps.  ```
         * 📚  Object Detection, Instance Segmentation, Semantic Segmentation
