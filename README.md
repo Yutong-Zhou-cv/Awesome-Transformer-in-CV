@@ -64,6 +64,8 @@ A collection of resources on Transformer in CV.
         
         * ```📌 First effort to design an automatic search algorithm for finding vision transformer models.```
         * ```🌱 Without extra finetuning or retraining, the trained supernet is able to produce thousands of high-quality transformers by inheriting weights from it directly. ```
+      * (ICCV 2021) **An Empirical Study of Training Self-Supervised Vision Transformers**, Xinlei Chen et al. [[Paper](https://arxiv.org/pdf/2104.02057v3.pdf)] 
+        * ```🌱 Instability is a major issue that degrades accuracy, and it can be hidden by apparently good results. ```
       * (ICCV 2021) **Rethinking and Improving Relative Position Encoding for Vision Transformer**, Kan Wu et al. [[Paper](https://houwenpeng.com/publications/iRPE.pdf)] [[Code](https://github.com/microsoft/AutoML/tree/main/iRPE)] 
         * ```🌱 image RPE (iRPE): New relative position encoding methods dedicated to 2D images which consider directional relative distance modeling as well as the interactions between queries and relative position embeddings in a self-attention mechanism.  ```
         * ```🌱 Simple, lightweight and can be easily plugged into transformer blocks.  ```
