@@ -91,6 +91,10 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Backbone"> **Backbone**  </span> **[`       «🎯Back To Top»       `](#)**
+     *  (ACMMM 2021) **DPT: Deformable Patch-based Transformer for Visual Recognition**, Zhiyang Chen et al. [[Paper](https://arxiv.org/pdf/2107.14467.pdf)] [[Code](https://github.com/CASIA-IVA-Lab/DPT)] 
+        * ```🌱 The Deformable Patch (DePatch) module learns to adaptively split the images into patches with different positions and scales in a data-driven way, which can well preserve the semantics in patches.  ```
+        * ```🌱 The DePatch module can work as a plug-and-play module, which can easily incorporate into different transformers to achieve end-to-end training.  ```
+        * 📚  Image Classification, Object Detection
      *  (arXiv preprint 2021) **Go Wider Instead of Deeper**, Fuzhao Xue et al. [[Paper](https://arxiv.org/pdf/2107.11817.pdf)] 
         * ```🌱 Replace feedforward network (FFN) with mixture-of-experts (MoE) and share the MoE layers across transformer blocks using individual layer normalization. Such deployment plays the role to transform various semantic representations, which makes the model more parameter-efficient and effective. ```     
      *  (ICCV 2021) **Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions**, Wenhai Wang et al. [[Paper](https://arxiv.org/pdf/2102.12122v1.pdf)] [[Code](https://github.com/whai362/PVT)] 
