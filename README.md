@@ -322,6 +322,9 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Other-Applications"> **Other Applications**  </span> **[`       «🎯Back To Top»       `](#)**
+      *  (ICCV 2021) [Neural Painting] **Paint Transformer: Feed Forward Neural Painting with Stroke Prediction**, Songhua Liu et al. [[Paper](https://arxiv.org/pdf/2108.03798.pdf)] [[Code](https://github.com/Huage001/PaintTransformer)]
+         *  ```🌱  Paint Transformer: predict the parameters of a stroke set with a feed-forward network, which can generate a set of strokes in parallel and obtain the final painting of size 512×512 in near real-time. ```
+         *  ```🌱  Paint Transformer proposed with a self-training pipeline that can be trained without any off-the-shelf dataset while still achieving excellent generalization capability. ```
       * (arXiv preprint 2021) [Computer-Aided Design] **Computer-Aided Design as Language**, Yaroslav Ganin et al. [[Paper](https://arxiv.org/pdf/2105.02769.pdf)] [[Code](https://github.com/sayakpaul/robustness-vit)]
       
         ![Figure from paper](pic/CAD_heart_sketch.png)
