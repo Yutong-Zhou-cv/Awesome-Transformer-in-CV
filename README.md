@@ -325,6 +325,9 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Other-Applications"> **Other Applications**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (arXiv preprint 2021) [Blind Face Inpainting] **FT-TDR: Frequency-guided Transformer and Top-Down Refinement Network for Blind Face Inpainting**, Junke Wang et al. [[Paper](https://arxiv.org/pdf/2108.04424.pdf)]
+        *  ```🌱  Frequency-guided Transformer and Top-Down Refinement Network (FT-TDR): a novel two-stage blind face inpainting method. ```
+        *  ```🌱 (1) Transformer-based network: detect the corrupted regions to be inpainted as masks by modeling the relation among different patches; (2) Top-down refinement network: hierarchically restore features at different levels and generate contents that are semantically consistent with the unmasked face regions.  ```
       * (ICCV 2021) [Neural Painting] **Paint Transformer: Feed Forward Neural Painting with Stroke Prediction**, Songhua Liu et al. [[Paper](https://arxiv.org/pdf/2108.03798.pdf)] [[Code](https://github.com/Huage001/PaintTransformer)]
         *  ```🌱  Paint Transformer: predict the parameters of a stroke set with a feed-forward network, which can generate a set of strokes in parallel and obtain the final painting of size 512×512 in near real-time. ```
         *  ```🌱  Paint Transformer proposed with a self-training pipeline that can be trained without any off-the-shelf dataset while still achieving excellent generalization capability. ```
