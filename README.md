@@ -61,13 +61,6 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) **Evo-ViT: Slow-Fast Token Evolution for Dynamic Vision Transformer**, Yifan Xu et al. [[Paper](https://arxiv.org/pdf/2108.01390.pdf)] 
         * ```🌱  Evo-ViT: a self-motivated slow-fast token evolution method for vision transformers, which conducts unstructured instance-wise token selection by taking advantage of the global class attention that is unique to vision transformers. ```
         * ```🌱  Significantly reduce the computational costs of vision transformers while maintaining comparable performance on image classification. ```
-      * (ICCV 2021) **AutoFormer: Searching Transformers for Visual Recognition**, Minghao Chen et al. [[Paper](https://arxiv.org/pdf/2107.00651.pdf)] [[Code](https://github.com/microsoft/AutoML/tree/main/AutoFormer)] 
-
-        ![Figure from paper](pic/overview.gif)
-        > *(From: https://github.com/microsoft/AutoML/tree/main/AutoFormer)*
-        
-        * ```📌 First effort to design an automatic search algorithm for finding vision transformer models.```
-        * ```🌱 Without extra finetuning or retraining, the trained supernet is able to produce thousands of high-quality transformers by inheriting weights from it directly. ```
       * (ICCV 2021) **An Empirical Study of Training Self-Supervised Vision Transformers**, Xinlei Chen et al. [[Paper](https://arxiv.org/pdf/2104.02057v3.pdf)] 
         * ```🌱 Instability is a major issue that degrades accuracy, and it can be hidden by apparently good results. ```
       * (ICCV 2021) **Rethinking and Improving Relative Position Encoding for Vision Transformer**, Kan Wu et al. [[Paper](https://houwenpeng.com/publications/iRPE.pdf)] [[Code](https://github.com/microsoft/AutoML/tree/main/iRPE)] 
@@ -95,6 +88,25 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Backbone"> **Backbone**  </span> **[`       «🎯Back To Top»       `](#)**
+     *  (ICCV 2021) **AutoFormer: Searching Transformers for Visual Recognition**, Minghao Chen et al. [[Paper](https://arxiv.org/pdf/2107.00651.pdf)] [[Code](https://github.com/microsoft/AutoML/tree/main/AutoFormer)] 
+
+        ![Figure from paper](pic/overview.gif)
+        > *(From: https://github.com/microsoft/AutoML/tree/main/AutoFormer)*
+        
+        * ```📌 First effort to design an automatic search algorithm for finding vision transformer models.```
+        * ```🌱 Without extra finetuning or retraining, the trained supernet is able to produce thousands of high-quality transformers by inheriting weights from it directly. ```
+     *  (ICCV 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection)] 
+        * ```🌱 A hierarchical Transformer which representation is computed with shifted windows. ```
+        * ```🌱 The shifted windowing scheme brings greater efficiency by limiting self-attention computation to non-overlapping local windows while also allowing for cross-window connection. ```
+        <!--* ⭐ SOTA on [COCO test-dev](https://cocodataset.org/#home) for Object Detection -->
+        * 📚  Image Classification, Object Detection, Instance Segmentation, Semantic Segmentation, Real-Time Object Detection
+     *  (ICCV 2021) **Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet**, Li Yuan et al. [[Paper](https://arxiv.org/pdf/2101.11986.pdf)] [[Code](https://github.com/yitu-opensource/T2T-ViT)] 
+        * ```🌱 Tokens-To-Token Vision Transformer (T2T-ViT), which incorporates 1) a layer-wise Tokens-to-Token (T2T) transformation to progressively structurize the image to tokens by recursively aggregating neighboring Tokens into one Token (Tokens-to-Token), such that local structure represented by surrounding tokens can be modeled and tokens length can be reduced; 2) an efficient backbone with a deep-narrow structure for vision transformer motivated by CNN architecture design after empirical study. ```
+     *  (ICCV 2021) **Vision Transformer with Progressive Sampling**, Xiaoyu Yue et al. [[Paper](https://arxiv.org/pdf/2108.01684.pdf)] [[Code](https://github.com/yuexy/PS-ViT)] 
+        * ```🌱 PS-ViT: an iterative and progressive sampling strategy to locate discriminative regions. At each iteration, embeddings of the current sampling step are fed into a transformer encoder layer, and a group of sampling offsets is predicted to update the sampling locations for the next step.  ```
+     *  (ICCV 2021) **Rethinking Spatial Dimensions of Vision Transformers**, Byeongho Heo et al. [[Paper](https://arxiv.org/pdf/2103.16302v1.pdf)] [[Code](https://github.com/naver-ai/pit)] 
+        * ```🌱 Spatial dimension reduction is beneficial to a transformer architecture. ```
+        * ```🌱 Pooling-based Vision Transformer (PiT) upon the original ViT model. ```
      *  (ACMMM 2021) **DPT: Deformable Patch-based Transformer for Visual Recognition**, Zhiyang Chen et al. [[Paper](https://arxiv.org/pdf/2107.14467.pdf)] [[Code](https://github.com/CASIA-IVA-Lab/DPT)] 
         * ```🌱 The Deformable Patch (DePatch) module learns to adaptively split the images into patches with different positions and scales in a data-driven way, which can well preserve the semantics in patches.  ```
         * ```🌱 The DePatch module can work as a plug-and-play module, which can easily incorporate into different transformers to achieve end-to-end training.  ```
@@ -114,11 +126,6 @@ A collection of resources on Transformer in CV.
      * (arXiv preprint 2021) **CSWin Transformer: A General Vision Transformer Backbone with Cross-Shaped Windows**, Xiaoyi Dong et al. [[Paper](https://arxiv.org/pdf/2107.00652v1.pdf)] [[Code](https://github.com/microsoft/CSWin-Transformer)] 
         * ```🌱 Cross-Shaped Window self-attention: compute self-attention in the horizontal and vertical stripes in parallel forms a cross-shaped window. Each stripe is obtained by splitting the input feature into stripes of equal width.  ```
         * 📚  Object Detection, Semantic Segmentation
-     * (arXiv preprint 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection)] 
-        * ```🌱 A hierarchical Transformer which representation is computed with shifted windows. ```
-        * ```🌱 The shifted windowing scheme brings greater efficiency by limiting self-attention computation to non-overlapping local windows while also allowing for cross-window connection. ```
-        * ⭐ SOTA on [COCO test-dev](https://cocodataset.org/#home) for Object Detection
-        * 📚  Image Classification, Object Detection, Instance Segmentation, Semantic Segmentation, Real-Time Object Detection
 
 
 
@@ -163,9 +170,6 @@ A collection of resources on Transformer in CV.
         * ```🌱 Introduce a new way to integrate positional information in vision transformers--attention bias. ```
         * ```🌱 LeViT: a hybrid neural network for fast inference image classification. ```
         * ```🌱 5 times faster than EfficientNet on CPU. ```
-      * (arXiv preprint 2021) **Rethinking Spatial Dimensions of Vision Transformers**, Byeongho Heo et al. [[Paper](https://arxiv.org/pdf/2103.16302v1.pdf)] [[Code](https://github.com/naver-ai/pit)] 
-        * ```🌱 Spatial dimension reduction is beneficial to a transformer architecture. ```
-        * ```🌱 Pooling-based Vision Transformer (PiT) upon the original ViT model. ```
       * (arXiv preprint 2021) **Do You Even Need Attention? A Stack of Feed-Forward Layers Does Surprisingly Well on ImageNet**, Luke Melas-Kyriazi [[Paper](https://arxiv.org/pdf/2105.02723.pdf)] [[Code](https://github.com/lukemelas/do-you-even-need-attention)] 
         * ```🌱 Attention Layer-free ```
       * (arXiv preprint 2021) **Self-Supervised Learning with Swin Transformers**, Zhenda Xie et al [[Paper](https://arxiv.org/pdf/2105.04553.pdf)] [[Code](https://github.com/SwinTransformer/Transformer-SSL)] 
@@ -443,7 +447,8 @@ A collection of resources on Transformer in CV.
         * ```🌱 Examine what the four newly proposed MLP self-attention architectures```
 
   
-
+<!--## Stargazers over time
+[![Stargazers over time](https://starchart.cc/Yutong-Zhou-cv/Awesome-Transformer-in-CV.svg)](https://starchart.cc/Yutong-Zhou-cv/Awesome-Transformer-in-CV)-->
 
 <!--#comments * (arXiv preprint 2021) **Title**, firstauthor et al. [[Paper]()] [[Code]()] * ```🌱 tips ```-->
 
