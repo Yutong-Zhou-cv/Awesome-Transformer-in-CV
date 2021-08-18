@@ -330,6 +330,10 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Other-Applications"> **Other Applications**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (arXiv preprint 2021) [💬Light Field Image Super-Resolution] **Light Field Image Super-Resolution with Transformers**, Zhengyu Liang et al. [[Paper](https://arxiv.org/pdf/2108.07597.pdf)] [[Code](https://github.com/ZhengyuLiang24/LFT)]
+        *  ```🌱 Angular Transformer: incorporate complementary information among different views.```
+        *  ```🌱 Spatial Transformer: capture both local and long-range dependencies within each sub-aperture image. ```
+        *  ```📌 First attempt to adapt Transformers to Light Field(LF) image processing and propose a Transformer-based network for Light Field(LF) image Super-Resolution(SR). ```
       * (ACMMM 2021) [💬Structured Text Understanding] **StrucTexT: Structured Text Understanding with Multi-Modal Transformers**, Yulin Li et al. [[Paper](https://arxiv.org/pdf/2108.02923.pdf)]
         *  ```🌱 StrucTexT: a unified framework with a segment-token aligned encoder to deal with the entity labeling and entity linking tasks at different levels of granularity. ```
         *  ```🌱 StrucTexT uses the existing Masked Visual Language Modeling task and the new Sentence Length Prediction and Paired Boxes Direction tasks to incorporate the multi-modal information across text, image, and layout. ```
