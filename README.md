@@ -330,6 +330,9 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Other-Applications"> **Other Applications**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (ICCV 2021) [💬Image Quality Assessment] **MUSIQ: Multi-scale Image Quality Transformer**, Junjie Ke et al. [[Paper](https://arxiv.org/pdf/2108.05997.pdf)] [[Code](https://github.com/google-research/google-research/tree/master/musiq)]
+        *  ```🌱 (Patch-based) Multi-scale image quality Transformer (MUSIQ): process native resolution images with varying sizes and aspect ratios; capture image quality at different granularities.```
+        *  ⭐ SOTA on [PaQ-2-PiQ](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ying_From_Patches_to_Pictures_PaQ-2-PiQ_Mapping_the_Perceptual_Space_of_CVPR_2020_paper.pdf), [SPAQ](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_Perceptual_Quality_Assessment_of_Smartphone_Photography_CVPR_2020_paper.pdf) and  [KonIQ-10k](https://arxiv.org/pdf/1910.06180v2.pdf)
       * (arXiv preprint 2021) [💬Light Field Image Super-Resolution] **Light Field Image Super-Resolution with Transformers**, Zhengyu Liang et al. [[Paper](https://arxiv.org/pdf/2108.07597.pdf)] [[Code](https://github.com/ZhengyuLiang24/LFT)]
         *  ```🌱 Angular Transformer: incorporate complementary information among different views.```
         *  ```🌱 Spatial Transformer: capture both local and long-range dependencies within each sub-aperture image. ```
