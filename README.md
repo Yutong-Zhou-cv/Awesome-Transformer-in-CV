@@ -57,7 +57,7 @@ A collection of resources on Transformer in CV.
 * (arXiv preprint 2020+2021) **A Survey on Visual Transformer** [[v1](https://arxiv.org/pdf/2012.12556v1.pdf)](2020.12.23) [[v2](https://arxiv.org/pdf/2012.12556v2.pdf)](2021.01.15) [[v3](https://arxiv.org/pdf/2012.12556v3.pdf)](2021.01.30)
 ## <span id="head3"> *3. Paper With Code* </span>
 
-  * <span id="head-Theoretical-Thinking"> **Theoretical Thinking**  </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Theoretical-Thinking"> **Theoretical Thinking** </span> **[`       «🎯Back To Top»       `](#)**
       * (arXiv preprint 2021) **Evo-ViT: Slow-Fast Token Evolution for Dynamic Vision Transformer**, Yifan Xu et al. [[Paper](https://arxiv.org/pdf/2108.01390.pdf)] 
         * ```🌱  Evo-ViT: a self-motivated slow-fast token evolution method for vision transformers, which conducts unstructured instance-wise token selection by taking advantage of the global class attention that is unique to vision transformers. ```
         * ```🌱  Significantly reduce the computational costs of vision transformers while maintaining comparable performance on image classification. ```
@@ -88,6 +88,10 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Backbone"> **Backbone**  </span> **[`       «🎯Back To Top»       `](#)**
+     *  (arXiv preprint 2021) **DynamicViT: Efficient Vision Transformers with Dynamic Token Sparsification**, Yongming Rao et al. [[Paper](https://arxiv.org/pdf/2106.02034.pdf)] [[Code](https://github.com/raoyongming/DynamicViT)] [[Project](https://dynamicvit.ivg-research.xyz/)]
+        * ```🌱 A dynamic token sparsification framework which used to prune redundant tokens progressively and dynamically based on the input.  ```
+        * ```🌱 To optimize the prediction module in an end-to-end manner, an attention masking strategy is used to differentiably prune a token by blocking its interactions with other tokens.  ```
+        * ```🌱 This method greatly reduces 31%~37% FLOPs and improves the throughput by over 40% while the drop of accuracy is within 0.5% for various vision transformers. ```
      *  (ICCV 2021) **AutoFormer: Searching Transformers for Visual Recognition**, Minghao Chen et al. [[Paper](https://arxiv.org/pdf/2107.00651.pdf)] [[Code](https://github.com/microsoft/AutoML/tree/main/AutoFormer)] 
 
         ![Figure from paper](pic/overview.gif)
@@ -348,7 +352,7 @@ A collection of resources on Transformer in CV.
         *  ```🌱  Paint Transformer proposed with a self-training pipeline that can be trained without any off-the-shelf dataset while still achieving excellent generalization capability. ```
       * (arXiv preprint 2021) [💬Computer-Aided Design] **Computer-Aided Design as Language**, Yaroslav Ganin et al. [[Paper](https://arxiv.org/pdf/2105.02769.pdf)] [[Code](https://github.com/sayakpaul/robustness-vit)]
       
-        ![Figure from paper](pic/CAD_heart_sketch.png)
+        <!-- ![Figure from paper](pic/CAD_heart_sketch.png) -->
         * ```🌱 A machine learning model capable of automatically generating such sketches.```
         * ```🌱 A combination of a general-purpose language modeling technique alongside an off-the-shelf data serialization protocol. ```
       * (MICCAI 2021) [💬Automatic Surgical Instruction Generation] **Surgical Instruction Generation with Transformers**, Jinglu Zhang et al. [[Paper](https://arxiv.org/pdf/2107.06964.pdf)] 
