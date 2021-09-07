@@ -334,6 +334,12 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Other-Applications"> **Other Applications**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (arXiv preprint 2021) [💬Hyperspectral Image Super-Resolution] **Fusformer: A Transformer-based Fusion Approach for Hyperspectral Image Super-resolution**, Jin-Fan Hu et al. [[Paper](https://arxiv.org/pdf/2109.02079.pdf)] 
+        *  ```🌱 Fusformer: a transformer-based network for fusing the low-resolution hyperspectral images and high-resolution multispectral images to obtain the high-resolution hyperspectral images.```
+        *  ```📌 The first time using the transformer to solve the hyperspectral image super-resolution problem. The self-attention mechanism in the transformer can represent more global information than previous CNN architectures. ```
+      * (ICCV 2021) [💬3D Human Texture Estimation] **3D Human Texture Estimation from a Single Image with Transformers**, Xiangyu Xu et al. [[Paper](https://arxiv.org/pdf/2109.02563.pdf)] [[Code](https://github.com/xuxy09/Texformer)] [[Project](https://www.mmlab-ntu.com/project/texformer/)]
+        *  ```🌱 Effectively exploit the global information of the input image.```
+        *  ```🌱 Mask-fusion strategy: combine the advantages of the RGB-based and texture-flow-based models. ```
       * (ICCV 2021) [💬Image Quality Assessment] **MUSIQ: Multi-scale Image Quality Transformer**, Junjie Ke et al. [[Paper](https://arxiv.org/pdf/2108.05997.pdf)] [[Code](https://github.com/google-research/google-research/tree/master/musiq)]
         *  ```🌱 (Patch-based) Multi-scale image quality Transformer (MUSIQ): process native resolution images with varying sizes and aspect ratios; capture image quality at different granularities.```
         *  ⭐ SOTA on [PaQ-2-PiQ](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ying_From_Patches_to_Pictures_PaQ-2-PiQ_Mapping_the_Perceptual_Space_of_CVPR_2020_paper.pdf), [SPAQ](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_Perceptual_Quality_Assessment_of_Smartphone_Photography_CVPR_2020_paper.pdf) and  [KonIQ-10k](https://arxiv.org/pdf/1910.06180v2.pdf)
