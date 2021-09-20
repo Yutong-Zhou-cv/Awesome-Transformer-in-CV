@@ -336,6 +336,13 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Other-Applications"> **Other Applications**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (ICCV 2021) [💬Object Re-Identification] **TransReID: Transformer-based Object Re-Identification**, Shuting He et al. [[Paper](https://arxiv.org/pdf/2102.04378.pdf)] [[Code](https://github.com/damo-cv/TransReID)]
+        *  ```📌 The first pure Transformer-based re-identification (ReID) research.```
+        *  ```🌱 TransReID: encode an image as a sequence of patches and build a transformer-based strong baseline with a few critical improvements. ```
+      * (ICCV 2021) [💬Action Detection] **OadTR: Online Action Detection with Transformers**, Xiang Wang et al. [[Paper](https://arxiv.org/pdf/2106.11149.pdf)] [[Code](https://github.com/wangxiang1230/OadTR)]
+        *  ```🌱 OadTR: The encoder attached with a task token aims to capture the relationships and global interactions between historical observations. The decoder extracts auxiliary information by aggregating anticipated future clip representations. ```
+      * (arXiv preprint 2021) [💬Image Style Transfer] **StyTr^2: Unbiased Image Style Transfer with Transformers**, Yingying Deng et al. [[Paper](https://arxiv.org/pdf/2105.14576.pdf)] [[Code](https://github.com/diyiiyiii/StyTR-2)]
+        *  ```🌱 StyTr^2: two different transformer encoders to generate domain-specific sequences for content and style.```
       * (arXiv preprint 2021) [💬Hyperspectral Image Super-Resolution] **Fusformer: A Transformer-based Fusion Approach for Hyperspectral Image Super-resolution**, Jin-Fan Hu et al. [[Paper](https://arxiv.org/pdf/2109.02079.pdf)] 
         *  ```🌱 Fusformer: a transformer-based network for fusing the low-resolution hyperspectral images and high-resolution multispectral images to obtain the high-resolution hyperspectral images.```
         *  ```📌 The first time using the transformer to solve the hyperspectral image super-resolution problem. The self-attention mechanism in the transformer can represent more global information than previous CNN architectures. ```
