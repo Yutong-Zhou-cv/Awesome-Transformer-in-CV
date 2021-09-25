@@ -339,6 +339,10 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Other-Applications"> **Other Applications**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (arXiv preprint 2021) [💬Face Landmark Localization] **LOTR: Face Landmark Localization Using Localization Transformer**, Ukrit Watchareeruetai et al. [[Paper](https://arxiv.org/pdf/2109.10057.pdf)]
+        *  ```📌 The first research of Transformers in direct regression of landmarks.```
+        *  ```🌱 Localization Transformer (LOTR): a direct coordinate regression approach leveraging a Transformer network to better utilize the spatial information in the feature map. ```
+        *  ```🌱 Trained end-to-end without requiring any post-processing steps. ```
       * (ICCV 2021) [💬Object Re-Identification] **TransReID: Transformer-based Object Re-Identification**, Shuting He et al. [[Paper](https://arxiv.org/pdf/2102.04378.pdf)] [[Code](https://github.com/damo-cv/TransReID)]
         *  ```📌 The first pure Transformer-based re-identification (ReID) research.```
         *  ```🌱 TransReID: encode an image as a sequence of patches and build a transformer-based strong baseline with a few critical improvements. ```
