@@ -88,6 +88,9 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Backbone"> **Backbone**  </span> **[`       «🎯Back To Top»       `](#)**
+     *  (arXiv preprint 2021) **MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer**, Sachin Mehta et al. [[Paper](https://arxiv.org/pdf/2110.02178.pdf)]
+        * ```🌱 MobileViT: a light-weight and general-purpose vision transformer for mobile devices, which presents a different perspective for the global processing of information with transformers.  ```
+        * ```🌱 MobileViT significantly outperforms CNN- and ViT-based networks across different tasks and datasets. ```
      *  (arXiv preprint 2021) **DynamicViT: Efficient Vision Transformers with Dynamic Token Sparsification**, Yongming Rao et al. [[Paper](https://arxiv.org/pdf/2106.02034.pdf)] [[Code](https://github.com/raoyongming/DynamicViT)] [[Project](https://dynamicvit.ivg-research.xyz/)]
         * ```🌱 A dynamic token sparsification framework which used to prune redundant tokens progressively and dynamically based on the input.  ```
         * ```🌱 To optimize the prediction module in an end-to-end manner, an attention masking strategy is used to differentiably prune a token by blocking its interactions with other tokens.  ```
