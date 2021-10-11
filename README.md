@@ -1,11 +1,10 @@
-# <p align=center>`Awesome Transformer in CV`</p>
-<p align="center">
+# <p align=center>`Awesome Transformer🤹‍♂️ in CV`</p>
+
+<!--<p align="center">
   <img width="300" src="https://camo.githubusercontent.com/1131548cf666e1150ebd2a52f44776d539f06324/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f6d61737465722f6d656469612f6c6f676f2e737667" "Awesome!">
-</p>
+</p> -->
 
-<!--[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) -->
-
-![visitors](https://visitor-badge.glitch.me/badge?page_id=Yutong-Zhou-cv/awesome-Transformer-in-CV) ![GitHub stars](https://img.shields.io/github/stars/Yutong-Zhou-cv/awesome-Transformer-in-CV.svg?color=red) 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![visitors](https://visitor-badge.glitch.me/badge?page_id=Yutong-Zhou-cv/awesome-Transformer-in-CV) ![GitHub stars](https://img.shields.io/github/stars/Yutong-Zhou-cv/awesome-Transformer-in-CV.svg?color=red) 
 
 A collection of resources on Transformer in CV.
 
@@ -88,14 +87,18 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Backbone"> **Backbone**  </span> **[`       «🎯Back To Top»       `](#)**
-     *  (arXiv preprint 2021) **MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer**, Sachin Mehta et al. [[Paper](https://arxiv.org/pdf/2110.02178.pdf)]
+     * (arXiv preprint 2021) **UniNet: Unified Architecture Search with Convolution, Transformer, and MLP**, Jihao Liu et al. [[Paper](https://arxiv.org/pdf/2110.04035.pdf)]
+        * ```🌱 The widely-used stridden convolution or pooling-based down-sampling modules become the performance bottlenecks when the operators are combined to form a network. Two novel context-aware down-sampling modules, which can better adapt to the global information encoded by transformer and MLP operators.```
+        * ```📌 The first optimal combination of convolution, transformer and MLP to identify high-performance visual neural networks.```
+        * ```⭐ Outperforms pure convolution-based architecture(EfficientNet), and pure transformer-based architecture(Swin-Transformer), on ImageNet classification, COCO object detection, and ADE20K semantic segmentation.```
+     * (arXiv preprint 2021) **MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer**, Sachin Mehta et al. [[Paper](https://arxiv.org/pdf/2110.02178.pdf)]
         * ```🌱 MobileViT: a light-weight and general-purpose vision transformer for mobile devices, which presents a different perspective for the global processing of information with transformers.  ```
         * ```🌱 MobileViT significantly outperforms CNN- and ViT-based networks across different tasks and datasets. ```
-     *  (arXiv preprint 2021) **DynamicViT: Efficient Vision Transformers with Dynamic Token Sparsification**, Yongming Rao et al. [[Paper](https://arxiv.org/pdf/2106.02034.pdf)] [[Code](https://github.com/raoyongming/DynamicViT)] [[Project](https://dynamicvit.ivg-research.xyz/)]
+     * (arXiv preprint 2021) **DynamicViT: Efficient Vision Transformers with Dynamic Token Sparsification**, Yongming Rao et al. [[Paper](https://arxiv.org/pdf/2106.02034.pdf)] [[Code](https://github.com/raoyongming/DynamicViT)] [[Project](https://dynamicvit.ivg-research.xyz/)]
         * ```🌱 A dynamic token sparsification framework which used to prune redundant tokens progressively and dynamically based on the input.  ```
         * ```🌱 To optimize the prediction module in an end-to-end manner, an attention masking strategy is used to differentiably prune a token by blocking its interactions with other tokens.  ```
         * ```🌱 This method greatly reduces 31%~37% FLOPs and improves the throughput by over 40% while the drop of accuracy is within 0.5% for various vision transformers. ```
-     *  (ICCV 2021) **AutoFormer: Searching Transformers for Visual Recognition**, Minghao Chen et al. [[Paper](https://arxiv.org/pdf/2107.00651.pdf)] [[Code](https://github.com/microsoft/AutoML/tree/main/AutoFormer)] 
+     * (ICCV 2021) **AutoFormer: Searching Transformers for Visual Recognition**, Minghao Chen et al. [[Paper](https://arxiv.org/pdf/2107.00651.pdf)] [[Code](https://github.com/microsoft/AutoML/tree/main/AutoFormer)] 
 
         ![Figure from paper](pic/overview.gif)
         > *(From: https://github.com/microsoft/AutoML/tree/main/AutoFormer)*
@@ -195,6 +198,8 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Object-Detection"> **Object Detection**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (arXiv preprint 2021) **ViDT: An Efficient and Effective Fully Transformer-based Object Detector**, Hwanjun Song et al. [[Paper](https://arxiv.org/pdf/2110.03921.pdf)] [[Code](https://github.com/naver-ai/vidt)]
+        * ```🌱  Vision and Detection Transformers (ViDT): an effective and efficient object detector introduces a reconfigured attention module to extend the recent Swin Transformer to be a standalone object detector, followed by a computationally efficient transformer decoder. ```
       * (CVPR 2021) **You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection**, Zhigang Dai et al [[Paper](https://arxiv.org/pdf/2011.09094.pdf)] [[Code](https://github.com/hustvl/YOLOS)] 
         * ```🌱 2D object detection can be accomplished in a pure sequence-to-sequence manner by taking a sequence of fixed-sized non-overlapping image patches as input.  ```
         * ```🌱 Discuss the impacts of prevalent pre-train schemes and model scaling strategies for Transformer in vision.```
