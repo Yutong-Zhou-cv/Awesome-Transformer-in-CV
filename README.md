@@ -278,6 +278,15 @@ A collection of resources on Transformer in CV.
      
      
   * <span id="head-Sign-Language"> **Sign Language**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (ACMMM 2021) **Contrastive Disentangled Meta-Learning for Signer-Independent Sign Language Translation**, Tao Jin et al. [[Paper](https://dl.acm.org/doi/abs/10.1145/3474085.3475456)] 
+        * ⭐ SOTA on [PHOENIX14T](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/) for Sign Language Translation
+        * ```🌱 Contrastive Disentangled Meta-learning (CDM): focuses on augmenting the generalization ability of the translation model.  ``` 
+        * ```🌱 We facilitate the frame-word alignments by leveraging contrastive constraints between the obtained task-specific representation and the decoding output. ```
+        * ```🌱 Considering that vanilla meta-learning methods utilize the multiple specific signers insufficiently, a fine-grained learning strategy is introduced that simultaneously conducts meta-learning in various domain shift scenarios in each iteration. ```
+      * (ACMMM 2021) **SimulSLT: End-to-End Simultaneous Sign Language Translation**, Aoxiong Yin et al. [[Paper](https://dl.acm.org/doi/abs/10.1145/3474085.3475544)] 
+        * ```📌 The first end-to-end simultaneous sign language translation model, which can translate sign language videos into target text concurrently. ```
+        * ```🌱 SimulSLT: composed of a text decoder, a boundary predictor, and a masked encoder. 1) use the wait-k strategy for simultaneous translation. 2) design a novel boundary predictor based on the integrate-and-fire module to output the gloss boundary, which is used to model the correspondence between the sign language video and the gloss. 3) propose an innovative re-encode method to help the model obtain more abundant contextual information, which allows the existing video features to interact fully.  ``` 
+        * ```🌱 SimulSLT achieves BLEU scores that exceed the latest end-to-end non-simultaneous sign language translation model while maintaining low latency.  ``` 
       * (ICCV 2021) **Mixed SIGNals: Sign Language Production via a Mixture of Motion Primitives**, Ben Saunders et al. [[Paper](https://arxiv.org/pdf/2107.11317.pdf)] 
         * ```🌱 Splitting the Sign Language Production (SLP) task into two distinct jointly-trained sub-tasks. (1) Translation sub-task: translate from spoken language to a latent sign language representation with gloss supervision. (2) Animation sub-task: produce expressive sign language sequences that closely resemble the learned spatio-temporal representation. ``` 
         * ```🌱 Mixture of Motion Primitives (MoMP): temporally combine at inference to animate continuous sign language sequences.```
