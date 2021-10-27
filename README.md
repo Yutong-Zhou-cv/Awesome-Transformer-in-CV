@@ -356,6 +356,10 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Other-Applications"> **Other Applications**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (ACMMM 2021) [💬Geometry and Illumination Distortion Recovery for Document Images] **DocTr: Document Image Transformer for Geometric Unwarping and Illumination Correction**, Hao Feng et al. [[Paper](https://dl.acm.org/doi/10.1145/3474085.3475388)]
+        *  ```📌 The first research of geometry and illumination distortion of document images based on transformer.```
+        *  ⭐ SOTA on several datasets ([doc3D](https://github.com/cvlab-stonybrook/doc3D-dataset), [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html)) for document image reflection task.
+        *  ```🌱 Document Image Transformer (DocTr): A geometric unwarping transformer (captures the global context of the document image by self-attention mechanism and decodes the pixel-wise displacement solution to correct the geometric distortion) and an illumination correction transformer (removes the shading artifacts). ```
       * (arXiv preprint 2021) [💬Face Landmark Localization] **LOTR: Face Landmark Localization Using Localization Transformer**, Ukrit Watchareeruetai et al. [[Paper](https://arxiv.org/pdf/2109.10057.pdf)]
         *  ```📌 The first research of Transformers in direct regression of landmarks.```
         *  ```🌱 Localization Transformer (LOTR): a direct coordinate regression approach leveraging a Transformer network to better utilize the spatial information in the feature map. ```
@@ -380,7 +384,7 @@ A collection of resources on Transformer in CV.
         *  ```🌱 Angular Transformer: incorporate complementary information among different views.```
         *  ```🌱 Spatial Transformer: capture both local and long-range dependencies within each sub-aperture image. ```
         *  ```📌 First attempt to adapt Transformers to Light Field(LF) image processing and propose a Transformer-based network for Light Field(LF) image Super-Resolution(SR). ```
-      * (ACMMM 2021) [💬Structured Text Understanding] **StrucTexT: Structured Text Understanding with Multi-Modal Transformers**, Yulin Li et al. [[Paper](https://arxiv.org/pdf/2108.02923.pdf)]
+      * (ACMMM 2021) [💬Structured Text Understanding] **StrucTexT: Structured Text Understanding with Multi-Modal Transformers**, Yulin Li et al. [[Paper](https://dl.acm.org/doi/abs/10.1145/3474085.3475345)]
         *  ```🌱 StrucTexT: a unified framework with a segment-token aligned encoder to deal with the entity labeling and entity linking tasks at different levels of granularity. ```
         *  ```🌱 StrucTexT uses the existing Masked Visual Language Modeling task and the new Sentence Length Prediction and Paired Boxes Direction tasks to incorporate the multi-modal information across text, image, and layout. ```
       * (arXiv preprint 2021) [💬Blind Face Inpainting] **FT-TDR: Frequency-guided Transformer and Top-Down Refinement Network for Blind Face Inpainting**, Junke Wang et al. [[Paper](https://arxiv.org/pdf/2108.04424.pdf)]
