@@ -356,6 +356,8 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Other-Applications"> **Other Applications**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (ACMMM 2021) [💬Video Background Music Generation] **Video Background Music Generation with Controllable Music Transformer**, Shangzhe Di et al. [[Paper](https://dl.acm.org/doi/10.1145/3474085.3475195)]
+        *  ```🌱 This paper establish the rhythmic relationships between video and background music, which connect timing, motion speed, and motion saliency from video with beat, simu-note density, and simu-note strength from music. ```
       * (ACMMM 2021) [💬Geometry and Illumination Distortion Recovery for Document Images] **DocTr: Document Image Transformer for Geometric Unwarping and Illumination Correction**, Hao Feng et al. [[Paper](https://dl.acm.org/doi/10.1145/3474085.3475388)]
         *  ```📌 The first research of geometry and illumination distortion of document images based on transformer.```
         *  ⭐ SOTA on several datasets ([doc3D](https://github.com/cvlab-stonybrook/doc3D-dataset), [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html)) for document image reflection task.
