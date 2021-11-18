@@ -88,6 +88,9 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Backbone"> **Backbone**  </span> **[`       «🎯Back To Top»       `](#)**
+     * (arXiv preprint 2021) **Improved Robustness of Vision Transformer via PreLayerNorm in Patch Embedding**, Bum Jun Kim et al. [[Paper](https://arxiv.org/pdf/2111.08413.pdf)]
+        * ```🌱 This paper examines the behavior and robustness of ViT in more detail with various image transforms.```
+        * ```🌱 PreLayerNorm: modify patch embedding structure to ensure scale-invariant behavior of ViT, when the color scale changes in ViT's patch embedding. ```
      * (arXiv preprint 2021) **UniNet: Unified Architecture Search with Convolution, Transformer, and MLP**, Jihao Liu et al. [[Paper](https://arxiv.org/pdf/2110.04035.pdf)]
         * ```🌱 The widely-used stridden convolution or pooling-based down-sampling modules become the performance bottlenecks when the operators are combined to form a network. Two novel context-aware down-sampling modules, which can better adapt to the global information encoded by transformer and MLP operators.```
         * ```📌 The first optimal combination of convolution, transformer and MLP to identify high-performance visual neural networks.```
