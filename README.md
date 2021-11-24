@@ -88,6 +88,11 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Backbone"> **Backbone**  </span> **[`       «🎯Back To Top»       `](#)**
+     * (arXiv preprint 2021) **Swin Transformer V2: Scaling Up Capacity and Resolution**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2111.09883.pdf)] [[Code](https://github.com/microsoft/Swin-Transformer)]
+
+        ![Figure from paper](pic/Swin_v2.png)
+        * ⭐ **84.0%** top-1 accuracy on ImageNet-V2 Image Classification; **63.1/54.4** box/mask mAP on COCO Object Detection; **59.9** mIoU on ADE20K Semantic Segmentation; **86.8%** top-1 accuracy on Kinetics-400 Video Action Classification.
+        * 🌱 Scaling [Swin Transformer](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Swin_Transformer_Hierarchical_Vision_Transformer_Using_Shifted_Windows_ICCV_2021_paper.pdf) up to 3 billion parameters; Making it capable of training with images/windows of up to 1,536×1,536 resolution; Achieving state-of-the-art accuracy on a variety of benchmarks.
      * (arXiv preprint 2021) **Improved Robustness of Vision Transformer via PreLayerNorm in Patch Embedding**, Bum Jun Kim et al. [[Paper](https://arxiv.org/pdf/2111.08413.pdf)]
         * ```🌱 This paper examines the behavior and robustness of ViT in more detail with various image transforms.```
         * ```🌱 PreLayerNorm: modify patch embedding structure to ensure scale-invariant behavior of ViT, when the color scale changes in ViT's patch embedding. ```
@@ -104,7 +109,7 @@ A collection of resources on Transformer in CV.
         * ```🌱 This method greatly reduces 31%~37% FLOPs and improves the throughput by over 40% while the drop of accuracy is within 0.5% for various vision transformers. ```
      * (ICCV 2021) **AutoFormer: Searching Transformers for Visual Recognition**, Minghao Chen et al. [[Paper](https://arxiv.org/pdf/2107.00651.pdf)] [[Code](https://github.com/microsoft/AutoML/tree/main/AutoFormer)] 
 
-        ![Figure from paper](pic/overview.gif)
+        ![Figure from paper](pic/AutoFormer.gif)
         > *(From: https://github.com/microsoft/AutoML/tree/main/AutoFormer)*
         
         * ```📌 First effort to design an automatic search algorithm for finding vision transformer models.```
@@ -135,7 +140,7 @@ A collection of resources on Transformer in CV.
      *  (arXiv preprint 2021) **Focal Self-attention for Local-Global Interactions in Vision Transformers**, Jianwei Yang et al. [[Paper](https://arxiv.org/pdf/2107.00641v1.pdf)] 
         * ```🌱 Focal self-attention: a new mechanism that incorporates both fine-grained local and coarse-grained global interactions. Each token attends the closest surrounding tokens at fine granularity, but the tokens far away at a coarse granularity, and thus can capture both short- and long-range visual dependencies efficiently and effectively.  ```
         * ⭐ SOTA on [ADE20K dataset, ADE20K val](https://groups.csail.mit.edu/vision/datasets/ADE20K/) for Semantic Segmentation
-        * ⭐ SOTA on [COCO test-dev, COCO minival](https://cocodataset.org/#home) for Instance Segmentation
+        * ⭐ SOTA on [COCO test-dev, minival](https://cocodataset.org/#home) for Instance Segmentation
         * 📚  Image Classification, Object Detection, Instance Segmentation, Semantic Segmentation
      * (arXiv preprint 2021) **CSWin Transformer: A General Vision Transformer Backbone with Cross-Shaped Windows**, Xiaoyi Dong et al. [[Paper](https://arxiv.org/pdf/2107.00652v1.pdf)] [[Code](https://github.com/microsoft/CSWin-Transformer)] 
         * ```🌱 Cross-Shaped Window self-attention: compute self-attention in the horizontal and vertical stripes in parallel forms a cross-shaped window. Each stripe is obtained by splitting the input feature into stripes of equal width.  ```
