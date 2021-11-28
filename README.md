@@ -115,6 +115,9 @@ A collection of resources on Transformer in CV.
         * ```📌 First effort to design an automatic search algorithm for finding vision transformer models.```
         * ```🌱 Without extra finetuning or retraining, the trained supernet is able to produce thousands of high-quality transformers by inheriting weights from it directly. ```
      *  (ICCV 2021) **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2103.14030.pdf)] [[Code](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection)] 
+        ![Figure from paper](pic/Swin.png)
+        > *(From: https://github.com/microsoft/Swin-Transformer [2021/11/28])*
+        
         * ```🌱 A hierarchical Transformer which representation is computed with shifted windows. ```
         * ```🌱 The shifted windowing scheme brings greater efficiency by limiting self-attention computation to non-overlapping local windows while also allowing for cross-window connection. ```
         <!--* ⭐ SOTA on [COCO test-dev](https://cocodataset.org/#home) for Object Detection -->
@@ -207,8 +210,13 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Object-Detection"> **Object Detection**  </span> **[`       «🎯Back To Top»       `](#)**
+      * (arXiv preprint 2021) **Multi-modal Transformers Excel at Class-agnostic Object Detection**, Muhammad Maaz et al. [[Paper](https://arxiv.org/abs/2111.11430v1)] [[Code](https://github.com/mmaaz60/mvits_for_class_agnostic_od)]
+        ![Figure from paper](pic/MDef-DETR.png)
+        > *(From: https://github.com/mmaaz60/mvits_for_class_agnostic_od [2021/11/28])*
+        
+        * ```🌱  MDef-DETR: an efficient and flexible Multi-modal Vision Transformers (MViT) architecture using multi-scale feature processing and deformable self-attention that can adaptively generate proposals given a specific language query for OpenWorld object detection, salient and camouflage object detection, supervised and self-supervised detection tasks. ```
       * (arXiv preprint 2021) **ViDT: An Efficient and Effective Fully Transformer-based Object Detector**, Hwanjun Song et al. [[Paper](https://arxiv.org/pdf/2110.03921.pdf)] [[Code](https://github.com/naver-ai/vidt)]
-        * ```🌱  Vision and Detection Transformers (ViDT): an effective and efficient object detector introduces a reconfigured attention module to extend the recent Swin Transformer to be a standalone object detector, followed by a computationally efficient transformer decoder. ```
+        * ```🌱 Vision and Detection Transformers (ViDT): an effective and efficient object detector introduces a reconfigured attention module to extend the recent Swin Transformer to be a standalone object detector, followed by a computationally efficient transformer decoder. ```
       * (CVPR 2021) **You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection**, Zhigang Dai et al [[Paper](https://arxiv.org/pdf/2011.09094.pdf)] [[Code](https://github.com/hustvl/YOLOS)] 
         * ```🌱 2D object detection can be accomplished in a pure sequence-to-sequence manner by taking a sequence of fixed-sized non-overlapping image patches as input.  ```
         * ```🌱 Discuss the impacts of prevalent pre-train schemes and model scaling strategies for Transformer in vision.```
