@@ -1,4 +1,4 @@
-# <p align=center>`Awesome Transformer🤹‍♂️ in CV`</p>
+# <p align=center>Awesome Transformer🤹‍♂️ in CV👩‍💻</p>
 
 <!--<p align="center">
   <img width="300" src="https://camo.githubusercontent.com/1131548cf666e1150ebd2a52f44776d539f06324/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f6d61737465722f6d656469612f6c6f676f2e737667" "Awesome!">
@@ -48,8 +48,7 @@ A collection of resources on Transformer in CV.
 * 👑: Novel dataset
 * 📚：Multiple Tasks 
 
-## <span id="head2"> *2. Survey* </span>
-**[`       «🎯Back To Top»       `](#)**
+## <span id="head2"> *2. Survey* </span> **[       «🎯Back To Top»       ](#)**
 * (arXiv preprint 2021) **A Survey of Visual Transformers** [[v1](https://arxiv.org/pdf/2111.06091.pdf)](2021.11.11)
 * (arXiv preprint 2021) **Survey: Transformer based Video-Language Pre-training** [[v1](https://arxiv.org/pdf/2109.09920.pdf)](2021.09.21)
 * (arXiv preprint 2021) **A Survey of Transformers** [[v1](https://arxiv.org/pdf/2106.04554v1.pdf)](2021.06.08)  [[v2](https://arxiv.org/pdf/2106.04554v2.pdf)](2021.06.15) 
@@ -57,7 +56,7 @@ A collection of resources on Transformer in CV.
 * (arXiv preprint 2020+2021) **A Survey on Visual Transformer** [[v1](https://arxiv.org/pdf/2012.12556v1.pdf)](2020.12.23) [[v2](https://arxiv.org/pdf/2012.12556v2.pdf)](2021.01.15) [[v3](https://arxiv.org/pdf/2012.12556v3.pdf)](2021.01.30)
 ## <span id="head3"> *3. Paper With Code* </span>
 
-  * <span id="head-Theoretical-Thinking"> **Theoretical Thinking** </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Theoretical-Thinking"> **Theoretical Thinking** </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) **Evo-ViT: Slow-Fast Token Evolution for Dynamic Vision Transformer**, Yifan Xu et al. [[Paper](https://arxiv.org/pdf/2108.01390.pdf)] 
         * ```🌱  Evo-ViT: a self-motivated slow-fast token evolution method for vision transformers, which conducts unstructured instance-wise token selection by taking advantage of the global class attention that is unique to vision transformers. ```
         * ```🌱  Significantly reduce the computational costs of vision transformers while maintaining comparable performance on image classification. ```
@@ -87,7 +86,7 @@ A collection of resources on Transformer in CV.
         * ```🌱 (1) Within each Transformer block using a deep and lightweight transformation. (2) Across blocks using block-wise scaling.```
 
 
-  * <span id="head-Backbone"> **Backbone**  </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Backbone"> **Backbone**  </span> **[       «🎯Back To Top»       ](#)**
      * (arXiv preprint 2021) **Swin Transformer V2: Scaling Up Capacity and Resolution**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2111.09883.pdf)] [[Code](https://github.com/microsoft/Swin-Transformer)]
 
         ![Figure from paper](pic/Swin_v2.png)
@@ -151,7 +150,7 @@ A collection of resources on Transformer in CV.
 
 
 
-  * <span id="head-Vision-and-Language"> **Vision and Language**  </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Vision-and-Language"> **Vision and Language**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) **CogView: Mastering Text-to-Image Generation via Transformers**, Ming Ding et al. [[Paper](https://arxiv.org/pdf/2105.13290.pdf)] [[Code](https://github.com/THUDM/CogView)] [[Demo Website(Chinese)](https://lab.aminer.cn/cogview/index.html)] 
         * ```📌 The first open-source large text-to-image transformer. ```
         * ```🌱 A 4-billion-parameter Transformer with VQ-VAE tokenizer . ```
@@ -184,7 +183,7 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2019) **Visual Grounding with Transformers**, Ye Du et al. [[Paper](https://arxiv.org/pdf/2105.04281.pdf)] [[Code](https://github.com/uclanlp/visualbert)] 
         * ```🌱 Visual grounding task. ```
     
-  * <span id="head-Image-Classification"> **Image Classification**  </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Image-Classification"> **Image Classification**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) **ConViT: Improving Vision Transformers with Soft Convolutional Inductive Biases**, Stéphane d'Ascoli et al. [[Paper](https://arxiv.org/pdf/2103.10697.pdf)] [[Code](https://github.com/facebookresearch/convit)] 
         * ```🌱 The ConViT is simply a ViT where the first 10 blocks replace the Self-Attention (SA)  layers with a Gated Positional Self-Attention(GPSA) layer with a convolutional initialization. ```
         * ```🌱 The Gated Positional Self-Attention(GPSA) is a form of positional self-attention which can be equipped with a "soft" convolutional inductive bias. ```
@@ -209,7 +208,7 @@ A collection of resources on Transformer in CV.
 
 
 
-  * <span id="head-Object-Detection"> **Object Detection**  </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Object-Detection"> **Object Detection**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) **Multi-modal Transformers Excel at Class-agnostic Object Detection**, Muhammad Maaz et al. [[Paper](https://arxiv.org/abs/2111.11430v1)] [[Code](https://github.com/mmaaz60/mvits_for_class_agnostic_od)]
         ![Figure from paper](pic/MDef-DETR.png)
         > *(From: https://github.com/mmaaz60/mvits_for_class_agnostic_od [2021/11/28])*
@@ -227,7 +226,7 @@ A collection of resources on Transformer in CV.
         * ⭐ SOTA on [COCO test-dev, COCO minival](https://cocodataset.org/#home)
       * (arXiv preprint 2021) **Twins: Revisiting the Design of Spatial Attention in Vision Transformers**, Xiangxiang Chu et al [[Paper](https://arxiv.org/pdf/2104.13840.pdf)] 
 
-  * <span id="head-Object-Tracking"> **Object Tracking**  </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Object-Tracking"> **Object Tracking**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) **MOTR: End-to-End Multiple-Object Tracking with TRansformer**, Fangao Zeng et al. [[Paper](https://arxiv.org/pdf/2105.03247.pdf)] [[Code](https://github.com/megvii-model/MOTR)] 
         * ```📌 The first fully end-toend multiple-object tracking framework. ```
         * ```🌱 Model the long-range temporal variation of the objects. ```
@@ -235,9 +234,9 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) **TrTr: Visual Tracking with Transformer**, Moju Zhao et al. [[Paper](https://arxiv.org/pdf/2105.03817.pdf)] [[Code](https://github.com/tongtybj/TrTr)] 
         * ```🌱 Transformer models template and search in targe image.```
     
-  * <span id="head-Instance-Segmentation"> **Instance Segmentation**  </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Instance-Segmentation"> **Instance Segmentation**  </span> **[       «🎯Back To Top»       ](#)**
      
-  * <span id="head-Semantic-Segmentation"> **Semantic Segmentation**  </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Semantic-Segmentation"> **Semantic Segmentation**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) [Video] **TransVOS: Video Object Segmentation with Transformers**, Jianbiao Mei et al. [[Paper](https://arxiv.org/pdf/2106.00588v1.pdf)]
          * ```🌱 Fully exploit and model both the temporal and spatial relationships. ```
          * ⭐ SOTA on [DAVIS](https://davischallenge.org/) and [YouTube-VOS](https://youtube-vos.org/)
@@ -253,22 +252,22 @@ A collection of resources on Transformer in CV.
 
 
 
-  * <span id="head-Image-Retrieval"> **Image Retrieval**  </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Image-Retrieval"> **Image Retrieval**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) **TransHash: Transformer-based Hamming Hashing for Efficient Image Retrieval**, Yongbiao Chen et al. [[Paper](https://arxiv.org/pdf/2105.01823.pdf)] [[Code](Todo)] 
         * ```📌 The first work to tackle deep hashing learning problems without convolutional neural networks. ```
         * ```🌱 Convolution-free ```
- * <span id="head-Video-Understanding"> **Video Understanding**  </span> **[`       «🎯Back To Top»       `](#)**
+ * <span id="head-Video-Understanding"> **Video Understanding**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) **ViViT: A Video Vision Transformer**, Anurag Arnab et al. [[Paper](https://arxiv.org/pdf/2103.15691v1.pdf)] [[Code](https://github.com/rishikksh20/ViViT-pytorch)] 
         * ```🌱 Convolution-free ``` 
         * ⭐ SOTA on [Kinetics-400/600](https://deepmind.com/research/open-source/kinetics)
       * (arXiv preprint 2021) **Is Space-Time Attention All You Need for Video Understanding?**, Gedas Bertasius et al. [[Paper](https://arxiv.org/pdf/2102.05095.pdf)] [[Code](https://github.com/facebookresearch/TimeSformer)] 
         * ```🌱 Convolution-free ``` 
      
- * <span id="head-Monocular-Depth-Estimation"> **Monocular Depth Estimation**  </span> **[`       «🎯Back To Top»       `](#)**
+ * <span id="head-Monocular-Depth-Estimation"> **Monocular Depth Estimation**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) **Vision Transformers for Dense Prediction**, René Ranftl et al. [[Paper](https://arxiv.org/pdf/2103.13413.pdf)] [[Code](https://github.com/intel-isl/DPT)] 
         * ⭐ SOTA on [NYU-Depth V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
      
- * <span id="head-GAN"> **GAN**  </span> **[`       «🎯Back To Top»       `](#)**
+ * <span id="head-GAN"> **GAN**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) **ViTGAN: Training GANs with Vision Transformers**, Kwonjoon Lee et al. [[Paper](https://arxiv.org/pdf/2107.04589.pdf)] 
         * ```🌱 Integrate the Vision Transformers (ViTs) architecture into generative adversarial networks (GANs). ```
         * ```🌱 Introduce novel regularization techniques for training GANs with ViTs to solve the serious instability during training.```
@@ -279,22 +278,22 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) **TransGAN: Two Transformers Can Make One Strong GAN**, Yifan Jiang et al. [[Paper(V1)](https://arxiv.org/pdf/2102.07074v1.pdf)] [[Paper(V2)](https://arxiv.org/pdf/2102.07074v2.pdf)] [[Code](https://github.com/VITA-Group/TransGAN)] 
         * ```🌱 Convolution-free```
      
-  * <span id="head-Deepfake-Detection"> **Deepfake Detection**  </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Deepfake-Detection"> **Deepfake Detection**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) **M2TR: Multi-modal Multi-scale Transformers for Deepfake Detection**, Junke Wang et al. [[Paper](https://arxiv.org/pdf/2104.09770v2.pdf)] 
         * ```📌 The first Multi-modal Multi-scale Transformer ```
         * 👑 face **S**wapping and facial **R**eenactment **D**eep**F**ake(SR-DF) Dataset
      
-  * <span id="head-Perceptual-Representation"> **Perceptual Representation** </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Perceptual-Representation"> **Perceptual Representation** </span> **[       «🎯Back To Top»       ](#)**
       * (CVPR 2021-[NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire21/)) **Perceptual Image Quality Assessment with Transformers**, Manri Cheon et al. [[Paper](https://arxiv.org/pdf/2104.14730.pdf)] [[Code](https://github.com/manricheon/IQT)] 
         * ⭐ 1st Place in [NTIRE 2021 perceptual IQA challenge](https://competitions.codalab.org/competitions/28050#learn_the_details).
      
-  * <span id="head-Low-Level-Vision"> **Low Level Vision**  </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Low-Level-Vision"> **Low Level Vision**  </span> **[       «🎯Back To Top»       ](#)**
       * (CVPR 2021) **Pre-Trained Image Processing Transformer**, Hanting Chen et al. [[Paper](https://arxiv.org/pdf/2012.00364v2.pdf)] [[Code](https://github.com/huawei-noah/Pretrained-IPT)] [[2nd code](https://github.com/perseveranceLX/ImageProcessingTransformer)] 
         * ```🌱 Various image processing tasks based Transformer.```
      
      
      
-  * <span id="head-Sign-Language"> **Sign Language**  </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Sign-Language"> **Sign Language**  </span> **[       «🎯Back To Top»       ](#)**
       * (ACMMM 2021) **Contrastive Disentangled Meta-Learning for Signer-Independent Sign Language Translation**, Tao Jin et al. [[Paper](https://dl.acm.org/doi/abs/10.1145/3474085.3475456)] 
         * ⭐ SOTA on [PHOENIX14T](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/) for Sign Language Translation
         * ```🌱 Contrastive Disentangled Meta-learning (CDM): focuses on augmenting the generalization ability of the translation model.  ``` 
@@ -329,7 +328,7 @@ A collection of resources on Transformer in CV.
 
 
 
-  * <span id="head-Medical-Image-Segmentation"> **Medical Image Segmentation**  </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Medical-Image-Segmentation"> **Medical Image Segmentation**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) **UCTransNet: Rethinking the Skip Connections in U-Net from a Channel-wise Perspective with Transformer**, Haonan Wang et al. [[Paper](https://arxiv.org/pdf/2109.04335.pdf)] [[Code](https://github.com/McGregorWwww/UCTransNetr)] 
         * ```📌 The first method to rethink the self-attention mechanism of Transformer from a channel-wise perspective.  ```
         * ```🌱 UCTransNet (with a proposed CTrans module in U-Net): the CTrans module is an alternate of the U-Net skip connections, which consists of (1) a sub-module to conduct the multi-scale Channel Cross fusion with Transformer; (2) a sub-module Channel-wise Cross-Attention to guide the fused multi-scale channel-wise information, to connect to the decoder features for eliminating the ambiguity effectively. ```
@@ -372,7 +371,12 @@ A collection of resources on Transformer in CV.
 
 
 
-  * <span id="head-Other-Applications"> **Other Applications**  </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Other-Applications"> **Other Applications**  </span> **[       «🎯Back To Top»       ](#)**
+      *  (AAAI 2022) [💬Zero-Shot Learning] **TransZero: Attribute-guided Transformer for Zero-Shot Learning**, Shiming Chen et al. [[Paper](https://arxiv.org/abs/2112.01683)] [[Code](https://github.com/shiming-chen/TransZero)]
+         *  ```📌 The first work extends the Transformer to the Zero-shot learning task.```
+         *  ⭐ SOTA on 3 Zero-shot learning datasets: [CUB](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)(Fine-grained), [SUN](https://cs.brown.edu/~gmpatter/sunattributes.html)(Fine-grained), and [AWA2](https://openaccess.thecvf.com/content_cvpr_2017/papers/Xian_Zero-Shot_Learning_-_CVPR_2017_paper.pdf)(Coarse-grained).
+         *  ```🌱 TransZero: an attribute-guided Transformer network that refines visual features and learns attribute localization for discriminative visual embedding representations in Zero-shot learning (ZSL). ```
+         *  ```🌱 The locality-augmented visual features (from a feature augmentation encoder) and semantic vectors (from a visual-semantic decoder) are used to conduct effective visual-semantic interaction in a visual-semantic embedding network.  ```
       * (ACMMM 2021) [💬Video Background Music Generation] **Video Background Music Generation with Controllable Music Transformer**, Shangzhe Di et al. [[Paper](https://dl.acm.org/doi/10.1145/3474085.3475195)]
         *  ```🌱 This paper establish the rhythmic relationships between video and background music, which connect timing, motion speed, and motion saliency from video with beat, simu-note density, and simu-note strength from music. ```
       * (ACMMM 2021) [💬Geometry and Illumination Distortion Recovery for Document Images] **DocTr: Document Image Transformer for Geometric Unwarping and Illumination Correction**, Hao Feng et al. [[Paper](https://dl.acm.org/doi/10.1145/3474085.3475388)]
@@ -483,7 +487,7 @@ A collection of resources on Transformer in CV.
  
  
  
-  * <span id="head-Beyond-Transformer"> **Beyond Transformer**  </span> **[`       «🎯Back To Top»       `](#)**
+  * <span id="head-Beyond-Transformer"> **Beyond Transformer**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) **Container: Context Aggregation Network**, Peng Gao et al. [[Paper](https://arxiv.org/pdf/2106.01401.pdf)]
         * ```🌱  A unified view of popular architectures for visual inputs – CNN, Transformer and MLP-mixer. ```
         * ```🌱  A novel network block – CONTAINER, which uses a mix of static and dynamic affinity matrices via learnable parameters. ```
