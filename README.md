@@ -49,6 +49,7 @@ A collection of resources on Transformer in CV.
 * 📚：Multiple Tasks 
 
 ## <span id="head2"> *2. Survey* </span> **[       «🎯Back To Top»       ](#)**
+* (arXiv preprint 2022) **Video Transformers: A Survey** [[v1](https://arxiv.org/pdf/2201.05991.pdf)](2022.01.16)
 * (arXiv preprint 2021) **A Survey of Visual Transformers** [[v1](https://arxiv.org/pdf/2111.06091.pdf)](2021.11.11)
 * (arXiv preprint 2021) **Survey: Transformer based Video-Language Pre-training** [[v1](https://arxiv.org/pdf/2109.09920.pdf)](2021.09.21)
 * (arXiv preprint 2021) **A Survey of Transformers** [[v1](https://arxiv.org/pdf/2106.04554v1.pdf)](2021.06.08)  [[v2](https://arxiv.org/pdf/2106.04554v2.pdf)](2021.06.15) 
