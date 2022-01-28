@@ -374,6 +374,9 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Other-Applications"> **Other Applications**  </span> **[       «🎯Back To Top»       ](#)**
+      *  (arXiv preprint 2022) [💬Scene Graph Generation] **RelTR: Relation Transformer for Scene Graph Generation**, Yuren Cong et al. [[Paper](https://arxiv.org/abs/2201.11460)] [[Code](https://github.com/yrcong/RelTR)]
+         *  ```🌱 RelTR: an end-to-end scene graph generation model which has an encoder(visual feature context)-decoder(triplets subject-predicate-object) architecture. ```
+         *  ```🌱 RelTR is a one-stage method that predicts a set of relationships directly only using visual appearance without combining entities and labeling all possible predicates. ```
       *  (AAAI 2022) [💬Zero-Shot Learning] **TransZero: Attribute-guided Transformer for Zero-Shot Learning**, Shiming Chen et al. [[Paper](https://arxiv.org/abs/2112.01683)] [[Code](https://github.com/shiming-chen/TransZero)]
          *  ```📌 The first work extends the Transformer to the Zero-shot learning task.```
          *  ⭐ SOTA on 3 Zero-shot learning datasets: [CUB](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)(Fine-grained), [SUN](https://cs.brown.edu/~gmpatter/sunattributes.html)(Fine-grained), and [AWA2](https://openaccess.thecvf.com/content_cvpr_2017/papers/Xian_Zero-Shot_Learning_-_CVPR_2017_paper.pdf)(Coarse-grained).
