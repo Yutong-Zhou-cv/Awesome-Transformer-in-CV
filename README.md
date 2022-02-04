@@ -331,6 +331,8 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Medical-Image-Segmentation"> **Medical Image Segmentation**  </span> **[       «🎯Back To Top»       ](#)**
+      * (MICCAI 2021) **TransBTSV2: Wider Instead of Deeper Transformer for Medical Image Segmentation**, Jiangyun Li et al. [[Paper](https://arxiv.org/abs/2201.12785)] [[Code](https://github.com/Wenxuan-1119/TransBTS)] 
+        * ```🌱 TransBTSV2: a hybrid CNN-Transformer architecture, which is not limited to brain tumor segmentation (BTS) but focuses on general medical image segmentation, providing a strong and efficient 3D baseline for volumetric segmentation of medical images. ```
       * (arXiv preprint 2021) **UCTransNet: Rethinking the Skip Connections in U-Net from a Channel-wise Perspective with Transformer**, Haonan Wang et al. [[Paper](https://arxiv.org/pdf/2109.04335.pdf)] [[Code](https://github.com/McGregorWwww/UCTransNetr)] 
         * ```📌 The first method to rethink the self-attention mechanism of Transformer from a channel-wise perspective.  ```
         * ```🌱 UCTransNet (with a proposed CTrans module in U-Net): the CTrans module is an alternate of the U-Net skip connections, which consists of (1) a sub-module to conduct the multi-scale Channel Cross fusion with Transformer; (2) a sub-module Channel-wise Cross-Attention to guide the fused multi-scale channel-wise information, to connect to the decoder features for eliminating the ambiguity effectively. ```
