@@ -376,6 +376,9 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Other-Applications"> **Other Applications**  </span> **[       «🎯Back To Top»       ](#)**
+      * (arXiv preprint 2022) [💬Video Restoration] **VRT: A Video Restoration Transformer**, Jingyun Liang et al. [[Paper](https://arxiv.org/abs/2201.12288)] [[Code](https://github.com/JingyunLiang/VRT)]
+         *  ⭐ SOTA on 3 video restoration tasks (video super-resolution, video deblurring, video denoising) on 9 benchmark datasets.
+         *  ```🌱 Video Restoration Transformer (VRT): is composed of multiple scales, each of which consists of two kinds of modules: temporal mutual self attention (mutual attention--joint motion estimation, feature alignment, feature fusion; self attention--feature extraction) and parallel warping (further fuse information from neighboring frames).  ```
       *  (arXiv preprint 2022) [💬Scene Graph Generation] **RelTR: Relation Transformer for Scene Graph Generation**, Yuren Cong et al. [[Paper](https://arxiv.org/abs/2201.11460)] [[Code](https://github.com/yrcong/RelTR)]
          *  ```🌱 RelTR: an end-to-end scene graph generation model which has an encoder(visual feature context)-decoder(triplets subject-predicate-object) architecture. ```
          *  ```🌱 RelTR is a one-stage method that predicts a set of relationships directly only using visual appearance without combining entities and labeling all possible predicates. ```
