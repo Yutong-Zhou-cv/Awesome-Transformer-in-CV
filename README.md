@@ -376,6 +376,10 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Other-Applications"> **Other Applications**  </span> **[       «🎯Back To Top»       ](#)**
+      * (arXiv preprint 2022) [💬Image Editing] **MaskGIT: Masked Generative Image Transformer**, Huiwen Chang et al. [[Paper](https://arxiv.org/abs/2202.04200)] 
+         *  ```🌱 MaskGIT: a novel image synthesis paradigm using a bidirectional transformer decoder.```
+         *  ```🌱 Training: predict randomly masked tokens by attending to tokens in all directions. Inference: the model begins with generating all tokens of an image simultaneously and then refines the image iteratively conditioned on the previous generation.```
+         *  📚  Image editing tasks: Class-conditional Image Generation; Image Manipulation; Image Inpainting; Image Outpainting(Extrapolation).
       * (arXiv preprint 2022) [💬Video Restoration] **VRT: A Video Restoration Transformer**, Jingyun Liang et al. [[Paper](https://arxiv.org/abs/2201.12288)] [[Code](https://github.com/JingyunLiang/VRT)]
          *  ⭐ SOTA on 3 video restoration tasks (video super-resolution, video deblurring, video denoising) on 9 benchmark datasets.
          *  ```🌱 Video Restoration Transformer (VRT): is composed of multiple scales, each of which consists of two kinds of modules: temporal mutual self attention (mutual attention--joint motion estimation, feature alignment, feature fusion; self attention--feature extraction) and parallel warping (further fuse information from neighboring frames).  ```
