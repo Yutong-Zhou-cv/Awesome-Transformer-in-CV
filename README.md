@@ -186,6 +186,9 @@ A collection of resources on Transformer in CV.
         * ```🌱 Visual grounding task. ```
     
   * <span id="head-Image-Classification"> **Image Classification**  </span> **[       «🎯Back To Top»       ](#)**
+      * (arXiv preprint 2022) [💬360° Image Classification] **Spherical Transformer**, Sungmin Cho et al. [[Paper](https://arxiv.org/abs/2202.04942)] 
+        * ```📌 The first to leverage the transformer architecture to perform representation learning for 360° images, which is suitable for reducing the projection and rotation distortions. ```
+        * ```🌱 SPHTR: can be easily plugged into existing sampling methods and alleviate rotation distortion effectively. ```
       * (arXiv preprint 2021) **ConViT: Improving Vision Transformers with Soft Convolutional Inductive Biases**, Stéphane d'Ascoli et al. [[Paper](https://arxiv.org/pdf/2103.10697.pdf)] [[Code](https://github.com/facebookresearch/convit)] 
         * ```🌱 The ConViT is simply a ViT where the first 10 blocks replace the Self-Attention (SA)  layers with a Gated Positional Self-Attention(GPSA) layer with a convolutional initialization. ```
         * ```🌱 The Gated Positional Self-Attention(GPSA) is a form of positional self-attention which can be equipped with a "soft" convolutional inductive bias. ```
