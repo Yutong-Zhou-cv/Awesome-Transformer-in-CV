@@ -48,7 +48,8 @@ A collection of resources on Transformer in CV.
 * 👑: Novel dataset
 * 📚：Multiple Tasks 
 
-## <span id="head2"> *2. Survey* </span> **[       «🎯Back To Top»       ](#)**
+## <span id="head2"> *2. [Survey](https://github.com/Yutong-Zhou-cv/Awesome-Survey-Papers)* </span> **[       «🎯Back To Top»       ](#)**
+* **Transformers in Medical Image Analysis: A Review** [[v1](https://arxiv.org/pdf/2202.12165.pdf)](2022.02.24)
 * **Transformers in Medical Imaging: A Survey** [[Awesome Repo](https://github.com/fahadshamshad/awesome-transformers-in-medical-imaging)] [[v1](https://arxiv.org/pdf/2201.09873v1.pdf)](2022.01.24) 
 * **Video Transformers: A Survey** [[v1](https://arxiv.org/pdf/2201.05991.pdf)](2022.01.16)
 * **A Survey of Visual Transformers** [[v1](https://arxiv.org/pdf/2111.06091.pdf)](2021.11.11)
