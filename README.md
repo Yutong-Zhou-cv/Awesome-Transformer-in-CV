@@ -62,6 +62,9 @@ A collection of resources on Transformer in CV.
 ## <span id="head3"> *3. Paper With Code* </span>
 
   * <span id="head-Theoretical-Thinking"> **Theoretical Thinking** </span> **[       «🎯Back To Top»       ](#)**
+      * (CVPR 2022) **Are Multimodal Transformers Robust to Missing Modality?**, Mengmeng Ma et al. [[Paper](https://arxiv.org/abs/2204.05454)] 
+        * ```📌 The first comprehensively investigates the behavior of Transformers in the presence of modal-incomplete data.  ```
+        * ```🌱 A principle method improves the robustness of Transformer models by automatically searching for an optimal fusion strategy regarding input data. ```
       * (arXiv preprint 2021) **Evo-ViT: Slow-Fast Token Evolution for Dynamic Vision Transformer**, Yifan Xu et al. [[Paper](https://arxiv.org/pdf/2108.01390.pdf)] 
         * ```🌱  Evo-ViT: a self-motivated slow-fast token evolution method for vision transformers, which conducts unstructured instance-wise token selection by taking advantage of the global class attention that is unique to vision transformers. ```
         * ```🌱  Significantly reduce the computational costs of vision transformers while maintaining comparable performance on image classification. ```
