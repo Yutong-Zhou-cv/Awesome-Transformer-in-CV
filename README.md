@@ -50,6 +50,7 @@ A collection of resources on Transformer in CV.
 
 ## <span id="head2"> *2. [Survey](https://github.com/Yutong-Zhou-cv/Awesome-Survey-Papers)* </span> **[       «🎯Back To Top»       ](#)**
 * **Visual Attention Methods in Deep Learning: An In-Depth Survey** [[v1](https://arxiv.org/abs/2204.07756v1)](2022.04.16) [[v2](https://arxiv.org/abs/2204.07756)](2022.04.21)
+* **Vision Transformers in Medical Computer Vision -- A Contemplative Retrospection** [[v1](https://arxiv.org/ftp/arxiv/papers/2203/2203.15269.pdf)](2022.03.29)
 * **Transformers Meet Visual Learning Understanding: A Comprehensive Review** [[v1](https://arxiv.org/abs/2203.12944)](2022.03.24)
 * **Transformers in Medical Image Analysis: A Review** [[v1](https://arxiv.org/pdf/2202.12165.pdf)](2022.02.24)
 * **Transformers in Medical Imaging: A Survey** [[Awesome Repo](https://github.com/fahadshamshad/awesome-transformers-in-medical-imaging)] [[v1](https://arxiv.org/pdf/2201.09873v1.pdf)](2022.01.24) 
