@@ -49,11 +49,12 @@ A collection of resources on Transformer in CV.
 * 📚：Multiple Tasks 
 
 ## <span id="head2"> *2. [Survey](https://github.com/Yutong-Zhou-cv/Awesome-Survey-Papers)* </span> **[       «🎯Back To Top»       ](#)**
+* [🧬Medical] **A survey on attention mechanisms for medical applications: are we moving towards better algorithms?** [[v1](https://arxiv.org/abs/2204.12406)](2022.04.26)
 * **Visual Attention Methods in Deep Learning: An In-Depth Survey** [[v1](https://arxiv.org/abs/2204.07756v1)](2022.04.16) [[v2](https://arxiv.org/abs/2204.07756)](2022.04.21)
-* **Vision Transformers in Medical Computer Vision -- A Contemplative Retrospection** [[v1](https://arxiv.org/ftp/arxiv/papers/2203/2203.15269.pdf)](2022.03.29)
+* [🧬Medical] **Vision Transformers in Medical Computer Vision -- A Contemplative Retrospection** [[v1](https://arxiv.org/ftp/arxiv/papers/2203/2203.15269.pdf)](2022.03.29)
 * **Transformers Meet Visual Learning Understanding: A Comprehensive Review** [[v1](https://arxiv.org/abs/2203.12944)](2022.03.24)
-* **Transformers in Medical Image Analysis: A Review** [[v1](https://arxiv.org/pdf/2202.12165.pdf)](2022.02.24)
-* **Transformers in Medical Imaging: A Survey** [[Awesome Repo](https://github.com/fahadshamshad/awesome-transformers-in-medical-imaging)] [[v1](https://arxiv.org/pdf/2201.09873v1.pdf)](2022.01.24) 
+* [🧬Medical] **Transformers in Medical Image Analysis: A Review** [[v1](https://arxiv.org/pdf/2202.12165.pdf)](2022.02.24)
+* [🧬Medical] **Transformers in Medical Imaging: A Survey** [[Awesome Repo](https://github.com/fahadshamshad/awesome-transformers-in-medical-imaging)] [[v1](https://arxiv.org/pdf/2201.09873v1.pdf)](2022.01.24) 
 * **Video Transformers: A Survey** [[v1](https://arxiv.org/pdf/2201.05991.pdf)](2022.01.16)
 * **A Survey of Visual Transformers** [[v1](https://arxiv.org/pdf/2111.06091.pdf)](2021.11.11)
 * **Transformers in computational visual media: A survey** [[v1](https://link.springer.com/article/10.1007/s41095-021-0247-3)(Computational Visual Media)](2021.10.27)
@@ -61,6 +62,7 @@ A collection of resources on Transformer in CV.
 * **A Survey of Transformers** [[v1](https://arxiv.org/pdf/2106.04554v1.pdf)](2021.06.08)  [[v2](https://arxiv.org/pdf/2106.04554v2.pdf)](2021.06.15) 
 * **Transformers in Vision: A Survey** [[v1](https://arxiv.org/pdf/2101.01169v1.pdf)](2021.01.04) [[v2](https://arxiv.org/pdf/2101.01169v2.pdf)](2021.02.22) [[v3](https://dl.acm.org/doi/abs/10.1145/3505244)(ACM Computing Surveys)](2022.01.06)
 * **A Survey on Visual Transformer** [[v1](https://arxiv.org/pdf/2012.12556v1.pdf)](2020.12.23) [[v2](https://arxiv.org/pdf/2012.12556v2.pdf)](2021.01.15) [[v3](https://arxiv.org/pdf/2012.12556v3.pdf)](2021.01.30) [[v4](https://arxiv.org/pdf/2012.12556v4.pdf)](2021.08.12)
+
 ## <span id="head3"> *3. Paper With Code* </span>
 
   * <span id="head-Theoretical-Thinking"> **Theoretical Thinking** </span> **[       «🎯Back To Top»       ](#)**
