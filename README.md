@@ -222,7 +222,7 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Object-Detection"> **Object Detection**  </span> **[       «🎯Back To Top»       ](#)**
-      * (CVPR 2022) **DN-DETR: Accelerate DETR Training by Introducing Query DeNoising**, Hao Zhang et al. [[Paper](https://arxiv.org/abs/2203.01305)] [[Code](https://github.com/IDEACVR/DINO)]
+      * (CVPR 2022) **DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection**, Hao Zhang et al. [[Paper](https://arxiv.org/abs/2203.01305)] [[Code](https://github.com/IDEACVR/DINO)]
       * [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dino-detr-with-improved-denoising-anchor-1/object-detection-on-coco-minival)](https://paperswithcode.com/sota/object-detection-on-coco-minival?p=dino-detr-with-improved-denoising-anchor-1)
       * [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dino-detr-with-improved-denoising-anchor-1/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=dino-detr-with-improved-denoising-anchor-1)
 
