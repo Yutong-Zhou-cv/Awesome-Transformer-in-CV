@@ -224,6 +224,14 @@ A collection of resources on Transformer in CV.
 
 
   * <span id="head-Object-Detection"> **Object Detection**  </span> **[       «🎯Back To Top»       ](#)**
+      * (CVPR 2022) **DN-DETR: Accelerate DETR Training by Introducing Query DeNoising**, Hao Zhang et al. [[Paper](https://arxiv.org/abs/2203.01305)] [[Code](https://github.com/IDEACVR/DINO)]
+      * [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dino-detr-with-improved-denoising-anchor-1/object-detection-on-coco-minival)](https://paperswithcode.com/sota/object-detection-on-coco-minival?p=dino-detr-with-improved-denoising-anchor-1)
+      * [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dino-detr-with-improved-denoising-anchor-1/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=dino-detr-with-improved-denoising-anchor-1)
+
+        * ```🌱 DINO: improves over previous DETR-like models in performance and efficiency by using a contrastive way for denoising training, a mixed query selection method for anchor initialization, and a look forward twice scheme for box prediction. DINO achieves 48.3AP in 12 epochs and 51.0AP in 36 epochs on COCO with a ResNet-50 backbone and multi-scale features, yielding a significant improvement of +4.9AP and +2.4AP, respectively, compared to DN-DETR, the previous best DETR-like model. DINO scales well in both model size and data size. Without bells and whistles, after pre-training on the Objects365 dataset with a SwinL backbone, DINO obtains the best results on both COCO val2017 (63.2AP) and test-dev (63.3AP). Compared to other models on the leaderboard, DINO significantly reduces its model size and pre-training data size while achieving better results. ```
+      * (ICLR 2022) **DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR**, Shilong Liu et al. [[Paper](https://arxiv.org/abs/2201.12329)] [[Code](https://github.com/SlongLiu/DAB-DETR)]
+        
+        * ```🌱 DAB-DETR: present a novel query formulation using dynamic anchor boxes for DETR (DEtection TRansformer) and offer a deeper understanding of the role of queries in DETR. This new formulation directly uses box coordinates as queries in Transformer decoders and dynamically updates them layer-by-layer. Using box coordinates not only helps using explicit positional priors to improve the query-to-feature similarity and eliminate the slow training convergence issue in DETR, but also allows us to modulate the positional attention map using the box width and height information ```
       * (arXiv preprint 2021) **Multi-modal Transformers Excel at Class-agnostic Object Detection**, Muhammad Maaz et al. [[Paper](https://arxiv.org/abs/2111.11430v1)] [[Code](https://github.com/mmaaz60/mvits_for_class_agnostic_od)]
         ![Figure from paper](pic/MDef-DETR.png)
         > *(From: https://github.com/mmaaz60/mvits_for_class_agnostic_od [2021/11/28])*
