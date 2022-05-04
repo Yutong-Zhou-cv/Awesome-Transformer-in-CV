@@ -12,6 +12,7 @@ A collection of resources on Transformer in CV.
 * - [ ] [1. Description](#head1)
 * - [ ] [2. Survey](#head2)
 * - [ ] [3. Paper With Code](#head3)
+  * - [ ] [⏳Focused Topics](#head-Focused-Topics)
   * - [ ] [Theoretical Thinking](#head-Theoretical-Thinking)
   * - [ ] [Backbone](#head-Backbone)
   * - [ ] [Vision and Language](#head-Vision-and-Language)
@@ -45,7 +46,7 @@ A collection of resources on Transformer in CV.
 * ```🌱: Novel idea```
 * ```📌: The first...```
 * ⭐: State-of-the-Art
-* 👑: Novel dataset
+* 👑: Novel dataset/model
 * 📚：Multiple Tasks 
 
 ## <span id="head2"> *2. [Survey](https://github.com/Yutong-Zhou-cv/Awesome-Survey-Papers)* </span> **[       «🎯Back To Top»       ](#)**
@@ -65,6 +66,12 @@ A collection of resources on Transformer in CV.
 
 ## <span id="head3"> *3. Paper With Code* </span>
 
+  * <span id="head-Focused-Topics"> **⏳Focused Topics** </span> **[       «🎯Back To Top»       ](#)**
+      * (arXiv preprint 2022) **OPT: Open Pre-trained Transformer Language Models**, Susan Zhang et al. [[Paper](https://arxiv.org/abs/2205.01068)] [[Code](https://github.com/facebookresearch/metaseq)] 
+        * ```🌱 Open Pre-trained Transformers (OPT): a suite of decoder-only pre-trained transformers ranging from 125M to 175B parameters, which aims to fully and responsibly share with interested researchers. ```
+        * ```👑 OPT-175B is comparable to GPT-3 while requiring only 1/7th the carbon footprint to develop. ```
+  
+  
   * <span id="head-Theoretical-Thinking"> **Theoretical Thinking** </span> **[       «🎯Back To Top»       ](#)**
       * (CVPR 2022) **Are Multimodal Transformers Robust to Missing Modality?**, Mengmeng Ma et al. [[Paper](https://arxiv.org/abs/2204.05454)] 
         * ```📌 The first comprehensively investigates the behavior of Transformers in the presence of modal-incomplete data.  ```
