@@ -50,6 +50,7 @@ A collection of resources on Transformer in CV.
 * 📚：Multiple Tasks 
 
 ## <span id="head2"> *2. [Survey](https://github.com/Yutong-Zhou-cv/Awesome-Survey-Papers)* </span> **[       «🎯Back To Top»       ](#)**
+* [📦3D Point Clouds] **Transformers in 3D Point Clouds: A Survey** [[v1](https://arxiv.org/abs/2205.07417)](2022.05.16)
 * [🧬Medical] **A survey on attention mechanisms for medical applications: are we moving towards better algorithms?** [[v1](https://arxiv.org/abs/2204.12406)](2022.04.26)
 * **Visual Attention Methods in Deep Learning: An In-Depth Survey** [[v1](https://arxiv.org/abs/2204.07756v1)](2022.04.16) [[v2](https://arxiv.org/abs/2204.07756)](2022.04.21)
 * [🧬Medical] **Vision Transformers in Medical Computer Vision -- A Contemplative Retrospection** [[v1](https://arxiv.org/ftp/arxiv/papers/2203/2203.15269.pdf)](2022.03.29)
