@@ -70,7 +70,10 @@ A collection of resources on Transformer in CV.
 ## <span id="head3"> *3. Paper With Code* </span>
 
   * <span id="head-Focused-Topics"> **⏳Focused Topics** </span> **[       «🎯Back To Top»       ](#)**
-      * (arXiv preprint 2022) **OPT: Open Pre-trained Transformer Language Models**, Susan Zhang et al. [[Paper](https://arxiv.org/abs/2205.01068)] [[Code](https://github.com/facebookresearch/metaseq)] 
+      * [💬Image-to-text](arXiv preprint 2022) **GIT: A Generative Image-to-text Transformer for Vision and Language**, Susan Zhang et al. [[Paper](https://arxiv.org/abs/2205.14100)] 
+        * ```🌱 GIT: A Generative Image-to-text Transformer, which simplifies the architecture as one image encoder and one text decoder under a single language modeling task. And also scale up the pre-training data and the model size to boost the model performance.  ```
+        * 📚  Image Captioning, Video Captioning, Image QA, Video QA
+      * [💬Pre-trained Model](arXiv preprint 2022) **OPT: Open Pre-trained Transformer Language Models**, Susan Zhang et al. [[Paper](https://arxiv.org/abs/2205.01068)] [[Code](https://github.com/facebookresearch/metaseq)] 
         * ```🌱 Open Pre-trained Transformers (OPT): a suite of decoder-only pre-trained transformers ranging from 125M to 175B parameters, which aims to fully and responsibly share with interested researchers. ```
         * ```👑 OPT-175B is comparable to GPT-3 while requiring only 1/7th the carbon footprint to develop. ```
   
