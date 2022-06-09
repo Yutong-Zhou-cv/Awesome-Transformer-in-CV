@@ -79,6 +79,8 @@ A collection of resources on Transformer in CV.
   
   
   * <span id="head-Theoretical-Thinking"> **Theoretical Thinking** </span> **[       «🎯Back To Top»       ](#)**
+      * (arXiv preprint 2022) **Can CNNs Be More Robust Than Transformers?**, Zeyu Wang et al. [[Paper](https://arxiv.org/abs/2206.03452)] [[Code](https://github.com/UCSC-VLAA/RobustCNN)]
+        * ```🌱  This paper proposed three highly effective pure CNN architecture designs without any attention-like operations for boosting robustness, yet simple enough to be implemented in several lines of code, namely a) patchifying input images, b) enlarging kernel size, and c) reducing activation layers and normalization layers. ```
       * (CVPR 2022) **Are Multimodal Transformers Robust to Missing Modality?**, Mengmeng Ma et al. [[Paper](https://arxiv.org/abs/2204.05454)] 
         * ```📌 The first comprehensively investigates the behavior of Transformers in the presence of modal-incomplete data.  ```
         * ```🌱 A principle method improves the robustness of Transformer models by automatically searching for an optimal fusion strategy regarding input data. ```
