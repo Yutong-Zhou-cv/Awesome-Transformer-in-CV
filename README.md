@@ -50,6 +50,7 @@ A collection of resources on Transformer in CV.
 * 📚：Multiple Tasks 
 
 ## <span id="head2"> *2. [Survey](https://github.com/Yutong-Zhou-cv/Awesome-Survey-Papers)* </span> **[       «🎯Back To Top»       ](#)**
+*  [🧬Medical] **Transforming medical imaging with Transformers? A comparative review of key properties, current progresses, and future perspectives** [[v1](https://arxiv.org/abs/2206.01136v1)](2022.06.02)　[[v2](https://arxiv.org/abs/2206.01136)](2022.06.03)
 * [Tiny ImageNet] **Vision Transformers in 2022: An Update on Tiny ImageNet** [[v1](https://arxiv.org/abs/2205.10660)](2022.05.21) [[Code](https://github.com/ehuynh1106/TinyImageNet-Transformers)]
 * [📦3D Point Clouds] **Transformers in 3D Point Clouds: A Survey** [[v1](https://arxiv.org/abs/2205.07417)](2022.05.16)
 * **Transformer in Computer Vision: ViT and its Progress** [[v1](https://arxiv.org/abs/2205.11239)](2022.05.12)
