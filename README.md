@@ -4,10 +4,18 @@
   <img width="300" src="https://camo.githubusercontent.com/1131548cf666e1150ebd2a52f44776d539f06324/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f6d61737465722f6d656469612f6c6f676f2e737667" "Awesome!">
 </p> -->
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![visitors](https://visitor-badge.glitch.me/badge?page_id=Yutong-Zhou-cv/awesome-Transformer-in-CV) ![GitHub stars](https://img.shields.io/github/stars/Yutong-Zhou-cv/awesome-Transformer-in-CV.svg?color=red) 
+<div align=center>
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
+![GitHub stars](https://img.shields.io/github/stars/Yutong-Zhou-cv/awesome-Transformer-in-CV.svg?color=red&style=for-the-badge) 
+![GitHub forks](https://img.shields.io/github/forks/Yutong-Zhou-cv/awesome-Transformer-in-CV.svg?color=yellow&style=for-the-badge) 
+![GitHub activity](https://img.shields.io/github/last-commit/Yutong-Zhou-cv/awesome-Transformer-in-CV?style=for-the-badge) 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=Yutong-Zhou-cv/awesome-Transformer-in-CV) 
 
 A collection of resources on Transformer in CV.
 
+</div>
+  
 ## <span id="head-content"> *Content* </span>
 * - [ ] [1. Description](#head1)
 * - [ ] [2. Survey](#head2)
@@ -50,6 +58,7 @@ A collection of resources on Transformer in CV.
 * 📚：Multiple Tasks 
 
 ## <span id="head2"> *2. [Survey](https://github.com/Yutong-Zhou-cv/Awesome-Survey-Papers)* </span> **[       «🎯Back To Top»       ](#)**
+*  **Multimodal Learning with Transformers: A Survey** [[v1](https://arxiv.org/abs/2206.06488)](2022.06.13)
 *  [🧬Medical] **Transforming medical imaging with Transformers? A comparative review of key properties, current progresses, and future perspectives** [[v1](https://arxiv.org/abs/2206.01136v1)](2022.06.02)　[[v2](https://arxiv.org/abs/2206.01136)](2022.06.03)
 * [Tiny ImageNet] **Vision Transformers in 2022: An Update on Tiny ImageNet** [[v1](https://arxiv.org/abs/2205.10660)](2022.05.21) [[Code](https://github.com/ehuynh1106/TinyImageNet-Transformers)]
 * [📦3D Point Clouds] **Transformers in 3D Point Clouds: A Survey** [[v1](https://arxiv.org/abs/2205.07417)](2022.05.16)
