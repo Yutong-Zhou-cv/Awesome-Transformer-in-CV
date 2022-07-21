@@ -4,14 +4,23 @@
   <img width="300" src="https://camo.githubusercontent.com/1131548cf666e1150ebd2a52f44776d539f06324/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f6d61737465722f6d656469612f6c6f676f2e737667" "Awesome!">
 </p> -->
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![visitors](https://visitor-badge.glitch.me/badge?page_id=Yutong-Zhou-cv/awesome-Transformer-in-CV) ![GitHub stars](https://img.shields.io/github/stars/Yutong-Zhou-cv/awesome-Transformer-in-CV.svg?color=red) 
+<div align=center>
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
+![GitHub stars](https://img.shields.io/github/stars/Yutong-Zhou-cv/awesome-Transformer-in-CV.svg?color=red&style=for-the-badge) 
+![GitHub forks](https://img.shields.io/github/forks/Yutong-Zhou-cv/awesome-Transformer-in-CV.svg?color=yellow&style=for-the-badge) 
+![GitHub activity](https://img.shields.io/github/last-commit/Yutong-Zhou-cv/awesome-Transformer-in-CV?style=for-the-badge) 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=Yutong-Zhou-cv/awesome-Transformer-in-CV) 
 
 A collection of resources on Transformer in CV.
 
+</div>
+  
 ## <span id="head-content"> *Content* </span>
 * - [ ] [1. Description](#head1)
 * - [ ] [2. Survey](#head2)
 * - [ ] [3. Paper With Code](#head3)
+  * - [ ] [⏳Focused Topics](#head-Focused-Topics)
   * - [ ] [Theoretical Thinking](#head-Theoretical-Thinking)
   * - [ ] [Backbone](#head-Backbone)
   * - [ ] [Vision and Language](#head-Vision-and-Language)
@@ -40,20 +49,26 @@ A collection of resources on Transformer in CV.
 > * (Conference/Journal Year) **Title**, First Author et al. [[Paper](URL)] [[Code](URL)] [[Project](URL)] <br/>
 > * (Conference/Journal Year) [💬Topic] **Title**, First Author et al. [[Paper](URL)] [[Code](URL)] [[Project](URL)]
 >     * (Optional) ```🌱``` or ```📌 ```
->     * (Optional) ⭐ or 👑 or 📚
+>     * (Optional) 🚀 or 👑 or 📚
 
 * ```🌱: Novel idea```
 * ```📌: The first...```
-* ⭐: State-of-the-Art
-* 👑: Novel dataset
+* 🚀: State-of-the-Art
+* 👑: Novel dataset/model
 * 📚：Multiple Tasks 
 
 ## <span id="head2"> *2. [Survey](https://github.com/Yutong-Zhou-cv/Awesome-Survey-Papers)* </span> **[       «🎯Back To Top»       ](#)**
+*  [📚Multimodal] **Multimodal Learning with Transformers: A Survey** [[v1](https://arxiv.org/abs/2206.06488)](2022.06.13)
+*  [🧬Medical] **Transforming medical imaging with Transformers? A comparative review of key properties, current progresses, and future perspectives** [[v1](https://arxiv.org/abs/2206.01136v1)](2022.06.02) [[v2](https://arxiv.org/abs/2206.01136)](2022.06.03)
+* [Tiny ImageNet] **Vision Transformers in 2022: An Update on Tiny ImageNet** [[v1](https://arxiv.org/abs/2205.10660)](2022.05.21) [[Code](https://github.com/ehuynh1106/TinyImageNet-Transformers)]
+* [📦3D Point Clouds] **Transformers in 3D Point Clouds: A Survey** [[v1](https://arxiv.org/abs/2205.07417)](2022.05.16)
+* **Transformer in Computer Vision: ViT and its Progress** [[v1](https://arxiv.org/abs/2205.11239)](2022.05.12)
+* [🧬Medical] **A survey on attention mechanisms for medical applications: are we moving towards better algorithms?** [[v1](https://arxiv.org/abs/2204.12406)](2022.04.26)
 * **Visual Attention Methods in Deep Learning: An In-Depth Survey** [[v1](https://arxiv.org/abs/2204.07756v1)](2022.04.16) [[v2](https://arxiv.org/abs/2204.07756)](2022.04.21)
-* **Vision Transformers in Medical Computer Vision -- A Contemplative Retrospection** [[v1](https://arxiv.org/ftp/arxiv/papers/2203/2203.15269.pdf)](2022.03.29)
+* [🧬Medical] **Vision Transformers in Medical Computer Vision -- A Contemplative Retrospection** [[v1](https://arxiv.org/ftp/arxiv/papers/2203/2203.15269.pdf)](2022.03.29)
 * **Transformers Meet Visual Learning Understanding: A Comprehensive Review** [[v1](https://arxiv.org/abs/2203.12944)](2022.03.24)
-* **Transformers in Medical Image Analysis: A Review** [[v1](https://arxiv.org/pdf/2202.12165.pdf)](2022.02.24)
-* **Transformers in Medical Imaging: A Survey** [[Awesome Repo](https://github.com/fahadshamshad/awesome-transformers-in-medical-imaging)] [[v1](https://arxiv.org/pdf/2201.09873v1.pdf)](2022.01.24) 
+* [🧬Medical] **Transformers in Medical Image Analysis: A Review** [[v1](https://arxiv.org/pdf/2202.12165.pdf)](2022.02.24)
+* [🧬Medical] **Transformers in Medical Imaging: A Survey** [[Awesome Repo](https://github.com/fahadshamshad/awesome-transformers-in-medical-imaging)] [[v1](https://arxiv.org/pdf/2201.09873v1.pdf)](2022.01.24) 
 * **Video Transformers: A Survey** [[v1](https://arxiv.org/pdf/2201.05991.pdf)](2022.01.16)
 * **A Survey of Visual Transformers** [[v1](https://arxiv.org/pdf/2111.06091.pdf)](2021.11.11)
 * **Transformers in computational visual media: A survey** [[v1](https://link.springer.com/article/10.1007/s41095-021-0247-3)(Computational Visual Media)](2021.10.27)
@@ -61,9 +76,21 @@ A collection of resources on Transformer in CV.
 * **A Survey of Transformers** [[v1](https://arxiv.org/pdf/2106.04554v1.pdf)](2021.06.08)  [[v2](https://arxiv.org/pdf/2106.04554v2.pdf)](2021.06.15) 
 * **Transformers in Vision: A Survey** [[v1](https://arxiv.org/pdf/2101.01169v1.pdf)](2021.01.04) [[v2](https://arxiv.org/pdf/2101.01169v2.pdf)](2021.02.22) [[v3](https://dl.acm.org/doi/abs/10.1145/3505244)(ACM Computing Surveys)](2022.01.06)
 * **A Survey on Visual Transformer** [[v1](https://arxiv.org/pdf/2012.12556v1.pdf)](2020.12.23) [[v2](https://arxiv.org/pdf/2012.12556v2.pdf)](2021.01.15) [[v3](https://arxiv.org/pdf/2012.12556v3.pdf)](2021.01.30) [[v4](https://arxiv.org/pdf/2012.12556v4.pdf)](2021.08.12)
+
 ## <span id="head3"> *3. Paper With Code* </span>
 
+  * <span id="head-Focused-Topics"> **⏳Focused Topics** </span> **[       «🎯Back To Top»       ](#)**
+      * [💬Image-to-text](arXiv preprint 2022) **GIT: A Generative Image-to-text Transformer for Vision and Language**, Susan Zhang et al. [[Paper](https://arxiv.org/abs/2205.14100)] 
+        * ```🌱 GIT: A Generative Image-to-text Transformer, which simplifies the architecture as one image encoder and one text decoder under a single language modeling task. And also scale up the pre-training data and the model size to boost the model performance.  ```
+        * 📚  Image Captioning, Video Captioning, Image QA, Video QA
+      * [💬Pre-trained Model](arXiv preprint 2022) **OPT: Open Pre-trained Transformer Language Models**, Susan Zhang et al. [[Paper](https://arxiv.org/abs/2205.01068)] [[Code](https://github.com/facebookresearch/metaseq)] 
+        * ```🌱 Open Pre-trained Transformers (OPT): a suite of decoder-only pre-trained transformers ranging from 125M to 175B parameters, which aims to fully and responsibly share with interested researchers. ```
+        * ```👑 OPT-175B is comparable to GPT-3 while requiring only 1/7th the carbon footprint to develop. ```
+  
+  
   * <span id="head-Theoretical-Thinking"> **Theoretical Thinking** </span> **[       «🎯Back To Top»       ](#)**
+      * (arXiv preprint 2022) **Can CNNs Be More Robust Than Transformers?**, Zeyu Wang et al. [[Paper](https://arxiv.org/abs/2206.03452)] [[Code](https://github.com/UCSC-VLAA/RobustCNN)]
+        * ```🌱  This paper proposed three highly effective pure CNN architecture designs without any attention-like operations for boosting robustness, yet simple enough to be implemented in several lines of code, namely a) patchifying input images, b) enlarging kernel size, and c) reducing activation layers and normalization layers. ```
       * (CVPR 2022) **Are Multimodal Transformers Robust to Missing Modality?**, Mengmeng Ma et al. [[Paper](https://arxiv.org/abs/2204.05454)] 
         * ```📌 The first comprehensively investigates the behavior of Transformers in the presence of modal-incomplete data.  ```
         * ```🌱 A principle method improves the robustness of Transformer models by automatically searching for an optimal fusion strategy regarding input data. ```
@@ -100,7 +127,7 @@ A collection of resources on Transformer in CV.
      * (arXiv preprint 2021) **Swin Transformer V2: Scaling Up Capacity and Resolution**, Ze Liu et al. [[Paper](https://arxiv.org/pdf/2111.09883.pdf)] [[Code](https://github.com/microsoft/Swin-Transformer)]
 
         ![Figure from paper](pic/Swin_v2.png)
-        * ⭐ **84.0%** top-1 accuracy on ImageNet-V2 Image Classification; **63.1/54.4** box/mask mAP on COCO Object Detection; **59.9** mIoU on ADE20K Semantic Segmentation; **86.8%** top-1 accuracy on Kinetics-400 Video Action Classification.
+        * 🚀 **84.0%** top-1 accuracy on ImageNet-V2 Image Classification; **63.1/54.4** box/mask mAP on COCO Object Detection; **59.9** mIoU on ADE20K Semantic Segmentation; **86.8%** top-1 accuracy on Kinetics-400 Video Action Classification.
         * 🌱 Scaling [Swin Transformer](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Swin_Transformer_Hierarchical_Vision_Transformer_Using_Shifted_Windows_ICCV_2021_paper.pdf) up to 3 billion parameters; Making it capable of training with images/windows of up to 1,536×1,536 resolution; Achieving state-of-the-art accuracy on a variety of benchmarks.
      * (arXiv preprint 2021) **Improved Robustness of Vision Transformer via PreLayerNorm in Patch Embedding**, Bum Jun Kim et al. [[Paper](https://arxiv.org/pdf/2111.08413.pdf)]
         * ```🌱 This paper examines the behavior and robustness of ViT in more detail with various image transforms.```
@@ -108,7 +135,7 @@ A collection of resources on Transformer in CV.
      * (arXiv preprint 2021) **UniNet: Unified Architecture Search with Convolution, Transformer, and MLP**, Jihao Liu et al. [[Paper](https://arxiv.org/pdf/2110.04035.pdf)]
         * ```🌱 The widely-used stridden convolution or pooling-based down-sampling modules become the performance bottlenecks when the operators are combined to form a network. Two novel context-aware down-sampling modules, which can better adapt to the global information encoded by transformer and MLP operators.```
         * ```📌 The first optimal combination of convolution, transformer and MLP to identify high-performance visual neural networks.```
-        * ```⭐ Outperforms pure convolution-based architecture(EfficientNet), and pure transformer-based architecture(Swin-Transformer), on ImageNet classification, COCO object detection, and ADE20K semantic segmentation.```
+        * ```🚀 Outperforms pure convolution-based architecture(EfficientNet), and pure transformer-based architecture(Swin-Transformer), on ImageNet classification, COCO object detection, and ADE20K semantic segmentation.```
      * (arXiv preprint 2021) **MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer**, Sachin Mehta et al. [[Paper](https://arxiv.org/pdf/2110.02178.pdf)]
         * ```🌱 MobileViT: a light-weight and general-purpose vision transformer for mobile devices, which presents a different perspective for the global processing of information with transformers.  ```
         * ```🌱 MobileViT significantly outperforms CNN- and ViT-based networks across different tasks and datasets. ```
@@ -129,7 +156,7 @@ A collection of resources on Transformer in CV.
         
         * ```🌱 A hierarchical Transformer which representation is computed with shifted windows. ```
         * ```🌱 The shifted windowing scheme brings greater efficiency by limiting self-attention computation to non-overlapping local windows while also allowing for cross-window connection. ```
-        <!--* ⭐ SOTA on [COCO test-dev](https://cocodataset.org/#home) for Object Detection -->
+        <!--* 🚀 SOTA on [COCO test-dev](https://cocodataset.org/#home) for Object Detection -->
         * 📚  Image Classification, Object Detection, Instance Segmentation, Semantic Segmentation, Real-Time Object Detection
      *  (ICCV 2021) **Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet**, Li Yuan et al. [[Paper](https://arxiv.org/pdf/2101.11986.pdf)] [[Code](https://github.com/yitu-opensource/T2T-ViT)] 
         * ```🌱 Tokens-To-Token Vision Transformer (T2T-ViT), which incorporates 1) a layer-wise Tokens-to-Token (T2T) transformation to progressively structurize the image to tokens by recursively aggregating neighboring Tokens into one Token (Tokens-to-Token), such that local structure represented by surrounding tokens can be modeled and tokens length can be reduced; 2) an efficient backbone with a deep-narrow structure for vision transformer motivated by CNN architecture design after empirical study. ```
@@ -151,8 +178,8 @@ A collection of resources on Transformer in CV.
         * 📚  Object Detection, Instance Segmentation, Semantic Segmentation
      *  (arXiv preprint 2021) **Focal Self-attention for Local-Global Interactions in Vision Transformers**, Jianwei Yang et al. [[Paper](https://arxiv.org/pdf/2107.00641v1.pdf)] 
         * ```🌱 Focal self-attention: a new mechanism that incorporates both fine-grained local and coarse-grained global interactions. Each token attends the closest surrounding tokens at fine granularity, but the tokens far away at a coarse granularity, and thus can capture both short- and long-range visual dependencies efficiently and effectively.  ```
-        * ⭐ SOTA on [ADE20K dataset, ADE20K val](https://groups.csail.mit.edu/vision/datasets/ADE20K/) for Semantic Segmentation
-        * ⭐ SOTA on [COCO test-dev, minival](https://cocodataset.org/#home) for Instance Segmentation
+        * 🚀 SOTA on [ADE20K dataset, ADE20K val](https://groups.csail.mit.edu/vision/datasets/ADE20K/) for Semantic Segmentation
+        * 🚀 SOTA on [COCO test-dev, minival](https://cocodataset.org/#home) for Instance Segmentation
         * 📚  Image Classification, Object Detection, Instance Segmentation, Semantic Segmentation
      * (arXiv preprint 2021) **CSWin Transformer: A General Vision Transformer Backbone with Cross-Shaped Windows**, Xiaoyi Dong et al. [[Paper](https://arxiv.org/pdf/2107.00652v1.pdf)] [[Code](https://github.com/microsoft/CSWin-Transformer)] 
         * ```🌱 Cross-Shaped Window self-attention: compute self-attention in the horizontal and vertical stripes in parallel forms a cross-shaped window. Each stripe is obtained by splitting the input feature into stripes of equal width.  ```
@@ -169,7 +196,7 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) **Episodic Transformer for Vision-and-Language Navigation**, Alexander Pashevich et al. [[Paper](https://arxiv.org/pdf/2105.06453.pdf)] [[Code](https://github.com/alexpashevich/E.T.)] 
         * ```🌱 An attention-based architecture for vision-and-language navigation. ```
         * ```🌱 Use synthetic instructions as the intermediate interface between the human and the agent. ```
-        * ⭐ SOTA on [ALFRED](https://github.com/askforalfred/alfred) 
+        * 🚀 SOTA on [ALFRED](https://github.com/askforalfred/alfred) 
       * (CVPR 2021 [AI for Content Creation Workshop](http://visual.cs.brown.edu/workshops/aicc2021/)) **High-Resolution Complex Scene Synthesis with Transformers**, Manuel Jahn et al. [[Paper](https://arxiv.org/pdf/2105.06458.pdf)] 
         * ```🌱 An orthogonal approach to the controllable synthesis of complex scene images, where the generative model is based on pure likelihood training without additional objectives. ```
       * (ICML 2021) **ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision**, Wonjae Kim et al. [[Paper](https://arxiv.org/pdf/2102.03334.pdf)] [[Code](https://github.com/dandelin/vilt)] 
@@ -260,7 +287,7 @@ A collection of resources on Transformer in CV.
   * <span id="head-Semantic-Segmentation"> **Semantic Segmentation**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) [Video] **TransVOS: Video Object Segmentation with Transformers**, Jianbiao Mei et al. [[Paper](https://arxiv.org/pdf/2106.00588v1.pdf)]
          * ```🌱 Fully exploit and model both the temporal and spatial relationships. ```
-         * ⭐ SOTA on [DAVIS](https://davischallenge.org/) and [YouTube-VOS](https://youtube-vos.org/)
+         * 🚀 SOTA on [DAVIS](https://davischallenge.org/) and [YouTube-VOS](https://youtube-vos.org/)
       * (arXiv preprint 2021) **Vision Transformers for Dense Prediction**, René Ranftl et al. [[Paper](https://arxiv.org/pdf/2103.13413.pdf)] [[Code](https://github.com/intel-isl/DPT)]
       * (arXiv preprint 2021) **Twins: Revisiting the Design of Spatial Attention in Vision Transformers**, Xiangxiang Chu et al [[Paper](https://arxiv.org/pdf/2104.13840.pdf)] 
       * (arXiv preprint 2021) **Segmenter: Transformer for Semantic Segmentation**, Robin Strudel et al. [[Paper](https://arxiv.org/pdf/2105.05633.pdf)] [[Code](https://github.com/rstrudel/segmenter)] 
@@ -286,7 +313,7 @@ A collection of resources on Transformer in CV.
      
  * <span id="head-Monocular-Depth-Estimation"> **Monocular Depth Estimation**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) **Vision Transformers for Dense Prediction**, René Ranftl et al. [[Paper](https://arxiv.org/pdf/2103.13413.pdf)] [[Code](https://github.com/intel-isl/DPT)] 
-        * ⭐ SOTA on [NYU-Depth V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
+        * 🚀 SOTA on [NYU-Depth V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
      
  * <span id="head-GAN"> **GAN**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) **ViTGAN: Training GANs with Vision Transformers**, Kwonjoon Lee et al. [[Paper](https://arxiv.org/pdf/2107.04589.pdf)] 
@@ -305,10 +332,12 @@ A collection of resources on Transformer in CV.
         * 👑 face **S**wapping and facial **R**eenactment **D**eep**F**ake(SR-DF) Dataset
      
   * <span id="head-Perceptual-Representation"> **Perceptual Representation** </span> **[       «🎯Back To Top»       ](#)**
-      * (CVPR 2021-[NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire21/)) **Perceptual Image Quality Assessment with Transformers**, Manri Cheon et al. [[Paper](https://arxiv.org/pdf/2104.14730.pdf)] [[Code](https://github.com/manricheon/IQT)] 
-        * ⭐ 1st Place in [NTIRE 2021 perceptual IQA challenge](https://competitions.codalab.org/competitions/28050#learn_the_details).
+      * (CVPR 2021-[NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire21/)) **Perceptual Image Quality Assessment with Transformers**, Manri Cheon et al. [[Paper](https://arxiv.org/abs/2104.14730)] [[Code(TBD)](https://github.com/manricheon/IQT)] 
+        * 🚀 1st Place in [NTIRE 2021 perceptual IQA challenge](https://competitions.codalab.org/competitions/28050#learn_the_details).
      
   * <span id="head-Low-Level-Vision"> **Low Level Vision**  </span> **[       «🎯Back To Top»       ](#)**
+      * (CVPR 2022) **TransWeather: Transformer-based Restoration of Images Degraded by Adverse Weather Conditions**, Jeya Maria Jose Valanarasu et al. [[Paper](https://arxiv.org/abs/2111.14813)] [[Code](https://github.com/jeya-maria-jose/TransWeather)] [[Project](https://jeya-maria-jose.github.io/transweather-web/)]
+        * 🌱 TransWeather: a transformer-based end-to-end model with just a single encoder and a decoder that can restore an image degraded by **any weather condition**. 
       * (CVPR 2021) **Pre-Trained Image Processing Transformer**, Hanting Chen et al. [[Paper](https://arxiv.org/pdf/2012.00364v2.pdf)] [[Code](https://github.com/huawei-noah/Pretrained-IPT)] [[2nd code](https://github.com/perseveranceLX/ImageProcessingTransformer)] 
         * ```🌱 Various image processing tasks based Transformer.```
      
@@ -316,7 +345,7 @@ A collection of resources on Transformer in CV.
      
   * <span id="head-Sign-Language"> **Sign Language**  </span> **[       «🎯Back To Top»       ](#)**
       * (ACMMM 2021) **Contrastive Disentangled Meta-Learning for Signer-Independent Sign Language Translation**, Tao Jin et al. [[Paper](https://dl.acm.org/doi/abs/10.1145/3474085.3475456)] 
-        * ⭐ SOTA on [PHOENIX14T](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/) for Sign Language Translation
+        * 🚀 SOTA on [PHOENIX14T](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/) for Sign Language Translation
         * ```🌱 Contrastive Disentangled Meta-learning (CDM): focuses on augmenting the generalization ability of the translation model.  ``` 
         * ```🌱 We facilitate the frame-word alignments by leveraging contrastive constraints between the obtained task-specific representation and the decoding output. ```
         * ```🌱 Considering that vanilla meta-learning methods utilize the multiple specific signers insufficiently, a fine-grained learning strategy is introduced that simultaneously conducts meta-learning in various domain shift scenarios in each iteration. ```
@@ -339,7 +368,7 @@ A collection of resources on Transformer in CV.
         * ```🌱 A novel multi-task formalization of CSLR and SLT exploits the supervision power of glosses, without limiting the translation to spoken language.```
       * (COLING 2020 & ECCV 2020 SLRTP Workshop) **Better Sign Language Translation with STMC-Transformer**, Kayo Yin et al. [[Paper](https://arxiv.org/pdf/2004.00588v2.pdf)] [[Code](https://github.com/kayoyin/transformer-slt)] 
         * ```📌 The first work adopts weight tying, transfer learning, and ensemble learning in Sign Language Translation(SLT). ```
-        * ⭐ SOTA on [ASLG-PC12](https://achrafothman.net/site/english-asl-gloss-parallel-corpus-2012-aslg-pc12/)
+        * 🚀 SOTA on [ASLG-PC12](https://achrafothman.net/site/english-asl-gloss-parallel-corpus-2012-aslg-pc12/)
       * (ECCV 2020 Workshop) **Multi-channel Transformers for Multi-articulatory Sign Language Translation**, Necati Cihan Camgoz et al.  [[Paper](https://link.springer.com/content/pdf/10.1007%2F978-3-030-66823-5_18.pdf)] 
         * ```📌 The first successful approach to multi-articulatory Sign Language Translation(SLT), which models the inter and intra contextual relationship of manual and non-manual channels. ```
         * ```🌱 A novel multi-channel transformer architecture supports multi-channel, asynchronous, sequence-to-sequence learning.```
@@ -400,21 +429,21 @@ A collection of resources on Transformer in CV.
          *  ```🌱 Training: predict randomly masked tokens by attending to tokens in all directions. Inference: the model begins with generating all tokens of an image simultaneously and then refines the image iteratively conditioned on the previous generation.```
          *  📚  Image editing tasks: Class-conditional Image Generation; Image Manipulation; Image Inpainting; Image Outpainting(Extrapolation).
       * (arXiv preprint 2022) [💬Video Restoration] **VRT: A Video Restoration Transformer**, Jingyun Liang et al. [[Paper](https://arxiv.org/abs/2201.12288)] [[Code](https://github.com/JingyunLiang/VRT)]
-         *  ⭐ SOTA on 3 video restoration tasks (video super-resolution, video deblurring, video denoising) on 9 benchmark datasets.
+         *  🚀 SOTA on 3 video restoration tasks (video super-resolution, video deblurring, video denoising) on 9 benchmark datasets.
          *  ```🌱 Video Restoration Transformer (VRT): is composed of multiple scales, each of which consists of two kinds of modules: temporal mutual self attention (mutual attention--joint motion estimation, feature alignment, feature fusion; self attention--feature extraction) and parallel warping (further fuse information from neighboring frames).  ```
       *  (arXiv preprint 2022) [💬Scene Graph Generation] **RelTR: Relation Transformer for Scene Graph Generation**, Yuren Cong et al. [[Paper](https://arxiv.org/abs/2201.11460)] [[Code](https://github.com/yrcong/RelTR)]
          *  ```🌱 RelTR: an end-to-end scene graph generation model which has an encoder(visual feature context)-decoder(triplets subject-predicate-object) architecture. ```
          *  ```🌱 RelTR is a one-stage method that predicts a set of relationships directly only using visual appearance without combining entities and labeling all possible predicates. ```
       *  (AAAI 2022) [💬Zero-Shot Learning] **TransZero: Attribute-guided Transformer for Zero-Shot Learning**, Shiming Chen et al. [[Paper](https://arxiv.org/abs/2112.01683)] [[Code](https://github.com/shiming-chen/TransZero)]
          *  ```📌 The first work extends the Transformer to the Zero-shot learning task.```
-         *  ⭐ SOTA on 3 Zero-shot learning datasets: [CUB](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)(Fine-grained), [SUN](https://cs.brown.edu/~gmpatter/sunattributes.html)(Fine-grained), and [AWA2](https://openaccess.thecvf.com/content_cvpr_2017/papers/Xian_Zero-Shot_Learning_-_CVPR_2017_paper.pdf)(Coarse-grained).
+         *  🚀 SOTA on 3 Zero-shot learning datasets: [CUB](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)(Fine-grained), [SUN](https://cs.brown.edu/~gmpatter/sunattributes.html)(Fine-grained), and [AWA2](https://openaccess.thecvf.com/content_cvpr_2017/papers/Xian_Zero-Shot_Learning_-_CVPR_2017_paper.pdf)(Coarse-grained).
          *  ```🌱 TransZero: an attribute-guided Transformer network that refines visual features and learns attribute localization for discriminative visual embedding representations in Zero-shot learning (ZSL). ```
          *  ```🌱 The locality-augmented visual features (from a feature augmentation encoder) and semantic vectors (from a visual-semantic decoder) are used to conduct effective visual-semantic interaction in a visual-semantic embedding network.  ```
       * (ACMMM 2021) [💬Video Background Music Generation] **Video Background Music Generation with Controllable Music Transformer**, Shangzhe Di et al. [[Paper](https://dl.acm.org/doi/10.1145/3474085.3475195)]
         *  ```🌱 This paper establish the rhythmic relationships between video and background music, which connect timing, motion speed, and motion saliency from video with beat, simu-note density, and simu-note strength from music. ```
       * (ACMMM 2021) [💬Geometry and Illumination Distortion Recovery for Document Images] **DocTr: Document Image Transformer for Geometric Unwarping and Illumination Correction**, Hao Feng et al. [[Paper](https://dl.acm.org/doi/10.1145/3474085.3475388)]
         *  ```📌 The first research of geometry and illumination distortion of document images based on transformer.```
-        *  ⭐ SOTA on several datasets ([doc3D](https://github.com/cvlab-stonybrook/doc3D-dataset), [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html)) for document image reflection task.
+        *  🚀 SOTA on several datasets ([doc3D](https://github.com/cvlab-stonybrook/doc3D-dataset), [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html)) for document image reflection task.
         *  ```🌱 Document Image Transformer (DocTr): A geometric unwarping transformer (captures the global context of the document image by self-attention mechanism and decodes the pixel-wise displacement solution to correct the geometric distortion) and an illumination correction transformer (removes the shading artifacts). ```
       * (arXiv preprint 2021) [💬Face Landmark Localization] **LOTR: Face Landmark Localization Using Localization Transformer**, Ukrit Watchareeruetai et al. [[Paper](https://arxiv.org/pdf/2109.10057.pdf)]
         *  ```📌 The first research of Transformers in direct regression of landmarks.```
@@ -435,7 +464,7 @@ A collection of resources on Transformer in CV.
         *  ```🌱 Mask-fusion strategy: combine the advantages of the RGB-based and texture-flow-based models. ```
       * (ICCV 2021) [💬Image Quality Assessment] **MUSIQ: Multi-scale Image Quality Transformer**, Junjie Ke et al. [[Paper](https://arxiv.org/pdf/2108.05997.pdf)] [[Code](https://github.com/google-research/google-research/tree/master/musiq)]
         *  ```🌱 (Patch-based) Multi-scale image quality Transformer (MUSIQ): process native resolution images with varying sizes and aspect ratios; capture image quality at different granularities.```
-        *  ⭐ SOTA on [PaQ-2-PiQ](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ying_From_Patches_to_Pictures_PaQ-2-PiQ_Mapping_the_Perceptual_Space_of_CVPR_2020_paper.pdf), [SPAQ](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_Perceptual_Quality_Assessment_of_Smartphone_Photography_CVPR_2020_paper.pdf) and  [KonIQ-10k](https://arxiv.org/pdf/1910.06180v2.pdf)
+        *  🚀 SOTA on [PaQ-2-PiQ](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ying_From_Patches_to_Pictures_PaQ-2-PiQ_Mapping_the_Perceptual_Space_of_CVPR_2020_paper.pdf), [SPAQ](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_Perceptual_Quality_Assessment_of_Smartphone_Photography_CVPR_2020_paper.pdf) and  [KonIQ-10k](https://arxiv.org/pdf/1910.06180v2.pdf)
       * (arXiv preprint 2021) [💬Light Field Image Super-Resolution] **Light Field Image Super-Resolution with Transformers**, Zhengyu Liang et al. [[Paper](https://arxiv.org/pdf/2108.07597.pdf)] [[Code](https://github.com/ZhengyuLiang24/LFT)]
         *  ```🌱 Angular Transformer: incorporate complementary information among different views.```
         *  ```🌱 Spatial Transformer: capture both local and long-range dependencies within each sub-aperture image. ```
@@ -463,7 +492,7 @@ A collection of resources on Transformer in CV.
         *  ```🌱 DocFormer uses text, vision and spatial features and combines them using a novel multi-modal self-attention layer.  ```
         *  ```🌱 DocFormer also shares learned spatial embeddings across modalities which makes it easy for the model to correlate text to visual tokens and vice versa.   ```
       * (arXiv preprint 2021) [💬Graph Representation] **Do Transformers Really Perform Bad for Graph Representation?**, Chengxuan Ying et al. [[Paper](https://arxiv.org/pdf/2106.05234.pdf)] [[Technical report](https://arxiv.org/pdf/2106.08279.pdf)] [[Code](https://github.com/Microsoft/Graphormer)]
-        * ⭐ 1st place of [PCQM4M-LSC](https://ogb.stanford.edu/kddcup2021/pcqm4m/) Track [@ KDD Cup 2021 OGB Large-Scale Challenge](https://ogb.stanford.edu/kddcup2021/)
+        * 🚀 1st place of [PCQM4M-LSC](https://ogb.stanford.edu/kddcup2021/pcqm4m/) Track [@ KDD Cup 2021 OGB Large-Scale Challenge](https://ogb.stanford.edu/kddcup2021/)
         *  ```🌱  Utilizing Transformer in the graph is the necessity of effectively encoding the structural information of a graph into the model.  ```
         *  ```🌱  Proposed several simple yet effective structural encoding methods to help Graphormer better model graph-structured data.   ```
       * (arXiv preprint 2021) [💬Image Captioning] **Semi-Autoregressive Transformer for Image Captioning**, Yuanen Zhou et al. [[Paper](https://arxiv.org/pdf/2106.09436.pdf)] [[Code](https://github.com/YuanEZhou/satic)]
@@ -485,7 +514,7 @@ A collection of resources on Transformer in CV.
       * (CVPR 2021) [💬Human Pose and Mesh Reconstruction ] **End-to-End Human Pose and Mesh Reconstruction with Transformers**, Kevin Lin et al. [[Paper](https://arxiv.org/pdf/2012.09760.pdf)]
         * ```📌 The first approach leverages a transformer encoder architecture to learn 3D human pose and mesh reconstruction from a single input image. ```
         * ```🌱 Able to predict a different type of 3D mesh, such as 3D hand. ```
-        * ⭐ SOTA on [Human3.6M](http://vision.imar.ro/human3.6m/description.php) and [3DPW](http://virtualhumans.mpi-inf.mpg.de/3DPW/)
+        * 🚀 SOTA on [Human3.6M](http://vision.imar.ro/human3.6m/description.php) and [3DPW](http://virtualhumans.mpi-inf.mpg.de/3DPW/)
       * (arXiv preprint 2021) [💬Traffic Scenario Infrastructures] **Novelty Detection and Analysis of Traffic Scenario Infrastructures in  the Latent Space of a Vision Transformer-Based Triplet Autoencoder**, Jonas Wurst et al. [[Paper](https://arxiv.org/pdf/2105.01924.pdf)] [[Code](https://github.com/JWTHI/ViTAL-SCENE)] 
         * ```🌱 Triplet Training```
       * (arXiv preprint 2021) [💬Scene Text Recognition] **I2C2W: Image-to-Character-to-Word Transformers for Accurate Scene Text Recognition**, Chuhui Xue et al. [[Paper](https://arxiv.org/pdf/2105.08383.pdf)]
@@ -502,7 +531,7 @@ A collection of resources on Transformer in CV.
       * (arXiv preprint 2021) [💬Action Recognition] **VATT: Transformers for Multimodal Self-Supervised Learning from Raw Video, Audio and Text**, Hassan Akbari et al. [[Paper](https://arxiv.org/pdf/2104.11178.pdf)]
         * ```🌱 Convolution-free```
         * ```🌱 Multimodal representation```
-        * ⭐ SOTA on [Moments in Time](http://moments.csail.mit.edu/)
+        * 🚀 SOTA on [Moments in Time](http://moments.csail.mit.edu/)
       * (arXiv preprint 2021) [💬Action Recognition] **An Image is Worth 16x16 Words, What is a Video Worth?**, Gilad Sharir et al. [[Paper](https://arxiv.org/pdf/2103.13915.pdf)]  [[Code](https://github.com/Alibaba-MIIL/STAM)] 
         * ```🌱 Achieves 78.8 top1-accuracy with ×40 faster inference time on Kinetics-400 benchmark.```
         * ```🌱 End-to-end trainable ```
