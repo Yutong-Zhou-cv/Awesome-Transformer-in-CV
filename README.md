@@ -58,6 +58,7 @@ A collection of resources on Transformer in CV.
 * 📚：Multiple Tasks 
 
 ## <span id="head2"> *2. [Survey](https://github.com/Yutong-Zhou-cv/Awesome-Survey-Papers)* </span> **[       «🎯Back To Top»       ](#)**
+*  [🏃‍Action Recognition] **Vision Transformers for Action Recognition: A Survey** [[v1](https://arxiv.org/abs/2209.05700)](2022.09.13)
 *  [🌌Remote Sensing] **Transformers in Remote Sensing: A Survey** [[v1](https://arxiv.org/abs/2209.01206)](2022.09.02)
 *  [🧬Medical] **Medical image analysis based on transformer: A Review** [[v1](https://arxiv.org/pdf/2208.06643.pdf)](2022.08.13)
 *  [📚Multimodal] **Multimodal Learning with Transformers: A Survey** [[v1](https://arxiv.org/abs/2206.06488)](2022.06.13)
