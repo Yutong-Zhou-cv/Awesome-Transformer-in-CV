@@ -58,6 +58,7 @@ A collection of resources on Transformer in CV.
 * 📚：Multiple Tasks 
 
 ## <span id="head2"> *2. [Survey](https://github.com/Yutong-Zhou-cv/Awesome-Survey-Papers)* </span> **[       «🎯Back To Top»       ](#)**
+*  [📚Multimodal] **A survey of transformer-based multimodal pre-trained modals** [[v1](https://www.sciencedirect.com/science/article/pii/S0925231222012346?casa_token=7AvomVVZy8kAAAAA:7fNqDM0pP06Jeuzz3ywOP2Y6e_nrwmuH3SqS_PZAtREeHaArVhq3kalj5iQScFUTKwEDwAL6qw)](2023.01.01)
 *  [🧬Medical] **Vision Transformers in Medical Imaging: A Review** [[v1](https://arxiv.org/abs/2211.10043)](2022.11.18)
 *  **A Comprehensive Survey of Transformers for Computer Vision** [[v1](https://arxiv.org/abs/2211.06004)](2022.11.11)
 *  [🖊GNN] **A Survey on Graph Neural Networks and Graph Transformers in Computer Vision: A Task-Oriented Perspective** [[v1](https://arxiv.org/abs/2209.13232)](2022.09.27)
