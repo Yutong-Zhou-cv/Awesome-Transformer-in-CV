@@ -24,6 +24,7 @@ A collection of resources on Transformer in CV.
   * - [ ] [Theoretical Thinking](#head-Theoretical-Thinking)
   * - [ ] [Backbone](#head-Backbone)
   * - [ ] [Vision and Language](#head-Vision-and-Language)
+  * - [ ] [GNN](#head-GNN)
   * - [ ] [Image Classification](#head-Image-Classification)
   * - [ ] [Object Detection](#head-Object-Detection)
   * - [ ] [Object Tracking](#head-Object-Tracking)
@@ -194,8 +195,6 @@ A collection of resources on Transformer in CV.
         * ```🌱 Cross-Shaped Window self-attention: compute self-attention in the horizontal and vertical stripes in parallel forms a cross-shaped window. Each stripe is obtained by splitting the input feature into stripes of equal width.  ```
         * 📚  Object Detection, Semantic Segmentation
 
-
-
   * <span id="head-Vision-and-Language"> **Vision and Language**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) **CogView: Mastering Text-to-Image Generation via Transformers**, Ming Ding et al. [[Paper](https://arxiv.org/pdf/2105.13290.pdf)] [[Code](https://github.com/THUDM/CogView)] [[Demo Website(Chinese)](https://lab.aminer.cn/cogview/index.html)] 
         * ```📌 The first open-source large text-to-image transformer. ```
@@ -228,7 +227,12 @@ A collection of resources on Transformer in CV.
         * ```📌 The first Image-Text Pre-Training Model. ```
       * (arXiv preprint 2019) **Visual Grounding with Transformers**, Ye Du et al. [[Paper](https://arxiv.org/pdf/2105.04281.pdf)] [[Code](https://github.com/uclanlp/visualbert)] 
         * ```🌱 Visual grounding task. ```
-    
+  
+  * <span id="head-GNN"> **GNN**  </span> **[       «🎯Back To Top»       ](#)**
+      * (ICML 2022) **Structure-Aware Transformer for Graph Representation Learning**, Dexiong Chen et al. [[Paper](https://arxiv.org/abs/2202.03036)] [[Code](https://github.com/BorgwardtLab/SAT)] 
+      * (NeurIPS 2022) **Recipe for a General, Powerful, Scalable Graph Transformer**, Ladislav Rampášek et al. [[Paper](https://arxiv.org/abs/2205.12454)] [[Code](https://github.com/rampasek/GraphGPS)] 
+  
+  
   * <span id="head-Image-Classification"> **Image Classification**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2022) [💬360° Image Classification] **Spherical Transformer**, Sungmin Cho et al. [[Paper](https://arxiv.org/abs/2202.04942)] 
         * ```📌 The first to leverage the transformer architecture to perform representation learning for 360° images, which is suitable for reducing the projection and rotation distortions. ```
