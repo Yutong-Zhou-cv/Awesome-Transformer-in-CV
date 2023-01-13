@@ -299,7 +299,8 @@ A collection of resources on Transformer in CV.
         * ```🌱 Transformer models template and search in targe image.```
     
   * <span id="head-Instance-Segmentation"> **Instance Segmentation**  </span> **[       «🎯Back To Top»       ](#)**
-     
+      * (arXiv preprint 2023) **Vision Transformers Are Good Mask Auto-Labelers**, Shiyi Lan et al. [[Paper](https://arxiv.org/abs/2301.03992)] [[Code](https://github.com/NVlabs/mask-auto-labeler)]    
+  
   * <span id="head-Semantic-Segmentation"> **Semantic Segmentation**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2021) [Video] **TransVOS: Video Object Segmentation with Transformers**, Jianbiao Mei et al. [[Paper](https://arxiv.org/pdf/2106.00588v1.pdf)]
          * ```🌱 Fully exploit and model both the temporal and spatial relationships. ```
