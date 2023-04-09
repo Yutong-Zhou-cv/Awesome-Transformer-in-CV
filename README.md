@@ -444,6 +444,8 @@ A collection of resources on Transformer in CV.
   * <span id="head-Other-Applications"> **Other Applications**  </span> **[       «🎯Back To Top»       ](#)**
       * (arXiv preprint 2023) [💬Biomarker Prediction] **Fully transformer-based biomarker prediction from colorectal cancer histology: a large-scale multicentric study**, Sophia J. Wagner et al. [[Paper](https://arxiv.org/abs/2301.09617)] 
          *  ```🌱 A fully transformer-based end-to-end pipeline trained on thousands of pathology slides yields clinical-grade performance for biomarker prediction on surgical resections and biopsies.```
+      * (CVPR 2022) [💬Grounded Situation Recognition] **Collaborative Transformers for Grounded Situation Recognition**, Junhyeong Cho et al. [[Paper](https://arxiv.org/abs/2203.16518)] [[Code](https://github.com/jhcho99/CoFormer)] [[Project](https://coformer.github.io/)]
+         *  ```🌱 CoFormer: A novel approach where the two processes for activity classification and entity estimation are interactive and complementary to achieve accurate grounded situation recognition.```
       * (arXiv preprint 2022) [💬Image Editing] **MaskGIT: Masked Generative Image Transformer**, Huiwen Chang et al. [[Paper](https://arxiv.org/abs/2202.04200)] 
          *  ```🌱 MaskGIT: a novel image synthesis paradigm using a bidirectional transformer decoder.```
          *  ```🌱 Training: predict randomly masked tokens by attending to tokens in all directions. Inference: the model begins with generating all tokens of an image simultaneously and then refines the image iteratively conditioned on the previous generation.```
