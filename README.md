@@ -100,6 +100,8 @@ A collection of resources on Transformer in CV.
   
   
   * <span id="head-Theoretical-Thinking"> **Theoretical Thinking** </span> **[       «🎯Back To Top»       ](#)**
+      * (arXiv preprint 2023) **Understanding Gaussian Attention Bias of Vision Transformers Using Effective Receptive Fields**, Bum Jun Kim et al. [[Paper](https://arxiv.org/abs/2305.04722)] 
+        * ```🌱  This paper analyzes the behavior of ViTs using an effective receptive field and demonstrates ViTs acquire an understanding of patch order from the positional embedding that is trained to be a specific pattern during the training. ```
       * (BMVC 2022) **How to Train Vision Transformer on Small-scale Datasets?**, Hanan Gani et al. [[Paper](https://arxiv.org/abs/2210.07240v1)] [[Code](https://github.com/hananshafi/vits-for-small-scale-datasets)]
         * ```🌱  This work shows that self-supervised inductive biases can be learned directly from small-scale datasets and serve as an effective weight initialization scheme for fine-tuning. ```
       * (arXiv preprint 2022) **Can CNNs Be More Robust Than Transformers?**, Zeyu Wang et al. [[Paper](https://arxiv.org/abs/2206.03452)] [[Code](https://github.com/UCSC-VLAA/RobustCNN)]
