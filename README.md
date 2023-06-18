@@ -59,6 +59,7 @@ A collection of resources on Transformer in CV.
 * 📚：Multiple Tasks 
 
 ## <span id="head2"> *2. [Survey](https://github.com/Yutong-Zhou-cv/Awesome-Survey-Papers)* </span> **[       «🎯Back To Top»       ](#)**
+*  **A Comprehensive Survey on Applications of Transformers for Deep Learning Tasks** [[v1](https://arxiv.org/abs/2306.07303)](2023.06.11)
 *  ⭐ **Ultimate-Awesome-Transformer-Attention** [[Awesome Repo](https://github.com/cmhungsteve/Awesome-Transformer-Attention)]
 *  [🧩Segmentation] **Transformer-Based Visual Segmentation: A Survey** [[Awesome Repo](https://github.com/lxtGH/Awesome-Segmenation-With-Transformer)] [[v1](https://arxiv.org/abs/2304.09854)](2023.04.19)
 * **Transformer models: an introduction and catalog** [[v1](https://arxiv.org/abs/2302.07730v1)](2023.02.12) [[v2](https://arxiv.org/abs/2302.07730)](2023.02.16)
